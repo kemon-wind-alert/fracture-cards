@@ -1,0 +1,105 @@
+{
+ "bone_id": "ankle",
+ "subtype": {
+  "id": "fibula_tip_avulsion",
+  "name": "外果（腓骨）先端の裂離骨折（ATFL・CFL付着部の裂離）",
+  "criteria": "内がえし捻挫の後、腓骨先端（前下縁〜先端）に小さな骨片がある。骨片は前距腓靱帯（ATFL）・踵腓靱帯（CFL）の付着部から剥がれたもので、骨折線は脛腓靱帯結合より遠位（Weber A／AO 44A1相当）にあり、mortiseは安定。【Weber Aの横骨折との区別】骨片が腓骨先端の一部（靱帯付着部の殻状の小骨片）なら裂離、腓骨遠位を横に横切る骨折線なら低位の横骨折（Weber A本体）。どちらも基本は保存だが、横骨折は骨としての固定・癒合確認の比重が大きい。【骨片の大きさ・転位】骨片が大きい・転位が大きいほど骨癒合しにくいとされる（Haraguchiら2007の結果としてKoseら2015が引用。原著全文での数値は未確認）。数mm〜1cm程度の境目で方針を変える明確な基準は未確認。【陳旧性小骨片（os subfibulare＝腓骨下骨）との区別】急性の裂離は辺縁がギザギザで母床（腓骨側の欠損面）と形が合い、圧痛・腫脹の部位と一致する。腓骨下骨は辺縁が平滑で皮質に囲まれ丸い。過去の捻挫歴を聞き、迷えば健側X線・CTを参照する。慢性期は癒合しなかった裂離骨片と腓骨下骨の区別自体が難しく、MRIでの靱帯付着の確認が有用（Xuら2025）。【捻挫の重症度との関係】裂離骨折は『骨が切れた外側靱帯損傷』であり、骨片があること自体が靱帯機能の破綻（II〜III度相当）を意味しうる。逆に骨片が小さくても靱帯不安定性が主病態のことがある。",
+  "urgency": "外来で保存",
+  "standard": "足関節外側靱帯損傷（重度捻挫）に準じた保存療法が基本。短期の固定（シーネ・ギプス・ウォーキングブーツ）で疼痛・腫脹を抑え、疼痛に応じて荷重し、その後は装具・サポーター・テーピングによる機能的治療と運動療法（可動域・腓骨筋・バランス訓練）へ移行する。足関節捻挫の診療ガイドライン（Vuurbergら2018）は、短期の固定は疼痛・腫脹を軽減しうるが、急性外側靱帯断裂ではテープまたは装具＋運動療法が最も有益としている。",
+  "by_background": [
+   {
+    "who": "スポーツ・活動性高い",
+    "plan": "外側靱帯損傷としてのリハを早期に（腫脹が引いたら可動域・腓骨筋筋力・バランス訓練）。競技復帰時は装具またはテーピングを併用（再発予防の装具はVuurbergら2018で有効とされる）。骨片が大きく転位が明らかな急性例で早期の骨接合・靱帯修復を選ぶ報告はあるが、急性期手術の適応基準を示す一次情報は確認できなかった（未確認）。"
+   },
+   {
+    "who": "一般成人",
+    "plan": "短期固定→疼痛に応じた荷重→装具・サポーターでの機能的治療。成人の保存療法は、骨癒合率は65%（24/37例）にとどまったが、機能（Karlsson score 平均89.1）は靱帯断裂の保存例（88.4）と同等だった（Haraguchiら2007）。骨が癒合しないこと自体はすぐ失敗ではないと説明しておく。"
+   },
+   {
+    "who": "高齢者",
+    "plan": "裂離骨折は40歳以上・低活動・低エネルギー受傷に多い（Haraguchiら2007）。長期固定による拘縮・筋力低下・転倒を避け、疼痛に応じた早期荷重と装具を優先する。骨粗鬆症があっても裂離骨片自体の手術はまず不要。内果・後果の骨折や、高齢者に多い他部位骨折を見落とさない。"
+   },
+   {
+    "who": "偽関節（骨片が癒合せず）で疼痛・不安定性が残った症例",
+    "plan": "まず腓骨筋・バランスを中心とした運動療法と装具を十分に行う（Vuurbergら2018は手術を運動療法に反応しない例に限るとしている）。改善しなければ手術。症状のある腓骨下骨（外傷後の遺残骨片）への手術（骨片切除＋ATFL修復・Broström変法など、または骨片の骨接合）は、27研究の系統的レビューで臨床・画像成績が大きく改善し合併症は比較的少なく、不安定性があれば同時に治療すべきとされた（Schlickeweiら2021/2023、エビデンスレベルIV）。切除か骨接合か、骨片の大きさでどう決めるかについて定まった基準は無い。"
+   }
+  ],
+  "conservative": {
+   "indication": "腓骨先端の裂離骨片で、内果骨折・内側（三角靱帯）損傷・脛腓靱帯結合損傷が無く、mortiseが安定しているもの。成人では大半が該当する",
+   "method": "急性期はシーネ・ギプスまたはウォーキングブーツで短期固定し、その後は足関節装具（サポーター）・テーピングによる機能的治療へ移行。疼痛に応じて荷重",
+   "range_position": "固定するなら下腿〜足部（膝下）、足関節中間位（0°）。内がえし位を避ける",
+   "duration": "固定期間に確立した基準は無い。AO Surgery Reference は、遠位の外側単独骨折（infrasyndesmotic lateral isolated fracture）の機能的治療を受傷後約6週としている。裂離骨折に限ったギプス固定期間（3〜4週程度とする記載が多い）は目安・未確認。装具は通常の重度捻挫と同様に数週〜競技復帰時まで（期間の数値は目安・未確認）",
+   "notes": "Wuら2026（Injury、Weber A保存434例の後ろ向き研究）では、内側損傷を伴わない単純な裂離（A1）の癒合率98%、内側損傷を伴うA2は83%。長期の痛みの独立した予測因子は転位よりもATFL損傷・三角靱帯損傷だった。Haraguchiら2007の癒合率65%とは対象・癒合の定義が異なる点に注意（数値の違いは未解決）。"
+  },
+  "surgical": {
+   "indication": [
+    "急性期の手術はまれ（骨片が大きく転位が明らか、競技者などで考えるという報告はあるが、基準は未確認）。主な手術適応は、骨片が癒合せず疼痛・不安定性が保存療法で改善しない慢性例"
+   ],
+   "options": [
+    "遺残骨片の切除＋ATFL（必要に応じCFL）修復・Broström変法、または骨片の骨接合。関節鏡視下の報告もある"
+   ],
+   "timing": "慢性例（保存療法で疼痛・不安定性が残る場合）に待機手術。術後の固定・荷重スケジュールは術式により異なり、本データでは未確認"
+  },
+  "followup": [
+   {
+    "when": "初診",
+    "what": "X線（足関節2方向＋必要に応じ斜位。腓骨先端の骨片を見るには斜位・前距腓靱帯の撮影方向が有用）。第5中足骨基部・距骨外側突起・内果も確認"
+   },
+   {
+    "when": "4〜5日後",
+    "what": "腫脹が引いたところで、前方引き出し・内がえしで靱帯損傷の重症度を再評価（遅延した身体診察が最も信頼できる：Vuurbergら2018）"
+   },
+   {
+    "when": "3週",
+    "what": "疼痛・腫脹・荷重歩行。X線（AO Surgery Reference は機能的治療で3週・6週にX線）。固定していれば装具・サポーターへ移行"
+   },
+   {
+    "when": "6週",
+    "what": "X線。運動・スポーツ復帰の指導。骨が癒合していなくても症状が無ければ経過観察でよいことが多い"
+   },
+   {
+    "when": "3か月",
+    "what": "外側不安定感が続けば内がえしストレスX線・MRIで外側靱帯を評価（AO Surgery Reference）。偽関節＋症状残存なら手術も含めて検討"
+   }
+  ],
+  "pitfalls": [
+   "『捻挫です』で帰して裂離骨片を見落とす。成人の重度内がえし損傷の26%に裂離骨折があった（Haraguchiら2007）",
+   "陳旧性の腓骨下骨（os subfibulare）を新鮮骨折として過剰に固定する／逆に新鮮な裂離を『昔の骨』として放置する。辺縁の性状・母床との一致・圧痛部位・健側を確認",
+   "Weber A の横骨折・内果の垂直骨折（回外・内転型）を見落とし、両果骨折を単独の裂離として扱う",
+   "第5中足骨基部骨折・距骨外側突起骨折・踵骨前方突起骨折など、同じ受傷機転の別の骨折を見落とす",
+   "骨片の大きさだけで重症度を判断する。予後を左右するのは靱帯損傷（ATFL・三角靱帯）であることが多い（Wuら2026）",
+   "骨が癒合しないことを『治療失敗』と説明してしまう。癒合しなくても機能は良好な例が多い（Haraguchiら2007）"
+  ],
+  "sources": [
+   {
+    "title": "Haraguchi N, et al. Avulsion fracture of the lateral ankle ligament complex in severe inversion injury: incidence and clinical outcome. Am J Sports Med. 2007;35(7):1144-1152.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17379919/"
+   },
+   {
+    "title": "Wu K, et al. Determinants of surgical necessity in Danis-Weber A lateral malleolus fractures: Prognostic insights from a nonoperative cohort. Injury. 2026;57(6):113227.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41962195/"
+   },
+   {
+    "title": "Schlickewei C, et al. Surgical outcome of avulsion fractures of the distal fibula: a systematic literature review. Arch Orthop Trauma Surg. 2023;143(3):1275-1291 (online 2021).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34820695/"
+   },
+   {
+    "title": "Xu N, et al. Enhanced subfibular ossicle diagnosis: CT-MRI integration of morphology and ligament attachments. Insights Imaging. 2025;16:252.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41222836/"
+   },
+   {
+    "title": "Vuurberg G, et al. Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline. Br J Sports Med. 2018;52(15):956.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29514819/"
+   },
+   {
+    "title": "AO Surgery Reference: Malleoli – Infrasyndesmotic lateral isolated fracture – Functional treatment",
+    "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/infrasyndesmotic-lateral-isolated-fracture/functional-treatment"
+   },
+   {
+    "title": "Kose O, et al. Intraarticular Entrapment of Os Subfibulare Following a Severe Inversion Injury of the Ankle: A Case Report. Arch Trauma Res. 2015;4(2):e27046.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4475342/"
+   }
+  ],
+  "review_note": "【一次情報で確認できたこと】(1) Haraguchiら2007（PubMed抄録、Europe PMC経由）: 重度内がえし損傷169例中の裂離骨折26%、40歳以上・小児・低活動・低エネルギー受傷に多い、保存（ギプス）で骨癒合65%（24/37）、Karlsson score 89.1 vs 靱帯断裂保存88.4。(2) Wuら2026（抄録）: Weber A保存434例、単純裂離A1の癒合98%・内側損傷A2は83%、長期の痛みの予測因子はATFL損傷（OR 3.50）・三角靱帯損傷（OR 4.50）、転位は多変量で有意でない。(3) Schlickeweiら（系統的レビュー27研究の抄録）: 症状のある遺残骨片の手術成績は良好、不安定性は同時に治療。(4) Xuら2025（抄録）: 癒合しなかった裂離骨片と腓骨下骨の区別にMRIの靱帯付着が有用（感度72.3%・特異度91.8%）。(5) Vuurbergら2018（抄録）: 遅延診察4〜5日、短期固定は疼痛・腫脹を軽減、テープ/装具＋運動療法が最も有益、手術は運動療法無効例、再発予防に装具。(6) AO Surgery Reference: 遠位外側単独骨折の機能的治療は約6週、X線は3週・6週、3か月で不安定性が残ればストレスX線/MRI。【未確認・注意】裂離骨折に限ったギプス固定期間（3〜4週等）と装具の継続期間、骨片の大きさ・転位による手術の基準値、急性期手術の適応、術後スケジュールは一次情報で確認できず。Haraguchiの原著全文（固定期間、転位と癒合の関係）は未入手で、『転位が大きいほど癒合しにくい』はKose 2015の引用経由。Haraguchiの癒合65%とWuの98%の違いは対象・定義の差と推測するが未検証。Wu 2026・Xu 2025は新しい単施設の後ろ向き研究。日本の学会ガイドラインでこの病型の固定期間を定めたものは確認できなかった。見本ファイル1行目の『ankle』（部位ラベルと思われる）はJSONの外にあるため、このファイルには含めていない。"
+ }
+}

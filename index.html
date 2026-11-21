@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>骨折カード</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="骨折カード">
+<meta name="theme-color" content="#1f5f8b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>骨折カード</h1>
+  <nav id="tabs">
+    <button data-tab="study" class="on">学習</button>
+    <button data-tab="list">早見表</button>
+    <button data-tab="settings">設定</button>
+  </nav>
+</header>
+
+<main>
+  <!-- 学習 -->
+  <section id="study">
+    <div class="filters">
+      <div class="chips" id="groups"></div>
+      <select id="bone" aria-label="骨で絞り込む"></select>
+    </div>
+    <div id="counts"></div>
+    <div id="stage"></div>
+  </section>
+
+  <!-- 早見表 -->
+  <section id="list" hidden>
+    <input id="q" type="search" placeholder="検索（例: 橈骨 / 外果 / Jones / 鎖骨遠位）" autocomplete="off">
+    <div id="rows"></div>
+  </section>
+
+  <!-- 設定 -->
+  <section id="settings" hidden>
+    <div class="panel">
+      <label class="setrow">1日に新しく出す枚数
+        <select id="newPerDay">
+          <option>5</option><option selected>10</option><option>15</option><option>20</option><option>30</option>
+        </select>
+      </label>
+      <div id="progress"></div>
+      <button id="resetAll" class="danger" type="button">学習記録を消して最初から</button>
+    </div>
+    <div class="panel legend">
+      <p><b>答え方</b>: 表を見て、固定の方法・期間・その後を頭の中で答えてから「答えを見る」。自分で採点します。</p>
+      <p><b>忘れた</b> → 数枚あとにもう一度出ます。<b>あやふや</b> → 明日また出ます。<b>覚えた</b> → 3日後、次は約1週間後…と間隔が延びます（間隔反復）。</p>
+      <p><span class="badge unverified">未確認</span> 固定期間の数値を一次情報で確かめられていない。<span class="badge rough">目安</span> 出典はあるが幅のある目安。盲検査読（独立した見直し）は未実施です。</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>骨折アシストのデータ（成人・外来）から作った暗記カード。固定期間は施設・文献で幅があり、最終判断は個々の患者の所見に基づいて行うこと。学習記録はこの端末の中だけに保存され、送信されません。</p>
+  <p id="ver"></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
