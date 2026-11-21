@@ -9,11 +9,14 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SRC = HERE.parent / "fx_app" / "data" / "fractures.json"
 EXTRA_DIR = HERE / "extra"
+# 骨折以外（脱臼・腱損傷・靱帯損傷・筋損傷）。fractures.json と同じ「疾患→病型」の形で、"category" キー付き
+CONDITIONS_DIR = HERE / "conditions"
 OUT = HERE / "data" / "cards.json"
 
 # 新しいカードを出す順番＝外来で出会う頻度の見立て（医学的内容ではなく並べ方だけ）。
@@ -33,6 +36,7 @@ ROUGH_WORDS = ("目安", "程度", "前後")
 
 
 def _card(bone: dict, s: dict, extra: bool = False) -> dict:
+    """1病型＝カード1枚。bone は骨折なら骨、骨折以外なら疾患のオブジェクト"""
     cons = s.get("conservative") or {}
     surg = s.get("surgical") or {}
     duration = (cons.get("duration") or "").strip()
@@ -48,6 +52,7 @@ def _card(bone: dict, s: dict, extra: bool = False) -> dict:
         "id": f"{bone['id']}.{s['id']}",
         "bone": bone["name"],
         "bone_id": bone["id"],
+        "cat": bone.get("category", "骨折"),
         "group": GROUP_NAME.get(bone.get("group", ""), "その他"),
         "name": s["name"],
         "criteria": s.get("criteria", ""),
@@ -62,6 +67,8 @@ def _card(bone: dict, s: dict, extra: bool = False) -> dict:
         "weak": weak,
         "confidence": s.get("confidence") or bone.get("confidence", ""),
         "new": extra,
+        # 盲検の独立査読を通ったか（疾患の review_note か、追加病型自身の review_note に記録がある）
+        "reviewed": bool(re.search(r"【盲検査読\s?20\d\d-", bone.get("review_note", "") + s.get("review_note", ""))),
     }
 
 
@@ -78,6 +85,11 @@ def main() -> None:
             # 同じ骨の最後の病型の直後に差し込む（早見表で骨ごとにまとまるように）
             last = max(i for i, c in enumerate(cards) if c["bone_id"] == bone["id"])
             cards.insert(last + 1, card)
+
+    if CONDITIONS_DIR.exists():
+        for p in sorted(CONDITIONS_DIR.glob("*.json")):
+            for cond in json.loads(p.read_text(encoding="utf-8")):
+                cards += [_card(cond, s) for s in cond["subtypes"]]
 
     rank = {b: i for i, b in enumerate(BONE_PRIORITY)}
     cards.sort(key=lambda c: rank.get(c["bone_id"], len(rank)))  # 安定ソートなので骨の中の順は保たれる

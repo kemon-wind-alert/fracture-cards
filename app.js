@@ -2,13 +2,13 @@
 // 骨折カード：骨折アシストのデータを暗記カードにして、間隔反復（忘れかけた頃に再出題）で回す。
 // 学習記録はこの端末の localStorage にだけ保存する（送信しない）。
 
-const VERSION = "2026-11-21";
+const VERSION = "2026-11-21b";
 const KEY = "fc-state-v1";
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 let CARDS = [];
-let S = { cards: {}, newPerDay: 10, newDay: -1, newCount: 0, group: "全部", bone: "" };
+let S = { cards: {}, newPerDay: 10, newDay: -1, newCount: 0, cat: "全部", group: "全部", bone: "" };
 let queue = [];        // 今回のセッションで出す順番（カードID）
 let flipped = false;
 
@@ -26,6 +26,7 @@ function today() {
 
 // ---- 出題の順番 ----
 function inFilter(c) {
+  if (S.cat !== "全部" && c.cat !== S.cat) return false;
   if (S.group !== "全部" && c.group !== S.group) return false;
   if (S.bone && c.bone_id !== S.bone) return false;
   return true;
@@ -71,7 +72,7 @@ function badges(c) {
   let h = "";
   if (c.weak === "unverified") h += '<span class="badge unverified">未確認</span>';
   if (c.weak === "rough") h += '<span class="badge rough">目安</span>';
-  if (c.new) h += '<span class="badge new">追加</span>';
+  if (c.reviewed) h += '<span class="badge new">査読済</span>';
   return h;
 }
 function mainAnswer(c) {
@@ -135,7 +136,7 @@ function renderStage() {
   const c = CARDS.find((x) => x.id === id);
   const st = S.cards[id];
   const tag = st ? (st.lapses ? `復習（忘れた ${st.lapses}回）` : "復習") : "新規";
-  let h = `<div class="card"><div class="crumb">${esc(c.group)} ＞ ${esc(c.bone)} ・ ${tag}</div>`
+  let h = `<div class="card"><div class="crumb">${esc(c.cat)}・${esc(c.group)} ＞ ${esc(c.bone)} ・ ${tag}</div>`
     + `<div class="title">${esc(c.name)}</div>`
     + `<details><summary>病型の見分け方を見る</summary><p>${esc(c.criteria)}</p></details>`;
   if (!flipped) {
@@ -158,14 +159,20 @@ function renderStage() {
   });
 }
 function renderFilters() {
+  // 種類（骨折・脱臼…）はデータに含まれるものだけ出す
+  const cats = ["全部"].concat([...new Set(CARDS.map((c) => c.cat))]);
+  $("#cats").innerHTML = cats.length > 2 ? cats.map((g) => `<button data-c="${esc(g)}" class="${S.cat === g ? "on" : ""}">${esc(g)}</button>`).join("") : "";
+  document.querySelectorAll("#cats button").forEach((b) => b.onclick = () => {
+    S.cat = b.dataset.c; S.bone = ""; save(); renderFilters(); buildQueue(); flipped = false; renderStage();
+  });
   const groups = ["全部", "上肢", "下肢", "体幹"];
   $("#groups").innerHTML = groups.map((g) => `<button data-g="${g}" class="${S.group === g ? "on" : ""}">${g}</button>`).join("");
   document.querySelectorAll("#groups button").forEach((b) => b.onclick = () => {
     S.group = b.dataset.g; S.bone = ""; save(); renderFilters(); buildQueue(); flipped = false; renderStage();
   });
   const bones = [];
-  CARDS.forEach((c) => { if ((S.group === "全部" || c.group === S.group) && !bones.find((b) => b.id === c.bone_id)) bones.push({ id: c.bone_id, name: c.bone }); });
-  $("#bone").innerHTML = `<option value="">すべての骨</option>` + bones.map((b) => `<option value="${esc(b.id)}" ${S.bone === b.id ? "selected" : ""}>${esc(b.name)}</option>`).join("");
+  CARDS.forEach((c) => { if ((S.cat === "全部" || c.cat === S.cat) && (S.group === "全部" || c.group === S.group) && !bones.find((b) => b.id === c.bone_id)) bones.push({ id: c.bone_id, name: c.bone }); });
+  $("#bone").innerHTML = `<option value="">すべての疾患</option>` + bones.map((b) => `<option value="${esc(b.id)}" ${S.bone === b.id ? "selected" : ""}>${esc(b.name)}</option>`).join("");
   $("#bone").onchange = (e) => { S.bone = e.target.value; save(); buildQueue(); flipped = false; renderStage(); };
 }
 
