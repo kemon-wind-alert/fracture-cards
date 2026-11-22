@@ -1,0 +1,1638 @@
+[
+ {
+  "id": "traumatic_rotator_cuff_tear",
+  "name": "外傷性腱板断裂（急性外傷後・肩脱臼に伴う断裂を含む）",
+  "category": "腱損傷",
+  "group": "upper",
+  "aliases": [
+   "外傷性腱板断裂",
+   "急性腱板断裂",
+   "腱板損傷",
+   "転倒後に腕が挙がらない",
+   "肩脱臼後に腕が挙がらない",
+   "棘上筋腱断裂",
+   "肩甲下筋腱断裂",
+   "acute-on-chronic 腱板断裂"
+  ],
+  "summary": "明らかな外傷を契機に挙上不能となった腱板断裂。もともと変性断裂の多い年代に起こるため、純粋な急性断裂か、既存の変性断裂の拡大（acute-on-chronic）かを見分ける。全層断裂で修復可能なら、時間が経つほど腱の退縮・脂肪変性が進むため早期修復が勧められる（受傷3週以内の修復で挙上が最もよかった＝Bassett 1983）。ただし系統的レビューでは『早期手術を強く推奨するには根拠が不十分』（Mall 2013）で、明確な期限は定まっていない。40歳以上の初回肩脱臼後に挙上できない場合は、腋窩神経麻痺と決めつけず腱板断裂を疑う。",
+  "how_to_classify": "まず全層か部分層かをMRI（または超音波）で分け、全層なら断裂サイズ（小〜中: 3cm未満、大: 3〜5cm、広範囲: 5cm超）と退縮・脂肪変性、どの腱か（棘上筋・棘下筋・肩甲下筋）を見る。次に受傷前の症状の有無（無症状だった＝急性、もともと痛かった＝acute-on-chronic）と年齢・活動性で、早期修復か保存かを決める。肩脱臼に伴う場合は別病型として、肩甲下筋断裂（再脱臼の原因）と腋窩神経麻痺の合併を確認する。",
+  "red_flags": [
+   "肩脱臼後に挙上できない（40歳以上では腱板断裂が多い。腋窩神経麻痺と混同しやすい）",
+   "肩甲下筋断裂を伴う脱臼（再脱臼・不安定性の原因になる＝Neviaser 1988）",
+   "腋窩神経・腕神経叢損傷の合併（三角筋外側の感覚、三角筋の収縮を確認）",
+   "大結節骨折の見落とし（X線で確認。骨折なら骨折カードへ）",
+   "若年・活動性の高い患者の全層断裂（修復の時期を逃すと退縮・脂肪変性が進む）"
+  ],
+  "imaging": {
+   "initial": [
+    "肩X線（正面・肩甲骨Y・腋窩）: 脱臼・大結節骨折・肩峰骨頭間距離",
+    "超音波: 外来で全層断裂の有無をその場で確認"
+   ],
+   "additional": [
+    "MRI: 断裂サイズ・退縮・脂肪変性・肩甲下筋の評価（手術を考えるとき）",
+    "肩脱臼後40歳以上で挙上不能が続く: 早めのMRI（MRIが脱臼後3週超になった例で退縮・脂肪変性が大きかった＝Kim 2020。因果は未確定）",
+    "神経麻痺を疑う: 筋電図・神経伝導検査（受傷後数週で）"
+   ]
+  },
+  "tables": [
+   {
+    "title": "受傷から修復までの期間と成績（主な研究）",
+    "header": [
+     "研究",
+     "区切り",
+     "結果"
+    ],
+    "rows": [
+     [
+      "Bassett & Cofield 1983（37例）",
+      "3週以内 / 3〜6週 / 6〜12週",
+      "平均自動外転 168° / 126° / 129°。3週以内の修復が最もよいと結論"
+     ],
+     [
+      "Hantes 2011（35例）",
+      "3週以内 / 3週超",
+      "Constant 82 vs 70、UCLA 31 vs 26（早期が有意によい）。MRIの再断裂は33% vs 35%で差なし"
+     ],
+     [
+      "Gutman 2021（206例）",
+      "4か月（約17週）以内か",
+      "4か月以内の修復でASES・SANE・SSTがよい。3週以内（13例）が最もよかった"
+     ],
+     [
+      "Zhaeentan 2016（73例）",
+      "3か月未満 / 3か月以上",
+      "WORC・Oxford・Constantに差なし（直視下修復）"
+     ],
+     [
+      "Mall 2013（系統的レビュー9研究）",
+      "－",
+      "修復の成績は良好だが、早期手術を強く推奨するにはデータ不足"
+     ]
+    ],
+    "note": "いずれも観察研究（エビデンスレベルIII〜IV）。『3週以内』は Bassett 1983 に由来する目安で、明確な期限ではない。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "full_young_active",
+    "name": "外傷性全層断裂（若年〜壮年・活動性が高い）",
+    "criteria": "受傷前は無症状で、明らかな外傷後に挙上不能・筋力低下が出た全層断裂。修復可能（退縮・脂肪変性が軽い）な例。",
+    "urgency": "早期（2〜3週以内）に手術の判断",
+    "standard": "早期の手術修復（鏡視下腱板修復）を基本にする。受傷3週以内の修復で挙上が最もよかった報告（Bassett 1983、Hantes 2011）、4か月以内でスコアがよかった報告（Gutman 2021）がある一方、早期手術を強く推奨する根拠は不十分（Mall 2013）。修復までは三角巾で疼痛管理。",
+    "by_background": [
+     {
+      "who": "肉体労働・スポーツ",
+      "plan": "早期修復を勧める。鏡視下修復後の復職は中央値5.0か月（範囲1.1〜10.5か月＝Aagaard 2020、97%が元の仕事に復帰）。"
+     },
+     {
+      "who": "一般成人（事務職など）",
+      "plan": "全層で修復可能なら早期修復を提示し、保存を選ぶ場合も断裂の拡大・退縮のリスクを説明して数週以内に再評価。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "外傷後の全層断裂で修復可能",
+      "受傷前に症状がなく、挙上不能・筋力低下がある",
+      "肩甲下筋の全層断裂"
+     ],
+     "options": [
+      "鏡視下腱板修復術",
+      "直視下・小切開修復",
+      "（修復困難な大断裂）パッチ・上方関節包再建などは専門施設で"
+     ],
+     "timing": "早期（受傷3週以内が望ましいとする報告が多い。4か月以内でも早いほうがよい報告あり）"
+    },
+    "followup": [
+     {
+      "when": "術後0〜6週",
+      "what": "外転装具・三角巾で保護、他動可動域から（期間は施設の後療法による。6週は目安・未確認）"
+     },
+     {
+      "when": "術後6〜12週",
+      "what": "自動運動へ、その後筋力訓練（目安・未確認）"
+     },
+     {
+      "when": "術後5か月前後",
+      "what": "復職（中央値5.0か月＝Aagaard 2020）"
+     }
+    ],
+    "pitfalls": [
+     "『様子を見ましょう』で数か月放置し、退縮・脂肪変性で修復困難にする",
+     "X線で骨折がないことだけ確認して終わり、腱板を評価しない"
+    ]
+   },
+   {
+    "id": "full_elderly_acute_on_chronic",
+    "name": "外傷性全層断裂（高齢・低活動、acute-on-chronic を含む）",
+    "criteria": "高齢者で外傷を契機に症状が出た全層断裂。受傷前から肩の痛み・軽い挙上障害があった例（既存の変性断裂の拡大）を含む。",
+    "urgency": "外来で保存（挙上不能が続く・活動性が高ければ早期に紹介）",
+    "standard": "活動性・全身状態・断裂サイズ・脂肪変性で判断する。挙上できて疼痛が主体なら保存（三角巾で数日〜1、2週安静→可動域・残存腱板と三角筋の訓練）から始め、数週〜3か月で改善しなければ手術を再検討（期間は目安・未確認）。挙上不能が続き活動性が保たれていれば修復を考える。",
+    "by_background": [
+     {
+      "who": "活動性の保たれた高齢者",
+      "plan": "外傷で急に挙上不能になった場合は、変性があっても修復可能なうちの手術を考慮（早期修復で再断裂が少ない傾向＝Pinto 2022、有意差なし）。"
+     },
+     {
+      "who": "低活動・合併症が多い",
+      "plan": "保存。疼痛と日常生活動作の回復を目標にする。修復不能な広範囲断裂ではリバース型人工肩関節が専門施設の選択肢。"
+     }
+    ],
+    "conservative": {
+     "indication": "高齢・低活動、挙上がある程度保たれる、全身状態で手術が難しい",
+     "method": "三角巾で短期間安静→疼痛に応じて他動・自動介助運動→残存腱板・三角筋・肩甲帯の訓練。疼痛には内服・注射",
+     "range_position": "三角巾（肢位の指定なし）",
+     "duration": "三角巾は疼痛に応じて数日〜1、2週、訓練を約3か月続けて効果を判定する（目安・未確認）",
+     "notes": "保存中も断裂は治らないことを説明し、挙上不能が進めば再評価する。"
+    },
+    "surgical": {
+     "indication": [
+      "保存で改善しない疼痛・挙上不能",
+      "活動性が保たれ、修復可能な断裂"
+     ],
+     "options": [
+      "鏡視下腱板修復術",
+      "修復不能な広範囲断裂: リバース型人工肩関節置換術など（専門施設）"
+     ],
+     "timing": "待機的（外傷で急に悪化した例は早めが望ましい）"
+    },
+    "followup": [
+     {
+      "when": "2〜3週",
+      "what": "疼痛・挙上の回復"
+     },
+     {
+      "when": "6〜12週",
+      "what": "保存の効果判定。改善不良ならMRI・手術を相談（目安・未確認）"
+     }
+    ],
+    "pitfalls": [
+     "『年のせい』で済ませ、外傷で急に悪化した修復可能な断裂を逃す",
+     "頸椎症性筋萎縮症・腋窩神経麻痺など挙上不能のほかの原因を考えない"
+    ]
+   },
+   {
+    "id": "partial_thickness",
+    "name": "外傷性部分層断裂",
+    "criteria": "外傷後のMRI・超音波で部分層断裂（関節面・滑液包面・腱内）。自動挙上は保たれることが多い。",
+    "urgency": "外来で保存",
+    "standard": "保存（短期の安静→可動域・腱板訓練、疼痛に応じ注射）を基本にする。3か月程度で改善しない、または断裂が深い（腱の厚さの約50%以上）場合は手術を考える（数値は目安・未確認）。",
+    "by_background": [
+     {
+      "who": "オーバーヘッドスポーツ選手",
+      "plan": "投球などによる関節面断裂は外傷とは別の病態（インターナル・インピンジメント）も考え、スポーツ専門医で評価。"
+     },
+     {
+      "who": "一般成人・高齢者",
+      "plan": "保存。疼痛が続けば再評価。"
+     }
+    ],
+    "conservative": {
+     "indication": "部分層断裂で自動挙上が保たれる",
+     "method": "三角巾で短期安静→可動域・腱板・肩甲帯の訓練。疼痛には内服・肩峰下注射",
+     "range_position": "三角巾（肢位の指定なし）",
+     "duration": "三角巾は疼痛に応じて数日〜1週、訓練は約3か月を一区切りに効果を判定（目安・未確認）",
+     "notes": "部分層断裂が全層へ進む例があり、症状が悪化すれば画像を再検する。"
+    },
+    "surgical": {
+     "indication": [
+      "3か月程度の保存で改善しない（目安・未確認）",
+      "深い部分層断裂（目安・未確認）"
+     ],
+     "options": [
+      "鏡視下デブリドマン",
+      "全層化して修復（transtendon 修復など）"
+     ],
+     "timing": "待機的"
+    },
+    "followup": [
+     {
+      "when": "2〜4週",
+      "what": "疼痛・可動域"
+     },
+     {
+      "when": "3か月",
+      "what": "保存の効果判定"
+     }
+    ],
+    "pitfalls": [
+     "超音波・MRIで部分層と言われても、外傷直後の血腫・浮腫で過小・過大評価されうることを忘れる"
+    ]
+   },
+   {
+    "id": "dislocation_associated",
+    "name": "初回肩脱臼に伴う腱板断裂（主に40歳以上）",
+    "criteria": "前方脱臼の整復後も挙上できない・外旋筋力が弱い中高年。40歳以上の前方脱臼では腱板断裂の合併が多い（初回脱臼の40歳以上の超音波で部分断裂31%・完全断裂28%＝Mancini 2001。年齢とともに断裂サイズ・脂肪変性が大きい＝Kim 2020）。",
+    "urgency": "早期（数日〜2週以内）に評価・紹介",
+    "standard": "整復後に挙上不能なら、腋窩神経麻痺と決めつけず腱板断裂を疑い、超音波・MRIで早めに確認する（挙上不能の31例で腋窩神経麻痺が疑われたのは29例、電気診断で確定したのは20例中4例だけ＝Neviaser 1988）。全層断裂は手術修復のほうが疼痛・満足度がよい（Gombera 2014）。肩甲下筋断裂は再脱臼の原因で、修復すると安定する（Neviaser 1988）。",
+    "by_background": [
+     {
+      "who": "40〜60歳台の活動性の高い患者",
+      "plan": "全層断裂なら早期修復を考える（腱板修復単独でも再脱臼なく良好な成績＝Hochberger 2025）。関節唇損傷の同時処置は症例により判断。"
+     },
+     {
+      "who": "高齢・低活動",
+      "plan": "疼痛・挙上障害が強ければ修復を相談。保存なら再脱臼と挙上障害の進行に注意。"
+     },
+     {
+      "who": "40歳未満",
+      "plan": "腱板断裂より関節唇損傷・骨性バンカート病変が主。脱臼カード（肩関節脱臼）に従う。"
+     }
+    ],
+    "conservative": {
+     "indication": "部分断裂、または全層でも低活動で疼痛が軽い",
+     "method": "脱臼の整復後に三角巾で安静→可動域・腱板訓練",
+     "range_position": "三角巾（脱臼後の固定肢位は脱臼カードに準じる）",
+     "duration": "三角巾は約1〜3週（脱臼後の固定に準じる。目安・未確認）、その後訓練。挙上不能が2〜3週で改善しなければMRIと手術を再検討（目安・未確認）",
+     "notes": "神経麻痺の合併が否定できなければ数週後に筋電図。"
+    },
+    "surgical": {
+     "indication": [
+      "全層断裂（特に肩甲下筋・棘上筋＋棘下筋）",
+      "肩甲下筋断裂による不安定性・再脱臼",
+      "保存で改善しない疼痛・挙上不能"
+     ],
+     "options": [
+      "鏡視下腱板修復術（必要に応じて関節唇修復を併用）"
+     ],
+     "timing": "早期（数週以内が望ましい。明確な期限は未確認）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "腋窩神経（三角筋外側の感覚・収縮）、血流、X線で整復位と大結節骨折"
+     },
+     {
+      "when": "1〜2週",
+      "what": "挙上・外旋筋力。挙上不能が続けば超音波・MRI"
+     },
+     {
+      "when": "3〜6週",
+      "what": "神経麻痺疑いなら筋電図、手術の判断"
+     }
+    ],
+    "pitfalls": [
+     "挙上不能を腋窩神経麻痺と思い込み、腱板断裂の修復時期を逃す",
+     "脱臼の整復だけで終え、中高年の腱板・神経を評価しない",
+     "肩甲下筋断裂を見落とし再脱臼を繰り返す"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Bassett RW, Cofield RH. Acute tears of the rotator cuff. The timing of surgical repair. Clin Orthop Relat Res 1983",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/6839586/"
+   },
+   {
+    "title": "Mall NA, et al. An evidenced-based examination of the epidemiology and outcomes of traumatic rotator cuff tears. Arthroscopy 2013;29(2):366-376",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23290186/"
+   },
+   {
+    "title": "Hantes ME, et al. A comparison of early versus delayed repair of traumatic rotator cuff tears. Knee Surg Sports Traumatol Arthrosc 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21258779/"
+   },
+   {
+    "title": "Gutman MJ, et al. Early repair of traumatic rotator cuff tears improves functional outcomes. J Shoulder Elbow Surg 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33774173/"
+   },
+   {
+    "title": "Zhaeentan S, et al. Similar results comparing early and late surgery in open repair of traumatic rotator cuff tears. Knee Surg Sports Traumatol Arthrosc 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26564215/"
+   },
+   {
+    "title": "Pinto I, et al. Does early repair of traumatic rotator cuff tears provide better outcomes? A systematic review. Acta Orthop Belg 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36791718/"
+   },
+   {
+    "title": "Aagaard KE, et al. Return to work after early repair of acute traumatic rotator cuff tears. Eur J Trauma Emerg Surg 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30612146/"
+   },
+   {
+    "title": "Neviaser RJ, Neviaser TJ, Neviaser JS. Concurrent rupture of the rotator cuff and anterior dislocation of the shoulder in the older patient. J Bone Joint Surg Am 1988",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3182884/"
+   },
+   {
+    "title": "Gombera MM, Sekiya JK. Rotator cuff tear and glenohumeral instability: a systematic review. Clin Orthop Relat Res 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24043432/"
+   },
+   {
+    "title": "Mancini GB, et al. Anterior shoulder dislocation and injuries of the rotator cuff in patients aged over 40 years. Chir Organi Mov 2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12025101/"
+   },
+   {
+    "title": "Kim JH, et al. Magnetic resonance imaging analysis of rotator cuff tear after shoulder dislocation in a patient older than 40 years. Clin Shoulder Elb 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33330249/"
+   },
+   {
+    "title": "Hochberger F, et al. Excellent functional outcomes in patients aged 40 years or older undergoing isolated rotator cuff repair for rotator cuff tears after primary traumatic anteroinferior shoulder dislocation. Arch Orthop Trauma Surg 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40205146/"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】（いずれもEurope PMCの抄録で確認）Bassett 1983（3週以内12例・3〜6週6例・6〜12週19例、平均自動外転168°/126°/129°）、Mall 2013（9研究、平均54.7歳、手術まで平均66日、早期手術を強く推奨するにはデータ不足）、Hantes 2011（3週以内15例 vs 3週超20例、Constant 82 vs 70、UCLA 31 vs 26、再断裂33% vs 35%）、Gutman 2021（206例、4か月以内でASES+10.3等、3週以内13例が最良）、Zhaeentan 2016（3か月で区切って差なし）、Pinto 2022（再断裂 28.5 vs 17.2/100人、P=0.056）、Aagaard 2020（復職中央値5.0か月、97%）、Neviaser 1988（31例、腋窩神経麻痺疑い29例・確定20例中4例、肩甲下筋断裂8例は全例再脱臼し修復で安定）、Gombera 2014（手術修復で疼痛・満足度がよい）、Mancini 2001（39例、部分31%・完全28%）、Kim 2020（MRIが3週超の例で退縮・脂肪変性が大きい）、Hochberger 2025（36例、再脱臼なし）。【未確認】日本整形外科学会の腱板断裂の診療ガイドラインの有無と内容（検索では本文を確認できず）、AAOS の腱板損傷CPGの外傷性断裂に関する推奨（未確認）、術後の装具期間・自動運動開始・筋力訓練の時期（施設差が大きく一次情報未確認）、保存治療の三角巾期間と効果判定の時期、部分層断裂の手術基準（50%など）、40歳以上の初回脱臼での腱板断裂の頻度（35〜86%の幅を二次資料で見たが一次論文未確認のため本文に入れていない）。【意見が分かれる点】(1)早期修復の期限（3週・6週・3か月・4か月と研究ごとに区切りが違い、Zhaeentan 2016は3か月で差なし）。(2)acute-on-chronic の高齢者で早期修復するか保存から始めるか。"
+ },
+ {
+  "id": "biceps_tendon_rupture",
+  "name": "上腕二頭筋腱断裂（長頭腱断裂・遠位腱断裂）",
+  "category": "腱損傷",
+  "group": "upper",
+  "aliases": [
+   "上腕二頭筋長頭腱断裂",
+   "上腕二頭筋遠位腱断裂",
+   "Popeye サイン",
+   "力こぶが下がった",
+   "肘の前がブチッとした",
+   "遠位上腕二頭筋腱断裂",
+   "二頭筋腱皮下断裂"
+  ],
+  "summary": "近位（長頭腱）と遠位（橈骨粗面付着部）で方針が正反対。長頭腱断裂は短頭が残るため筋力低下が小さく（保存で回外21%・肘屈曲8%低下＝Mariani 1988）、保存が基本。腱板断裂の合併が多い（MRIで93%に腱板病変＝Vestermark 2018）。遠位腱の完全断裂は回外・屈曲筋力が落ちるため（保存の回外筋力は健側比62.6%、手術89.2%＝Cuzzolin 2021）、活動性のある成人は手術が基本で、受傷3週以内の修復が多いが、3週を超えても修復の成績は大きく変わらない（Haverstock 2017、合併症は増える）。",
+  "how_to_classify": "まず断裂部位（近位＝長頭腱か、遠位＝橈骨粗面付着部か）を、力こぶの位置（遠位へ下がる＝長頭、近位へ上がる＝遠位腱）と hook test で分ける。遠位腱は完全断裂か部分断裂か、受傷からの期間（急性か陳旧性か、目安は3週）、上腕二頭筋腱膜（lacertus fibrosus）が残っているかで分ける。長頭腱断裂では腱板断裂の合併を確認する。",
+  "red_flags": [
+   "遠位腱の完全断裂（修復の時期を逃すと腱が退縮し、移植腱による再建が必要になる）",
+   "肘前面の腫脹が強い・前腕の強い疼痛（まれに区画症候群。長頭腱断裂後の上腕二頭筋区画症候群の症例報告あり＝McHale 1991）",
+   "長頭腱断裂に伴う腱板断裂（中高年で挙上障害があれば腱板を評価）",
+   "抗凝固薬内服中の大きな皮下血腫"
+  ],
+  "imaging": {
+   "initial": [
+    "単純X線（肩または肘）: 裂離骨片・橈骨粗面の変化、他の骨折の除外",
+    "超音波: 腱の連続性・断端の退縮"
+   ],
+   "additional": [
+    "MRI（遠位腱）: 完全か部分か、退縮距離。hook test 陽性ならMRIは必須ではない（hook test は感度・特異度100%、MRIは92%・85%＝O'Driscoll 2007。ただし一般外来での感度は低い報告もある）",
+    "MRI（長頭腱断裂の中高年）: 腱板断裂の合併"
+   ]
+  },
+  "tables": [
+   {
+    "title": "長頭腱断裂と遠位腱断裂の違い",
+    "header": [
+     "項目",
+     "長頭腱断裂（近位）",
+     "遠位腱断裂"
+    ],
+    "rows": [
+     [
+      "見た目",
+      "力こぶが遠位へ下がる（Popeye 変形）",
+      "力こぶが近位へ上がる、肘前面の皮下出血"
+     ],
+     [
+      "筋力低下（保存）",
+      "回外21%・肘屈曲8%（Mariani 1988）",
+      "回外筋力 健側比62.6%（手術89.2%）、屈曲83.0%（手術94.7%）＝Cuzzolin 2021"
+     ],
+     [
+      "標準治療",
+      "保存（若年の肉体労働・選手・整容希望は腱固定術を相談）",
+      "活動性のある成人は手術修復（低活動・手術困難は保存）"
+     ],
+     [
+      "合併",
+      "腱板病変（MRIで93%、全層断裂13例/27例＝Vestermark 2018）",
+      "－"
+     ],
+     [
+      "時期",
+      "急がない",
+      "早期（3週以内が多い。3週超でも修復可能＝Haverstock 2017）"
+     ]
+    ],
+    "note": "長頭腱の筋力データは小規模（Mariani 1988 は手術27肩・保存30例、筋力測定は保存13例）。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "long_head",
+    "name": "上腕二頭筋長頭腱断裂（近位）",
+    "criteria": "結節間溝〜関節内での長頭腱の断裂。重い物を持ち上げたときの肩前面の断裂感、上腕の皮下出血、力こぶが遠位へ下がる（Popeye 変形）。中高年に多く、腱板病変を伴うことが多い。",
+    "urgency": "外来で保存",
+    "standard": "保存（三角巾は疼痛に応じ短期間、可動域・筋力の訓練）が基本。保存での筋力低下は回外21%・肘屈曲8%（Mariani 1988。別研究では屈曲16%・回外11%＝Sturzenegger 1986）で日常生活には大きな支障がないことが多い。若年・肉体労働者・選手では手術（腱固定術）を相談（Sturzenegger 1986）。中高年は腱板断裂を評価する。",
+    "by_background": [
+     {
+      "who": "若年・肉体労働者・スポーツ選手",
+      "plan": "筋力・こむら返り様の痙攣・整容を重視すれば腱固定術を相談（Mariani 1988 では保存の11例が元の仕事に完全には戻れず、手術は2例）。"
+     },
+     {
+      "who": "中高年の一般成人",
+      "plan": "保存。肩の挙上障害・疼痛があれば腱板断裂を評価（Vestermark 2018）。"
+     },
+     {
+      "who": "高齢・低活動",
+      "plan": "保存。整容上の変形を説明する。"
+     }
+    ],
+    "conservative": {
+     "indication": "大半の長頭腱断裂（特に中高年・低活動）",
+     "method": "三角巾で疼痛に応じて安静→肩・肘の可動域訓練→筋力訓練",
+     "range_position": "三角巾（肢位の指定なし）",
+     "duration": "三角巾は疼痛に応じて数日〜1、2週、重労働・スポーツ復帰は疼痛と筋力に応じて約6週以降（目安・未確認）",
+     "notes": "力こぶの変形は残ること、上腕の筋のつり（痙攣）が出ることがあることを説明。"
+    },
+    "surgical": {
+     "indication": [
+      "若年・肉体労働・選手で筋力を重視",
+      "痙攣・疼痛が続く",
+      "整容（まれ）",
+      "合併する腱板断裂の修復時に同時に処置"
+     ],
+     "options": [
+      "腱固定術（胸筋下・結節間溝など）"
+     ],
+     "timing": "待機的（陳旧例でも腱固定は可能＝Euler 2016）"
+    },
+    "followup": [
+     {
+      "when": "1〜2週",
+      "what": "疼痛・皮下出血、肩の挙上（腱板）"
+     },
+     {
+      "when": "6週",
+      "what": "筋力・痙攣、仕事・スポーツの再開"
+     }
+    ],
+    "pitfalls": [
+     "長頭腱断裂だけで説明して、合併する腱板断裂を見落とす",
+     "遠位腱断裂を長頭腱断裂と取り違える（力こぶの位置と hook test で区別）"
+    ]
+   },
+   {
+    "id": "distal_complete_acute",
+    "name": "遠位腱 完全断裂（急性: 受傷から約3週以内）",
+    "criteria": "肘90°屈曲位で重い物を受け止めたときなどの断裂（エキセントリック収縮）。肘前面の断裂感・皮下出血、力こぶが近位へ上がる、hook test 陽性（指を外側から腱の下に引っかけられない）。",
+    "urgency": "早期（1〜2週以内）に紹介・手術の判断",
+    "standard": "活動性のある成人は手術修復が基本（手術で屈曲筋力94.7% vs 83.0%、回外筋力89.2% vs 62.6%、DASH・MEPSも良好＝Cuzzolin 2021。Looney 2022 も同様）。修復は受傷から3週以内に行われることが多いが、3週超（平均37日）でも機能成績は急性例と差がなかった（合併症は63% vs 29%で増え、多くは一過性のしびれ＝Haverstock 2017）。低活動・手術困難なら保存。",
+    "by_background": [
+     {
+      "who": "肉体労働・スポーツ・回外筋力が必要な職業",
+      "plan": "早期修復を強く勧める（ドライバー操作・ドアノブなど回外動作の筋力が落ちる）。"
+     },
+     {
+      "who": "一般成人",
+      "plan": "手術を基本に提示し、保存の筋力低下（特に回外）を説明して共同で決める（英国の調査でも年齢・職業・筋力回復が手術を勧める主な理由＝Baldwin 2021）。"
+     },
+     {
+      "who": "高齢・低活動・手術リスクが高い",
+      "plan": "保存。疼痛は数週で軽くなることが多いが、回外の筋力・持久力は落ちる。"
+     }
+    ],
+    "conservative": {
+     "indication": "低活動・手術を望まない・手術リスクが高い",
+     "method": "三角巾で疼痛に応じ安静→可動域訓練→筋力訓練",
+     "range_position": "三角巾（肢位の指定なし）",
+     "duration": "三角巾は疼痛に応じて1〜2週、その後可動域・筋力訓練。日常生活への復帰は数週〜数か月（目安・未確認）",
+     "notes": "保存を選ぶ場合も、後から修復を希望すると退縮で再建（移植腱）が必要になりうることを最初に説明する。"
+    },
+    "surgical": {
+     "indication": [
+      "活動性のある成人の完全断裂",
+      "回外・屈曲筋力を必要とする職業・スポーツ"
+     ],
+     "options": [
+      "1皮切法（スーチャーアンカー・ボタン・骨孔）",
+      "2皮切法",
+      "（固定法による成績差は小さい＝Cuzzolin 2021）"
+     ],
+     "timing": "早期（3週以内が多い。3週を超えても直接修復できることが多い＝Haverstock 2017）"
+    },
+    "followup": [
+     {
+      "when": "術後0〜2週",
+      "what": "シーネ・装具。早期に動かすか（2週以降制限なし）遅らせるかで24か月の屈曲・DASHに差はなかった（Simpson 2025）"
+     },
+     {
+      "when": "術後数週〜4か月",
+      "what": "hook test が正常に戻るか（修復例の89%が平均10週で正常化、4か月で異常なら修復不全を疑う＝Pallante 2019）"
+     },
+     {
+      "when": "術後",
+      "what": "外側前腕皮神経のしびれ・後骨間神経麻痺・異所性骨化（手術例で異所性骨化10%、一過性感覚障害10%、一過性運動障害1.6%＝Cuzzolin 2021）"
+     }
+    ],
+    "pitfalls": [
+     "皮下出血が少ない・肘屈曲ができることで『捻挫』と判断して見逃す（腕橈骨筋・上腕筋で屈曲はできる）",
+     "腱膜（lacertus fibrosus）が残っていると力こぶの変形が目立たず、hook test の感度も下がる（腱膜が残る例で45%＝Luokkala 2020）"
+    ]
+   },
+   {
+    "id": "distal_chronic",
+    "name": "遠位腱 陳旧性断裂（受傷から3週超〜数か月）",
+    "criteria": "受診が遅れた、または初診で見逃された遠位腱の完全断裂。腱の退縮・癒着が進み、直接修復できないことがある。",
+    "urgency": "早期（数週以内）に紹介",
+    "standard": "活動性があれば手術を相談する。3週超（平均37日）でも直接修復の機能成績は急性例と差がなかったが合併症は増える（Haverstock 2017）。hook test 陽性で受傷から8週以上経つと、アキレス腱同種移植による再建が必要になる確率が75%を超えた（Luokkala 2020）。陳旧例は移植腱（アキレス腱・長掌筋腱・大腿筋膜・半腱様筋腱など）による再建で満足できる成績が報告されている（Riesner 2021）。",
+    "by_background": [
+     {
+      "who": "活動性が高い",
+      "plan": "専門施設で直接修復か移植腱による再建を相談。"
+     },
+     {
+      "who": "低活動",
+      "plan": "保存。回外筋力の低下を受け入れられるかで判断。"
+     }
+    ],
+    "conservative": {
+     "indication": "低活動、症状が軽い、手術を望まない",
+     "method": "可動域・筋力訓練、疼痛に応じ鎮痛",
+     "range_position": "固定不要（疼痛時のみ三角巾）",
+     "duration": "固定はせず、疼痛に応じて訓練（目安・未確認）",
+     "notes": "回外筋力・持久力の低下が残る。"
+    },
+    "surgical": {
+     "indication": [
+      "活動性があり筋力回復を望む陳旧例"
+     ],
+     "options": [
+      "直接修復（可能なら）",
+      "移植腱による再建（アキレス腱同種移植・半腱様筋腱など）"
+     ],
+     "timing": "待機的だが、遅れるほど再建が必要になる確率が上がる"
+    },
+    "followup": [
+     {
+      "when": "術後",
+      "what": "急性例に準じる（神経障害・異所性骨化）"
+     }
+    ],
+    "pitfalls": [
+     "初診時に見逃し、数週後に紹介して再建手術を必要にする"
+    ]
+   },
+   {
+    "id": "distal_partial",
+    "name": "遠位腱 部分断裂",
+    "criteria": "肘前面の痛み・回外時痛があり、hook test は腱を触れる（部分断裂では疼痛を伴うことが多い＝O'Driscoll 2007 では12例中9例で疼痛）。MRIで部分断裂・付着部の信号変化。",
+    "urgency": "外来で保存",
+    "standard": "保存（活動制限・鎮痛・訓練）から始め、数か月で改善しない、または断裂が進む場合に手術（付着部の切離・再固定）を考える（期間・基準は目安・未確認）。",
+    "by_background": [
+     {
+      "who": "肉体労働・スポーツ",
+      "plan": "疼痛で仕事ができなければ早めに専門医で手術を相談（目安・未確認）。"
+     },
+     {
+      "who": "一般成人・高齢者",
+      "plan": "保存。"
+     }
+    ],
+    "conservative": {
+     "indication": "部分断裂",
+     "method": "重い物の持ち上げ・強い回外を制限、鎮痛、疼痛に応じて訓練",
+     "range_position": "固定不要（疼痛が強ければ短期間三角巾・シーネ）",
+     "duration": "活動制限と訓練を約3か月続けて効果を判定（目安・未確認）",
+     "notes": "hook test が陰性でも部分断裂・腱膜が残る完全断裂は否定できない（部分断裂での感度30%＝Luokkala 2020）。"
+    },
+    "surgical": {
+     "indication": [
+      "保存で改善しない（目安・未確認）",
+      "断裂の進行"
+     ],
+     "options": [
+      "付着部での切離と再固定"
+     ],
+     "timing": "待機的"
+    },
+    "followup": [
+     {
+      "when": "4〜6週",
+      "what": "疼痛・回外筋力"
+     },
+     {
+      "when": "3か月",
+      "what": "保存の効果判定、必要ならMRI再検"
+     }
+    ],
+    "pitfalls": [
+     "hook test の結果だけで完全断裂を除外し、腱膜が残る完全断裂を見落とす"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Mariani EM, et al. Rupture of the tendon of the long head of the biceps brachii. Surgical versus nonsurgical treatment. Clin Orthop Relat Res 1988",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3342572/"
+   },
+   {
+    "title": "Sturzenegger M, et al. Muscular strength after rupture of the long head of the biceps. Arch Orthop Trauma Surg 1986",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3707303/"
+   },
+   {
+    "title": "Vestermark GL, et al. The prevalence of rotator cuff pathology in the setting of acute proximal biceps tendon rupture. J Shoulder Elbow Surg 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29478942/"
+   },
+   {
+    "title": "Euler SA, et al. Chronic rupture of the long head of the biceps tendon: comparison of 2-year results following primary versus revision open subpectoral biceps tenodesis. Arch Orthop Trauma Surg 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26810192/"
+   },
+   {
+    "title": "McHale KA, et al. Compartment syndrome of the biceps brachii compartment following rupture of the long head of the biceps. Orthopedics 1991",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1871030/"
+   },
+   {
+    "title": "Cuzzolin M, et al. Operative Versus Nonoperative Management for Distal Biceps Brachii Tendon Lesions: A Systematic Review and Meta-analysis. Orthop J Sports Med 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34734095/"
+   },
+   {
+    "title": "Looney AM, et al. Operative vs. nonoperative treatment of distal biceps ruptures: a systematic review and meta-analysis. J Shoulder Elbow Surg 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34999236/"
+   },
+   {
+    "title": "Haverstock J, et al. Delayed repair of distal biceps tendon ruptures is successful: a case-control study. J Shoulder Elbow Surg 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28526421/"
+   },
+   {
+    "title": "O'Driscoll SW, Goncalves LB, Dietz P. The hook test for distal biceps tendon avulsion. Am J Sports Med 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17687121/"
+   },
+   {
+    "title": "Luokkala T, et al. Distal biceps hook test - Sensitivity in acute and chronic tears and ability to predict the need for graft reconstruction. Shoulder Elbow 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32788933/"
+   },
+   {
+    "title": "Pallante GD, O'Driscoll SW. Return of an Intact Hook Test Result: Clinical Assessment of Biceps Tendon Integrity After Surgical Repair. Orthop J Sports Med 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30828583/"
+   },
+   {
+    "title": "Simpson ER, et al. No Clinically Significant Differences in Patient-Reported Outcomes and Range of Motion Between Early and Delayed Mobilization after distal biceps repair. Am J Sports Med 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40108749/"
+   },
+   {
+    "title": "Riesner HJ, et al. Surgical Reconstruction Options in Chronic Distal Biceps Tendon Ruptures - Case Report and Literature Review. Z Orthop Unfall 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31683328/"
+   },
+   {
+    "title": "Baldwin MJ, et al. Treatment of acute distal biceps tendon ruptures - a survey of the British Elbow and Shoulder Society surgical membership. Shoulder Elbow 2021",
+    "url": "https://ora.ox.ac.uk/objects/uuid:2c8a285f-4b16-4db3-9b29-5e14aded62af"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】（Europe PMCの抄録で確認）Mariani 1988（保存で回外21%・屈曲8%低下、手術は低下なし、元の仕事に完全に戻れず: 保存11例・手術2例）、Sturzenegger 1986（保存で屈曲16%・回外11%・肩外転16%低下、若年・肉体労働・選手に手術を提案）、Vestermark 2018（30例平均61歳、MRI27例の93%に腱板病変、全層13例、肩甲下筋26%）、Cuzzolin 2021（53研究1,380例、屈曲94.7 vs 83.0%、回外89.2 vs 62.6%、異所性骨化10%・一過性感覚障害10%・一過性運動障害1.6%）、Looney 2022（屈曲筋力+25.67%、回外+27.56%）、Haverstock 2017（3週超16例平均37日 vs 急性平均10日、合併症63% vs 29%、機能に差なし）、O'Driscoll 2007（45例、完全33/33陽性、部分12/12陰性、MRI 92%/85%）、Luokkala 2020（感度: 全体78%・完全83%・部分30%・腱膜残存45%、陽性かつ8週以上で再建75%超）、Pallante 2019（89%が平均10週で正常化）、Simpson 2025（早期と遅延の運動開始で24か月の屈曲・DASHに差なし、早期で回内外がやや小さい）、Baldwin 2021（BESS会員242人、年齢・職業・筋力回復が手術を勧める主因）。【未確認】英国肘肩学会（BESS）の遠位二頭筋腱断裂の診療パスの存在（検索で見つからず）、日本のガイドライン（なし）、長頭腱断裂・遠位腱断裂の保存時の三角巾期間と復帰時期、遠位腱の術後固定期間・重労働復帰の時期、部分断裂の手術基準と保存期間、『3週以内』を推奨する一次資料（二次資料のみで、本カードでは『多い』と記載）。【意見が分かれる点】(1)遠位腱修復の期限（3週・4週・6週と資料により違う。Haverstock 2017 は3週超でも成績同等）。(2)hook test の感度（専門施設の O'Driscoll 2007 は100%、Luokkala 2020 は78%。救急領域の BET 2021 は単独での除外は不可）。(3)長頭腱断裂の若年者に手術をするか。"
+ },
+ {
+  "id": "mallet_tendinous",
+  "name": "腱性マレット指（槌指・腱性）",
+  "category": "腱損傷",
+  "group": "upper",
+  "aliases": [
+   "マレット指",
+   "槌指",
+   "腱性槌指",
+   "突き指で指先が伸びない",
+   "DIP関節の伸展不能",
+   "終止伸筋腱断裂",
+   "伸筋腱 zone I 損傷",
+   "mallet finger"
+  ],
+  "summary": "終止伸筋腱のDIP関節付着部での断裂（骨片なし）。DIP関節を伸展〜軽度過伸展で、PIP関節は自由にした装具で連続固定する。連続固定の期間は資料で幅があり、急性例で6週（AFP 2006、RCTの多くも6週＝Valdes 2015）〜腱性は8〜12週（AFP 2025）。途中で1回でもDIPを曲げたら固定期間はやり直し。その後の夜間装具は慣習的に追加されるが、RCTでは追加しても伸展不足は変わらなかった（Gruber 2014）。受傷から数か月経っても装具治療は効く（AFP 2006は3か月まで）。骨性マレットは骨折カードを参照。",
+  "how_to_classify": "まずX線で骨片がないことを確認する（骨片あり＝骨性マレット、骨折カードへ）。次に閉鎖性か開放性（裂創）か、受傷からの期間（急性か、数週〜数か月経った陳旧性か）、他動でDIPが完全伸展できるかを確認する。スワンネック変形の有無も見る。",
+  "red_flags": [
+   "開放性（裂創がある）: 洗浄と腱縫合が必要",
+   "他動でDIP関節が完全に伸展しない（紹介＝AFP 2006）",
+   "X線で骨片がある・末節骨の掌側亜脱臼（骨性マレット、骨折カードへ）",
+   "固定中の皮膚の白色化・潰瘍（過伸展しすぎ）"
+  ],
+  "imaging": {
+   "initial": [
+    "患指の正面・側面X線（側面は患指だけを分離。骨片・掌側亜脱臼の除外）"
+   ],
+   "additional": [
+    "装具装着後の側面X線（DIP関節が伸展〜軽度過伸展になっているか。必須ではない＝目安・未確認）"
+   ]
+  },
+  "tables": [
+   {
+    "title": "連続固定の期間（資料による違い）",
+    "header": [
+     "資料",
+     "連続固定",
+     "その後"
+    ],
+    "rows": [
+     [
+      "AFP 2006（Leggit, Meko）",
+      "6週（DIPを中間位〜軽度過伸展、PIPは自由）",
+      "6週時に自動伸展ができれば、睡眠中と運動中だけさらに6週"
+     ],
+     [
+      "AFP 2025（Hilgefort ほか）",
+      "腱性 8〜12週（骨性は6〜8週）",
+      "夜間さらに2週"
+     ],
+     [
+      "Valdes 2015（系統的レビュー、RCT4本）",
+      "急性6週、陳旧性8週（RCTの方法）。推奨は6〜8週、伸展不足が残れば延長",
+      "－"
+     ],
+     [
+      "Griffin 2012（総説）",
+      "閉鎖性（Doyle I型）8週（うち2週は夜間）",
+      "－"
+     ],
+     [
+      "Gruber 2014（RCT 51例）",
+      "6〜8週の連続固定後",
+      "夜間装具を1か月追加しても最終的な伸展不足・満足度は変わらず"
+     ]
+    ],
+    "note": "装具の種類（スタック型・アルミ・熱可塑性など）による成績差ははっきりしない（AFP 2006）。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "acute_closed",
+    "name": "急性・閉鎖性の腱性マレット指",
+    "criteria": "受傷から数週以内の突き指などで、DIP関節の自動伸展ができない（他動では伸展できる）。X線で骨片なし。",
+    "urgency": "外来で保存（当日装具）",
+    "standard": "DIP関節を伸展〜軽度過伸展、PIP関節は自由にした装具で連続固定（6週＝AFP 2006、腱性は8〜12週＝AFP 2025、RCTは急性6週＝Valdes 2015）。途中でDIPを曲げたら期間をやり直す。装具交換は指先を支えて伸展を保ったまま行う。",
+    "by_background": [
+     {
+      "who": "スポーツ選手",
+      "plan": "装具を着けたまま競技を続けてよい（AFP 2006）。完全に終わった後も、ボールを扱う競技では保護を相談。"
+     },
+     {
+      "who": "一般成人（手を使う仕事）",
+      "plan": "水仕事・装具交換で曲げないよう指導。装具交換の練習を外来で行う。"
+     },
+     {
+      "who": "高齢者・浮腫が強い",
+      "plan": "高齢・浮腫・遵守不良は伸展の回復が悪い（Valdes 2015）。皮膚障害を頻回に確認。"
+     }
+    ],
+    "conservative": {
+     "indication": "閉鎖性・骨片なし・他動で完全伸展できる",
+     "method": "DIP伸展装具（スタック型・アルミ・熱可塑性など）による連続固定。PIPは自由",
+     "range_position": "DIP関節 伸展〜軽度過伸展（皮膚が白くなるほどの過伸展は避ける）、PIP関節は固定しない",
+     "duration": "連続固定6〜8週（AFP 2006は6週、AFP 2025は腱性8〜12週）。途中で曲げたら期間をやり直す。その後、睡眠中と運動中のみ6週（AFP 2006）または夜間2週（AFP 2025）。伸展不足が残れば連続固定を延長",
+     "notes": "夜間装具の追加はRCTで効果を示せなかった（Gruber 2014）が、慣習として行われることが多い。装具交換時は皮膚を10〜20分休ませて浸軟を防ぐ（AFP 2006）。"
+    },
+    "surgical": null,
+    "followup": [
+     {
+      "when": "約2週ごと",
+      "what": "装具の適合・皮膚・遵守の確認（AFP 2006）"
+     },
+     {
+      "when": "6〜8週",
+      "what": "自動伸展を確認。できれば夜間・運動時のみへ。伸展不足があれば連続固定を延長"
+     },
+     {
+      "when": "終了後",
+      "what": "伸展不足・屈曲の回復。20°以上の伸展不足が残ることも多い（34%＝Gruber 2014）"
+     }
+    ],
+    "pitfalls": [
+     "装具交換や入浴で一瞬でもDIPを曲げてしまい、固定期間がリセットされたことに気づかない",
+     "PIP関節まで固定して拘縮を作る",
+     "過伸展しすぎて背側の皮膚を壊す（皮膚の白色化が目安）"
+    ]
+   },
+   {
+    "id": "delayed_chronic",
+    "name": "受診が遅れた（陳旧性）腱性マレット指",
+    "criteria": "受傷から数週〜数か月経ってからの受診。DIP関節の伸展不足が残る。スワンネック変形を伴うことがある。",
+    "urgency": "外来で保存",
+    "standard": "まず装具の連続固定を試みる。受傷から3か月までは保存治療が効きうる（AFP 2006）、3〜4か月遅れても多くが手術なしで治る（Bachoura 2017）。RCTでは陳旧例を8週連続固定（Valdes 2015）。装具で改善しない場合に手術を相談する（Griffin 2012）。",
+    "by_background": [
+     {
+      "who": "スワンネック変形・機能障害が強い",
+      "plan": "装具で改善しなければ手の外科専門医へ（腱の再建・関節固定などは専門施設で）。"
+     },
+     {
+      "who": "高齢・症状が軽い",
+      "plan": "伸展不足が軽く痛みがなければ経過観察も選択肢（目安・未確認）。"
+     }
+    ],
+    "conservative": {
+     "indication": "受傷後数か月以内（3か月までは効きうる）",
+     "method": "急性と同じDIP伸展装具による連続固定",
+     "range_position": "DIP関節 伸展〜軽度過伸展、PIP関節は自由",
+     "duration": "連続固定8週（陳旧例のRCTの方法＝Valdes 2015）、その後夜間・運動時の装具。伸展不足が残れば延長",
+     "notes": "受傷からの期間が長いほど伸展不足が残りやすい可能性がある（目安・未確認）。"
+    },
+    "surgical": {
+     "indication": [
+      "装具治療で改善しない伸展不足・機能障害",
+      "高度のスワンネック変形"
+     ],
+     "options": [
+      "腱の縫縮・再建",
+      "DIP関節固定術",
+      "（スワンネック変形には）斜支靭帯再建など"
+     ],
+     "timing": "待機的"
+    },
+    "followup": [
+     {
+      "when": "約2週ごと",
+      "what": "装具・皮膚"
+     },
+     {
+      "when": "8週",
+      "what": "自動伸展。改善不良なら紹介"
+     }
+    ],
+    "pitfalls": [
+     "時間が経っているから装具は無駄、と最初から手術や放置を選ぶ"
+    ]
+   },
+   {
+    "id": "open_laceration",
+    "name": "開放性の終止伸筋腱損傷（裂創によるマレット指）",
+    "criteria": "DIP関節背側の切創・挫創で終止伸筋腱が断裂したもの（Doyle II型）。",
+    "urgency": "早期（数日以内）に洗浄・縫合（開放創は4日以内＝BSSH）",
+    "standard": "創の洗浄と腱（皮膚と一緒に縫う方法を含む）の縫合を行い、術後は閉鎖性と同様にDIP伸展装具で6〜8週固定（Griffin 2012）。腱が欠損していれば皮膚被覆と腱移植（Doyle III型）。",
+    "by_background": [
+     {
+      "who": "汚染創・挫滅創",
+      "plan": "洗浄・デブリドマンと破傷風予防。腱・皮膚欠損は手の外科専門医へ。"
+     },
+     {
+      "who": "単純な切創",
+      "plan": "外来の処置室でも縫合可能（BSSH は処置室を最低限の環境とする）。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "開放性の終止伸筋腱断裂"
+     ],
+     "options": [
+      "腱縫合（または皮膚と腱を一緒に縫う）",
+      "必要に応じDIP関節のK-wire一時固定",
+      "腱・皮膚欠損: 皮弁・腱移植"
+     ],
+     "timing": "早期（開放創は4日以内＝BSSH）。術後はDIP伸展装具6〜8週"
+    },
+    "followup": [
+     {
+      "when": "2〜3日",
+      "what": "創の感染"
+     },
+     {
+      "when": "6〜8週",
+      "what": "装具終了の判断（閉鎖性に準じる）"
+     }
+    ],
+    "pitfalls": [
+     "皮膚だけ縫って腱断裂を見落とす（縫合前にDIPの自動伸展を確認）"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Leggit JC, Meko CJ. Acute Finger Injuries: Part I. Tendons and Ligaments. Am Fam Physician 2006;73(5):810-816",
+    "url": "https://www.aafp.org/pubs/afp/issues/2006/0301/p810.html"
+   },
+   {
+    "title": "Hilgefort J, Becker J, Chu J. Fingertip Injuries. Am Fam Physician 2025;112(1):47-54",
+    "url": "https://www.aafp.org/afp/2025/0700/fingertip-injuries"
+   },
+   {
+    "title": "Valdes K, Naughton N, Algar L. Conservative treatment of mallet finger: A systematic review. J Hand Ther 2015;28(3):237-245",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26003015/"
+   },
+   {
+    "title": "Gruber JS, Bot AG, Ring D. A prospective randomized controlled trial comparing night splinting with no splinting after treatment of mallet finger. Hand (N Y) 2014;9(2):145-150",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4022962/"
+   },
+   {
+    "title": "Bachoura A, Ferikes AJ, Lubahn JD. A review of mallet finger and jersey finger injuries in the athlete. Curr Rev Musculoskelet Med 2017;10(1):1-9",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28188545/"
+   },
+   {
+    "title": "Griffin M, Hindocha S, Jordan D, Saleh M, Khan W. Management of Extensor Tendon Injuries. Open Orthop J 2012;6:36-42",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3293224/"
+   },
+   {
+    "title": "British Society for Surgery of the Hand. Hand Trauma Standards: Lacerations with extensor tendon involvement (2021)",
+    "url": "https://www.bssh.ac.uk/_userfiles/pages/files/professionals/Trauma%20standards/4%20Extensor%20tendon%20final.pdf"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】AFP 2006本文（DIP中間位〜軽度過伸展6週・PIP自由、曲げたらやり直し、交換時に指先を支える、皮膚の白色化に注意・10〜20分休ませる、約2週ごと受診、6週で自動伸展があれば睡眠中・運動中のみさらに6週、3か月までの遅れでも保存が効く、紹介: 骨片が関節面30%超・他動で完全伸展できない、装具のまま競技可、装具の種類で差なし）。AFP 2025本文の表（腱性8〜12週・骨性6〜8週、夜間さらに2週、紹介: 関節面1/3超・掌側亜脱臼・保存失敗）。Valdes 2015抄録（RCT4本、急性6週・陳旧性8週、推奨6〜8週、浮腫・高齢・遵守不良で成績不良）。Gruber 2014抄録（51例、夜間装具1か月の追加で差なし、平均最終伸展不足14°、20°以上34%）。Bachoura 2017抄録（8〜12週、3〜4か月遅れても多くが治る）。Griffin 2012本文（閉鎖性8週うち2週夜間、開放性は修復後6〜8週）。BSSH 外傷基準（開放創は4日以内、処置室でも可）。【未確認】日本手外科学会の推奨（ガイドラインなし）、装具装着後のX線確認の要否、陳旧例で伸展不足が残る割合と受傷からの期間の関係、高齢・症状軽度での経過観察の妥当性、スワンネック変形の手術法の選択。【意見が分かれる点】(1)連続固定の期間（6週か8〜12週か。AFP 2006と2025で異なる）。(2)夜間装具（6週・2週・不要＝Gruber 2014）。"
+ },
+ {
+  "id": "flexor_tendon_injury",
+  "name": "指の屈筋腱損傷（zone別、ジャージーフィンガーを含む）",
+  "category": "腱損傷",
+  "group": "upper",
+  "aliases": [
+   "屈筋腱断裂",
+   "屈筋腱損傷",
+   "指が曲がらない切り傷",
+   "深指屈筋腱断裂",
+   "浅指屈筋腱断裂",
+   "ジャージーフィンガー",
+   "jersey finger",
+   "深指屈筋腱皮下断裂",
+   "長母指屈筋腱断裂",
+   "no man's land",
+   "zone II 屈筋腱損傷"
+  ],
+  "summary": "掌側の切創では、皮膚が小さくても屈筋腱と指神経の損傷を必ず評価する（休息肢位のカスケードの乱れ、FDS・FDPを分けた自動屈曲テスト）。完全断裂は手術が原則で、英国の基準（BSSH 2021）は受傷4日以内の修復、24時間以内に手の外科外来で診察。約3週を超えると断端の腫大・退縮・筋の線維化で一次修復が難しくなる（Griffin 2012）。術後は早期自動運動のリハが主流（術後3〜5日に初回ハンドセラピー、6週は毎週、12週まで追跡＝BSSH）。スポーツでのFDP付着部裂離（ジャージーフィンガー）は環指に多く、腱が手掌まで退縮した型は7日以内の修復が勧められる（Leddy & Packer 1977）。",
+  "how_to_classify": "損傷高位で zone I〜V（母指は T1〜T3）に分ける: I＝FDS付着部より遠位（FDPのみ）、II＝A1滑車〜FDS付着部（no man's land。FDSとFDPが同じ腱鞘内）、III＝手掌（手根管の遠位〜A1滑車）、IV＝手根管内、V＝前腕。次に完全断裂か部分断裂（腱の断面の何％か）か、FDP・FDSのどちら（両方）か、指神経・指動脈損傷の合併を見る。閉鎖性のFDP付着部裂離はLeddy-Packer分類（骨片の有無と退縮の位置）で分ける。",
+  "red_flags": [
+   "指の血流障害（両側の指動脈損傷。色調・毛細血管再充満）",
+   "指神経損傷（屈筋腱損傷に高率に合併。2点識別・左右差を麻酔前に確認）",
+   "休息肢位で1本だけ指が伸びている（カスケードの乱れ）",
+   "手掌まで退縮したFDP裂離（Leddy-Packer I型。7日以内の修復が必要）",
+   "動物・ヒト咬傷、汚染創、化膿性腱鞘炎の徴候（Kanavel 徴候）",
+   "前腕（zone V）の多数腱・正中/尺骨神経・動脈の同時損傷"
+  ],
+  "imaging": {
+   "initial": [
+    "患指・手のX線（ジャージーフィンガーの裂離骨片、異物、骨折）"
+   ],
+   "additional": [
+    "超音波: 断端の位置・部分断裂の評価、ジャージーフィンガーの術前計画（費用対効果がよい可能性＝Bachoura 2017）",
+    "MRI: 診断が曖昧な閉鎖性損傷"
+   ]
+  },
+  "tables": [
+   {
+    "title": "屈筋腱の zone と要点",
+    "header": [
+     "zone",
+     "範囲",
+     "要点"
+    ],
+    "rows": [
+     [
+      "I",
+      "FDS付着部より遠位〜指尖",
+      "FDPのみ。切創か付着部裂離（ジャージーフィンガー）。DIPの自動屈曲で確認"
+     ],
+     [
+      "II",
+      "A1滑車〜FDS付着部（no man's land）",
+      "FDSとFDPが狭い腱鞘内。癒着・再断裂が問題になりやすい。両腱を修復（FDSは1本の slip のみ修復も可）、成人は4-strand 以上の locking 縫合（BSSH）"
+     ],
+     [
+      "III",
+      "手掌（手根管の遠位〜A1滑車）",
+      "虫様筋起始部。zone II より成績がよい傾向"
+     ],
+     [
+      "IV",
+      "手根管内",
+      "正中神経損傷を合併しやすい"
+     ],
+     [
+      "V",
+      "前腕（手根管より近位）",
+      "多数腱・正中/尺骨神経・動脈の同時損傷（いわゆる spaghetti wrist）"
+     ]
+    ],
+    "note": "zone I〜Vの定義は Griffin 2012（Open Orthop J）。母指の T1〜T3 の定義は今回の出典で未確認。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "zone1_jersey",
+    "name": "zone I: FDP付着部の裂離（ジャージーフィンガー）・FDPの切創",
+    "criteria": "相手のジャージをつかんだときなどにDIPが強制伸展されて起こるFDPの付着部裂離（環指が約75%＝AFP 2006）、またはDIP関節付近の切創によるFDP断裂。MCP・PIPを伸展位で押さえてDIPの自動屈曲ができない。Leddy-Packer分類で、骨片がなく腱が手掌まで退縮した型（I型）は血流を失う。",
+    "urgency": "早期（数日以内）に紹介。手掌まで退縮した型は7日以内に修復",
+    "standard": "全例を手の外科へ紹介（AFP 2006・2025）。紹介までDIP・PIPを軽度屈曲位でシーネ（AFP 2025）。手掌まで退縮した型は7日以内の修復、PIP関節の高さまでの退縮なら数か月後でも修復できる（Leddy & Packer 1977）。修復はスーチャーアンカー・pull-out などで再付着。",
+    "by_background": [
+     {
+      "who": "コンタクトスポーツ選手",
+      "plan": "手術が必要で、多くのコンタクト競技は8〜12週できない（Bachoura 2017）。"
+     },
+     {
+      "who": "受診が遅れた・症状が軽い陳旧例",
+      "plan": "無症状なら放置でよく、DIP関節の不安定性があれば固定術・腱固定術（Leddy 1985、Leddy & Packer 1977）。腱移植は選ばれた例のみ。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "FDPの完全断裂・付着部裂離"
+     ],
+     "options": [
+      "末節骨への再付着（スーチャーアンカー・pull-out 法）",
+      "大きな骨片を伴う型: 骨片の固定",
+      "陳旧例: DIP関節固定・腱固定、一期または二期の腱移植"
+     ],
+     "timing": "手掌まで退縮した型は7日以内（Leddy & Packer 1977。7〜10日とする二次資料もある）。切創は受傷4日以内（BSSH）"
+    },
+    "followup": [
+     {
+      "when": "術後3〜5日",
+      "what": "ハンドセラピー開始（BSSH）"
+     },
+     {
+      "when": "術後6週まで",
+      "what": "毎週のセラピー、保護装具"
+     },
+     {
+      "when": "術後8〜12週",
+      "what": "コンタクトスポーツへの復帰の目安（Bachoura 2017）"
+     }
+    ],
+    "pitfalls": [
+     "『突き指』としてテーピングで帰し、手掌まで退縮した型の修復期限（7日）を逃す",
+     "DIPの屈曲を他指と一緒に握らせて評価し、FDPの断裂を見逃す（MCP・PIPを押さえてDIPだけ曲げさせる）",
+     "X線で裂離骨片を探さない（骨片の有無で型と時期が変わる）"
+    ]
+   },
+   {
+    "id": "zone2",
+    "name": "zone II（no man's land）の屈筋腱断裂",
+    "criteria": "A1滑車からFDS付着部までの切創で、FDPまたはFDS・FDP両方が断裂。腱鞘内で癒着しやすい。",
+    "urgency": "早期（受傷4日以内に修復＝BSSH、24時間以内に手の外科外来）",
+    "standard": "外来では創を洗浄・縫合して、手関節軽度屈曲・MCP屈曲位の背側シーネで保護し、24時間以内に手の外科へ（BSSH）。修復は受傷4日以内（BSSH）、手の外科医が行う。成人は4-strand 以上の locking 縫合（3-0以上）、FDSとFDPの両方を修復（FDSは1本の slip だけ修復も可＝Griffin 2012）。滑車は2cm未満の部分切開（venting）は安全（Tang 2022）。術後は早期自動運動。",
+    "by_background": [
+     {
+      "who": "手を使う職業・若年",
+      "plan": "早期自動運動のリハに通えるかを術前に確認（週1回以上の通院が6週）。"
+     },
+     {
+      "who": "リハに通えない・理解が難しい（小児・認知症など）",
+      "plan": "早期運動が難しければ固定法を選ぶこともある（判断は手の外科。小児は方針が異なる）。"
+     },
+     {
+      "who": "受診が遅れた（3週超）",
+      "plan": "断端の腫大・退縮・筋の線維化で一次修復が難しくなる（Griffin 2012）。腱移植（一期・二期）を専門施設で。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "FDP・FDSの完全断裂",
+      "断面の60%を超える部分断裂（Griffin 2012 で多くの著者が手術を勧める基準）"
+     ],
+     "options": [
+      "4-strand 以上の core suture＋周辺縫合（Tang 法など）",
+      "滑車の部分切開（A2は2cm未満、A4は条件により全切開可＝Tang 2014・2018）",
+      "wide-awake（局所麻酔・駆血なし）で術中に自動運動を確認して修復（Tang 2015）"
+     ],
+     "timing": "受傷4日以内（BSSH 2021）。2〜3週の遅延一次修復でも成績は同等との報告がある（二次資料のみ・未確認）。3週を超えると一次修復が困難になりやすい（Griffin 2012）"
+    },
+    "followup": [
+     {
+      "when": "術後3〜5日",
+      "what": "初回ハンドセラピー（BSSH）。保護装具（例: 手関節20°屈曲・MCP 70°屈曲・IP伸展＝Griffin 2012。手関節の肢位は施設差あり）"
+     },
+     {
+      "when": "術後0〜3週",
+      "what": "部分範囲の自動屈曲（1回40回以上、理想は60〜80回、1日4〜6セット＝Tang 2021）"
+     },
+     {
+      "when": "術後4〜6週",
+      "what": "全範囲の自動屈曲へ（Tang 2021）。6週までは毎週セラピー（BSSH）"
+     },
+     {
+      "when": "術後12週",
+      "what": "最低限の追跡期間（BSSH）。再断裂・感染がなければ3か月で機能的な自動可動域が期待できる（BSSH）。抵抗運動・重作業は12週前後から（目安・未確認）"
+     }
+    ],
+    "pitfalls": [
+     "小さな切創を皮膚縫合だけで帰し、屈筋腱・指神経の断裂を見落とす",
+     "麻酔の前に神経の感覚を評価しない",
+     "修復後5〜10日が最も弱い時期（Griffin 2012）なのに、装具を外して物を握る",
+     "再断裂（zone II で4〜10%＝Tang 2005）や癒着（最大20%、腱剥離は術後3〜6か月＝Griffin 2012）を説明しない"
+    ]
+   },
+   {
+    "id": "zone3_5",
+    "name": "zone III〜V（手掌・手根管・前腕）の屈筋腱断裂",
+    "criteria": "手掌・手根管内・前腕の切創による屈筋腱断裂。zone IV は正中神経、zone V は多数の腱・正中/尺骨神経・橈骨/尺骨動脈の同時損傷が多い。",
+    "urgency": "早期（受傷4日以内に修復＝BSSH）。動脈損傷で血流障害があれば緊急",
+    "standard": "腱・神経・動脈の損傷を個別に評価し、手の外科で一次修復（受傷4日以内＝BSSH）。zone III は zone II より成績がよい傾向がある（zone II・III の比較研究、二次資料で確認）。前腕で小指のFDS単独損傷を修復するかは、患者の職業・要望で決めてよい（BSSH）。術後は zone II に準じた早期運動。",
+    "by_background": [
+     {
+      "who": "前腕の多数腱・神経損傷",
+      "plan": "神経縫合を含む専門施設での一期修復。感覚・筋力の回復は月単位。"
+     },
+     {
+      "who": "小指FDS単独・FDPが健全",
+      "plan": "修復するか患者と共同で決める（BSSH）。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "腱の完全断裂（FDS単独では修復しない選択肢もある）",
+      "神経・動脈損傷の合併"
+     ],
+     "options": [
+      "腱の一次修復",
+      "神経縫合",
+      "動脈吻合（血流障害時）"
+     ],
+     "timing": "受傷4日以内（BSSH）。血流障害は緊急"
+    },
+    "followup": [
+     {
+      "when": "術後3〜5日",
+      "what": "ハンドセラピー開始（BSSH）"
+     },
+     {
+      "when": "術後12週",
+      "what": "最低限の追跡（BSSH）。神経損傷例はさらに長期"
+     }
+    ],
+    "pitfalls": [
+     "前腕の切創で腱だけ修復し、正中・尺骨神経の損傷を見落とす",
+     "手関節の切創を自傷・ガラス創として皮膚縫合のみで帰す"
+    ]
+   },
+   {
+    "id": "partial",
+    "name": "屈筋腱の部分断裂",
+    "criteria": "自動屈曲はできるが、屈曲時の疼痛・抵抗下での筋力低下がある。創の探索・超音波で腱の部分断裂を確認。",
+    "urgency": "早期（数日以内）に手の外科で評価",
+    "standard": "断面の60%を超える部分断裂は修復を勧める著者が多い（Griffin 2012）。それ未満は修復せずに断端を整え、保護下で早期運動とすることが多い（60%未満の扱いの詳細は目安・未確認）。",
+    "by_background": [
+     {
+      "who": "手を使う職業",
+      "plan": "腱の引っかかり（triggering）や遅発性断裂が出れば再評価。"
+     }
+    ],
+    "conservative": {
+     "indication": "断面60%未満の部分断裂（Griffin 2012 の基準の裏返し。保存の詳細は目安・未確認）",
+     "method": "創処置、断端の整形（創から見える場合）、保護装具＋早期の自動運動",
+     "range_position": "手関節軽度屈曲・MCP屈曲の背側保護装具（目安・未確認）",
+     "duration": "保護装具は約3〜4週、抵抗運動は約6〜8週以降（目安・未確認）",
+     "notes": "部分断裂は見逃されやすい。抵抗下の屈曲で疼痛・筋力低下を確認。"
+    },
+    "surgical": {
+     "indication": [
+      "断面の60%を超える部分断裂（Griffin 2012）",
+      "腱の引っかかり"
+     ],
+     "options": [
+      "周辺縫合・core suture による修復",
+      "断端の切除・整形"
+     ],
+     "timing": "受傷4日以内（切創＝BSSH）"
+    },
+    "followup": [
+     {
+      "when": "1週",
+      "what": "創・自動屈曲"
+     },
+     {
+      "when": "3〜6週",
+      "what": "引っかかり・遅発性断裂の有無"
+     }
+    ],
+    "pitfalls": [
+     "自動屈曲ができるので断裂なしと判断する（部分断裂は屈曲できる）"
+    ]
+   },
+   {
+    "id": "fpl",
+    "name": "長母指屈筋腱（FPL）断裂",
+    "criteria": "母指の掌側の切創などで、母指IP関節の自動屈曲ができない。",
+    "urgency": "早期（受傷4日以内に修復＝BSSH の屈筋腱の基準を準用）",
+    "standard": "手の外科で一次修復（屈筋腱の基準に準じて受傷4日以内）。断端が手根管・前腕へ退縮することがある。再断裂は3〜17%（Tang 2005）と指より高めの報告があり、早期運動のリハを慎重に行う。",
+    "by_background": [
+     {
+      "who": "手を使う職業",
+      "plan": "つまみ動作の回復が重要。リハに通えるかを確認。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "FPLの完全断裂"
+     ],
+     "options": [
+      "一次修復（multi-strand 縫合）",
+      "陳旧例: 腱移植・腱移行"
+     ],
+     "timing": "受傷4日以内（BSSH の屈筋腱基準）"
+    },
+    "followup": [
+     {
+      "when": "術後3〜5日",
+      "what": "ハンドセラピー開始"
+     },
+     {
+      "when": "術後12週",
+      "what": "追跡（再断裂・癒着）"
+     }
+    ],
+    "pitfalls": [
+     "母指IPの自動屈曲を個別に確認せず見落とす"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "British Society for Surgery of the Hand. Hand Trauma Standards: Lacerations with flexor tendon involvement (2021)",
+    "url": "https://www.bssh.ac.uk/_userfiles/pages/files/professionals/Trauma%20standards/3%20Flexor%20tendon%20final.pdf"
+   },
+   {
+    "title": "Griffin M, Hindocha S, Jordan D, Saleh M, Khan W. An overview of the management of flexor tendon injuries. Open Orthop J 2012;6:28-35",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3293389/"
+   },
+   {
+    "title": "Leddy JP, Packer JW. Avulsion of the profundus tendon insertion in athletes. J Hand Surg Am 1977;2(1):66-69",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/839056/"
+   },
+   {
+    "title": "Leddy JP. Avulsions of the flexor digitorum profundus. Hand Clin 1985;1(1):77-83",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/4093464/"
+   },
+   {
+    "title": "Leggit JC, Meko CJ. Acute Finger Injuries: Part I. Tendons and Ligaments. Am Fam Physician 2006;73(5):810-816",
+    "url": "https://www.aafp.org/pubs/afp/issues/2006/0301/p810.html"
+   },
+   {
+    "title": "Hilgefort J, Becker J, Chu J. Fingertip Injuries. Am Fam Physician 2025;112(1):47-54",
+    "url": "https://www.aafp.org/afp/2025/0700/fingertip-injuries"
+   },
+   {
+    "title": "Bachoura A, Ferikes AJ, Lubahn JD. A review of mallet finger and jersey finger injuries in the athlete. Curr Rev Musculoskelet Med 2017;10(1):1-9",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28188545/"
+   },
+   {
+    "title": "Tang JB. Rehabilitation after flexor tendon repair and others: a safe and efficient protocol. J Hand Surg Eur Vol 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34384293/"
+   },
+   {
+    "title": "Tang JB, et al. Flexor tendon repair: recent changes and current methods. J Hand Surg Eur Vol 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34738496/"
+   },
+   {
+    "title": "Tang JB. New Developments Are Improving Flexor Tendon Repair. Plast Reconstr Surg 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29579022/"
+   },
+   {
+    "title": "Tang JB. Release of the A4 pulley to facilitate zone II flexor tendon repair. J Hand Surg Am 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25282719/"
+   },
+   {
+    "title": "Tang JB. Wide-Awake Primary Flexor Tendon Repair, Tenolysis, and Tendon Transfer. Clin Orthop Surg 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26330947/"
+   },
+   {
+    "title": "Tang JB. Clinical outcomes associated with flexor tendon repair. Hand Clin 2005",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15882599/"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】BSSH 屈筋腱の外傷基準（PDF本文: 24時間以内に手の外科外来、修復は4日以内、成人zone 2は4-strand locking・3-0以上、初回セラピー術後3〜5日、6週は毎週、追跡は最低12週、再断裂・感染がなければ3か月で機能的な自動可動域、前腕の小指FDS単独やFDP/FDSの一方が健全な場合は共同意思決定。文書は2023年改訂予定と記載）。Griffin 2012本文（zone I〜Vの定義、3週超は二次修復で一次修復困難、60%超の部分断裂で手術を勧める著者が多い、zone IIはFDS・FDP両方修復・FDS 1 slip も可、術後装具 手関節20°屈曲・MCP 70°屈曲・IP伸展、再断裂3〜9%、癒着最大20%・腱剥離3〜6か月、最弱期5〜10日、FDS/FDPテスト）。Leddy & Packer 1977抄録（36例、環指最多、手掌まで退縮は7日以内、PIPまでなら数か月後も可）。Leddy 1985抄録（無症状の陳旧例は放置、DIP不安定は固定）。AFP 2006（環指約75%、全例紹介）、AFP 2025（DIP・PIPを軽度屈曲でシーネ、速やかな紹介）、Bachoura 2017抄録（8〜12週コンタクト不可、超音波）、Tang 2021抄録（1回40回以上理想60〜80回・1日4〜6回、0〜3週部分範囲、4〜6週全範囲）、Tang 2022・2018・2014抄録（滑車venting 2cm未満、A4全切開の条件）、Tang 2005抄録（再断裂 zone II 4〜10%、FPL 3〜17%）。【未確認】母指の zone T1〜T3 の定義、『2〜3週の遅延一次修復で成績同等』（JHSE 2021 の総説の記載を検索結果の要約で見たのみで原文未確認）、Leddy-Packer II〜IV型の定義と各型の修復期限、60%未満の部分断裂の保存の具体的な装具・期間、術後の抵抗運動・重作業の再開時期、zone III が zone II より成績がよいこと（二次資料のみ）、FPLにBSSH基準の4日を当てはめること（BSSHは屈筋腱全般の基準として記載）、日本の診療ガイドライン（なし）。【意見が分かれる点】(1)修復の時期（BSSH 4日以内、Leddy & Packer 7日以内、二次資料の7〜10日、遅延一次修復2〜3週）。(2)術後装具の手関節肢位（屈曲20°か中間位か。Tang は短い装具・手関節自由へ移行）。(3)FDSを修復するか（1 slip のみか両方か）。"
+ },
+ {
+  "id": "extensor_tendon_injury",
+  "name": "指・手の伸筋腱損傷（zone別、ボタン穴変形＝中央索損傷を含む）",
+  "category": "腱損傷",
+  "group": "upper",
+  "aliases": [
+   "伸筋腱断裂",
+   "伸筋腱損傷",
+   "手背の切り傷で指が伸びない",
+   "ボタン穴変形",
+   "ボタンホール変形",
+   "boutonniere 変形",
+   "中央索損傷",
+   "central slip 損傷",
+   "ファイトバイト",
+   "fight bite",
+   "長母指伸筋腱断裂"
+  ],
+  "summary": "伸筋腱は zone I（DIP）〜VIII（前腕）で方針が変わる。奇数 zone は関節上（I＝DIP、III＝PIP、V＝MCP、VII＝手関節）。閉鎖性の中央索損傷（zone III）は受傷直後はボタン穴変形が目立たず『突き指』と誤られやすい。PIPを15〜30°屈曲位から自動伸展できないことで疑い、PIP関節を完全伸展位で6週連続固定（DIPは自由＝AFP 2006）。MCP関節背側の創（zone V）は、否定できるまでヒト咬傷（ファイトバイト）として扱う。開放性の伸筋腱損傷は受傷4日以内の修復が英国の基準（BSSH 2021）。",
+  "how_to_classify": "まず損傷高位で zone を決める（I: DIP、II: 中節、III: PIP、IV: 基節、V: MCP、VI: 中手骨、VII: 手関節・伸筋支帯、VIII: 前腕遠位）。次に開放性か閉鎖性か、完全か部分（断面の50%超か）か、自動伸展が保たれるかを見る。zone I は腱性マレット指のカード、zone III の閉鎖性は中央索損傷（ボタン穴変形）として別に扱う。zone V の創はヒト咬傷かどうかを必ず聞く。",
+  "red_flags": [
+   "MCP関節背側の創（ファイトバイト）: 関節内感染・腱の感染。否定できるまでヒト咬傷として扱う",
+   "閉鎖性のPIP関節の疼痛・腫脹で自動伸展が弱い（中央索損傷。放置でボタン穴変形）",
+   "他動でPIP関節が完全伸展できない（紹介＝AFP 2006）",
+   "中節骨基部背側の裂離骨片が関節面の1/3超（紹介＝AFP 2006）",
+   "前腕・手関節の深い創（橈骨神経浅枝・多数腱の損傷）"
+  ],
+  "imaging": {
+   "initial": [
+    "手・患指のX線（裂離骨片、中手骨頭の骨折、歯の破片・異物、PIP関節の亜脱臼）"
+   ],
+   "additional": [
+    "超音波: 腱の連続性・部分断裂、矢状索の評価",
+    "ファイトバイトで関節内への到達が疑わしい: 手術的な創の探索で確認"
+   ]
+  },
+  "tables": [
+   {
+    "title": "伸筋腱の zone と固定・修復の目安（Griffin 2012 などから）",
+    "header": [
+     "zone",
+     "部位",
+     "主な方針"
+    ],
+    "rows": [
+     [
+      "I",
+      "DIP関節",
+      "マレット指（腱性マレット指カード参照）"
+     ],
+     [
+      "II",
+      "中節",
+      "自動伸展あり（弱い）は3〜4週装具。伸展不足あり・断面50%超は修復"
+     ],
+     [
+      "III",
+      "PIP関節（中央索）",
+      "閉鎖性はPIP完全伸展位で6週（AFP 2006）／4〜6週（Griffin 2012）、DIPは自由。開放性は修復"
+     ],
+     [
+      "IV",
+      "基節",
+      "部分損傷はPIP伸展位3〜4週。完全断裂は修復して6週伸展装具"
+     ],
+     [
+      "V",
+      "MCP関節",
+      "ヒト咬傷として洗浄・抗菌薬。修復後は手関節30〜45°伸展・MCP 20〜30°屈曲で装具、PIP自由"
+     ],
+     [
+      "VI",
+      "中手骨",
+      "修復して伸展位装具4〜6週"
+     ],
+     [
+      "VII",
+      "手関節（伸筋支帯）",
+      "修復（支帯は一部残して bowstring を防ぐ）。zone IV の後療法に準じる"
+     ],
+     [
+      "VIII",
+      "前腕遠位（筋腱移行部）",
+      "8の字縫合。手関節45°伸展・MCP 15〜20°で4〜5週固定"
+     ]
+    ],
+    "note": "Griffin M, et al. Open Orthop J 2012（総説、根拠の強さは高くない）。母指は EPL 修復後3〜4週（母指MP完全伸展・手関節40°伸展）、母指の zone VI〜VII は4〜5週。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "zone2_middle_phalanx",
+    "name": "zone II（中節）の伸筋腱損傷",
+    "criteria": "中節背側の切創・挫創による伸筋腱（側索・終止腱へ向かう部分）の損傷。",
+    "urgency": "外来で保存（伸展不足があれば数日以内に修復＝開放創は4日以内）",
+    "standard": "自動伸展ができて弱いだけなら装具3〜4週。伸展不足があれば創を探索して修復、断面の50%を超える損傷は修復（8の字縫合など＝Griffin 2012）。",
+    "by_background": [
+     {
+      "who": "手を使う職業",
+      "plan": "伸展不足があれば修復を優先。"
+     },
+     {
+      "who": "高齢・低活動",
+      "plan": "部分損傷は装具で。"
+     }
+    ],
+    "conservative": {
+     "indication": "自動伸展が保たれる部分損傷（断面50%以下）",
+     "method": "DIP伸展位（PIPは自由）の装具（目安・未確認）",
+     "range_position": "DIP関節 伸展位（目安・未確認）",
+     "duration": "3〜4週（Griffin 2012）",
+     "notes": "創の洗浄・皮膚縫合は通常どおり。"
+    },
+    "surgical": {
+     "indication": [
+      "伸展不足がある",
+      "断面の50%を超える損傷"
+     ],
+     "options": [
+      "腱縫合（8の字縫合など）"
+     ],
+     "timing": "開放創は受傷4日以内（BSSH）"
+    },
+    "followup": [
+     {
+      "when": "1〜2週",
+      "what": "創・伸展不足"
+     },
+     {
+      "when": "3〜4週",
+      "what": "装具を外して自動運動"
+     }
+    ],
+    "pitfalls": [
+     "皮膚縫合だけして、伸展不足（マレット様変形）を後で作る"
+    ]
+   },
+   {
+    "id": "zone3_central_slip_closed",
+    "name": "zone III 閉鎖性の中央索損傷（急性ボタン穴変形）",
+    "criteria": "PIP関節の突き指・掌側脱臼後の中央索の断裂。受傷直後はボタン穴変形（PIP屈曲・DIP過伸展）が目立たないことが多い。中節骨背側の圧痛、PIPを15〜30°屈曲位に保持して自動伸展できない（他動伸展は可）（AFP 2006）。",
+    "urgency": "外来で保存（当日装具）",
+    "standard": "骨片がないか関節面の1/3未満なら、PIP関節を完全伸展位で6週連続固定し（AFP 2006。Griffin 2012は4〜6週）、DIP関節と手関節は自由にしてDIPの自動・他動屈曲を行う（側索の掌側移動を防ぐ目的。DIP運動の効果は目安・未確認）。他動で完全伸展できない、または骨片が関節面の1/3超なら紹介。",
+    "by_background": [
+     {
+      "who": "スポーツ選手",
+      "plan": "装具のまま競技してよいが、PIP完全伸展では難しい競技もある（AFP 2006）。"
+     },
+     {
+      "who": "高齢者",
+      "plan": "拘縮を避けるため固定期間を2週程度に短縮できるとする記載がある（Griffin 2012）。"
+     },
+     {
+      "who": "受診が遅れた（ボタン穴変形が固定化）",
+      "plan": "まず装具・ハンドセラピーで他動伸展を取り戻し、その後も残れば手の外科で再建を相談（目安・未確認）。"
+     }
+    ],
+    "conservative": {
+     "indication": "閉鎖性、骨片なしまたは関節面の1/3未満、他動でPIPが完全伸展できる",
+     "method": "PIP関節伸展装具（スタック型以外のどの装具でもよい＝AFP 2006）。DIPと手関節は自由",
+     "range_position": "PIP関節 完全伸展位、DIP関節は自由（自動・他動屈曲させる）",
+     "duration": "PIP完全伸展位で6週連続固定（AFP 2006。Griffin 2012は4〜6週、高齢者は2週に短縮も可）。その後は段階的に屈曲を許可（離脱方法は目安・未確認）",
+     "notes": "伸展は連続して保つ必要がある（AFP 2006）。"
+    },
+    "surgical": {
+     "indication": [
+      "転位した裂離骨片（関節面1/3超）",
+      "PIP関節の不安定性・伸展の喪失",
+      "他動で完全伸展できない",
+      "保存治療の失敗"
+     ],
+     "options": [
+      "中央索の再縫着・骨片固定",
+      "術後K-wireによるPIP伸展位固定10〜14日→骨癒合まで伸展装具（Griffin 2012）"
+     ],
+     "timing": "早期（数日〜1週。目安・未確認）"
+    },
+    "followup": [
+     {
+      "when": "1〜2週",
+      "what": "装具の適合、PIP伸展が保たれているか、DIP屈曲運動ができているか"
+     },
+     {
+      "when": "6週",
+      "what": "自動伸展の確認、屈曲を段階的に許可"
+     },
+     {
+      "when": "数か月",
+      "what": "ボタン穴変形・伸展不足・屈曲制限"
+     }
+    ],
+    "pitfalls": [
+     "PIPの腫れだけで『突き指』とし、中央索損傷を見落として数週後にボタン穴変形で再来",
+     "マレット用のスタック型装具をPIPに使う（DIP用であり不適＝AFP 2006）",
+     "DIPまで固定して側索の拘縮を作る"
+    ]
+   },
+   {
+    "id": "zone3_4_open",
+    "name": "zone III〜IV 開放性の伸筋腱損傷（PIP関節・基節背側の切創）",
+    "criteria": "PIP関節背側・基節背側の切創による中央索・伸筋腱の部分〜完全断裂。",
+    "urgency": "早期（受傷4日以内に修復＝BSSH）",
+    "standard": "zone III の開放創は、装具で断端が寄るなら手術なしで済むこともある（Griffin 2012）。zone IV の部分損傷はPIP伸展位3〜4週の装具、完全断裂は修復してPIP伸展位で6週（Griffin 2012）。PIP関節内に達する創は関節の洗浄。",
+    "by_background": [
+     {
+      "who": "手を使う職業",
+      "plan": "修復後は早期の制御された運動（相対運動装具など）を手の外科・セラピストと相談。"
+     },
+     {
+      "who": "汚染創・咬傷",
+      "plan": "洗浄・抗菌薬・破傷風予防を優先。"
+     }
+    ],
+    "conservative": {
+     "indication": "zone IV の部分損傷（自動伸展が保たれる）、zone III で装具で断端が寄る開放創",
+     "method": "PIP伸展位装具（創処置の後）",
+     "range_position": "PIP関節 伸展位",
+     "duration": "zone IV の部分損傷は3〜4週（Griffin 2012）。zone III は閉鎖性に準じて4〜6週（目安・未確認）",
+     "notes": "創の感染に注意。"
+    },
+    "surgical": {
+     "indication": [
+      "完全断裂",
+      "伸展不足がある開放性損傷"
+     ],
+     "options": [
+      "腱縫合",
+      "中央索の再縫着"
+     ],
+     "timing": "受傷4日以内（BSSH）。zone IV 完全断裂の修復後はPIP伸展位装具6週（Griffin 2012）"
+    },
+    "followup": [
+     {
+      "when": "術後1〜3週",
+      "what": "掌側装具＋他動伸展（zone IV の後療法例＝Griffin 2012）"
+     },
+     {
+      "when": "術後4週",
+      "what": "穏やかな自動伸展（他動屈曲はまだしない）"
+     },
+     {
+      "when": "術後5〜6週",
+      "what": "自動屈曲・段階的な抵抗運動"
+     }
+    ],
+    "pitfalls": [
+     "皮膚の創が小さく、腱の部分断裂を探索しない"
+    ]
+   },
+   {
+    "id": "zone5_fight_bite",
+    "name": "zone V（MCP関節背側）の伸筋腱損傷・ファイトバイト",
+    "criteria": "MCP関節背側の創。多くは開放性で、殴った際に相手の歯で受傷するヒト咬傷（ファイトバイト）が多い。拳を握った状態で受傷するため、指を伸ばすと腱の創が皮膚の創より近位へずれる。",
+    "urgency": "当日（洗浄・抗菌薬）。腱修復は洗浄後に",
+    "standard": "否定できるまでヒト咬傷として扱い、洗浄前に培養、広域抗菌薬、創は開放のまま（Griffin 2012）。洗浄後に腱を一次修復し、矢状索も修復する。修復後は手関節30〜45°伸展・MCP 20〜30°屈曲で装具、PIPは自由。創は5〜10日で治ることが多い（Griffin 2012）。関節内に達していれば手術的な洗浄。",
+    "by_background": [
+     {
+      "who": "受傷から時間が経った・感染徴候あり",
+      "plan": "化膿性関節炎・腱鞘炎として手術的洗浄を優先し、腱修復は感染が落ち着いてから（目安・未確認）。"
+     },
+     {
+      "who": "糖尿病・免疫抑制",
+      "plan": "感染リスクが高く、入院での抗菌薬・洗浄を考える（目安・未確認）。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "ヒト咬傷・関節内に達する創（洗浄）",
+      "伸筋腱・矢状索の断裂（修復）"
+     ],
+     "options": [
+      "洗浄・デブリドマン（関節内を含む）",
+      "伸筋腱・矢状索の一次修復"
+     ],
+     "timing": "洗浄は当日。腱修復は洗浄後（開放創は4日以内＝BSSH）"
+    },
+    "followup": [
+     {
+      "when": "24〜48時間",
+      "what": "感染徴候（発赤・腫脹・関節の疼痛）"
+     },
+     {
+      "when": "術後",
+      "what": "手関節30〜45°伸展・MCP 20〜30°屈曲の装具、PIP自由（期間は zone VI に準じて4〜6週＝目安・未確認）"
+     }
+    ],
+    "pitfalls": [
+     "『転んで切った』という説明を信じ、ヒト咬傷として扱わない",
+     "指を伸ばした状態で創を見て、近位にずれた腱損傷・関節包の穿孔を見落とす",
+     "咬傷の創を一次閉鎖する"
+    ]
+   },
+   {
+    "id": "zone6_8",
+    "name": "zone VI〜VIII（中手骨・手関節・前腕）の伸筋腱損傷",
+    "criteria": "手背・手関節背側・前腕遠位の切創による伸筋腱断裂。腱間結合があるため、zone VI の断裂では指の伸展がある程度できることがある。",
+    "urgency": "早期（受傷4日以内に修復＝BSSH）",
+    "standard": "手術修復。zone VI は強い core suture で修復し、伸展位装具4〜6週（総指伸筋なら全指、示指・小指固有伸筋のみならその指と手関節＝Griffin 2012）。zone VII は伸筋支帯を一部残して bowstring を防ぐ。zone VIII は筋腹の8の字縫合、手関節45°伸展・MCP 15〜20°で4〜5週固定（Griffin 2012）。腱間結合が健全な小指伸筋の単独断裂は修復するか患者と相談（BSSH）。",
+    "by_background": [
+     {
+      "who": "手を使う職業",
+      "plan": "早期の制御された運動（相対運動装具など）が短期成績で有利とされるが長期の差は不明（Griffin 2012）。"
+     },
+     {
+      "who": "リハ通院が難しい",
+      "plan": "静的固定（4〜6週）でもよい。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "伸筋腱の完全断裂・断面の50%を超える損傷（50%基準は zone II の記載を準用。目安・未確認）"
+     ],
+     "options": [
+      "腱縫合（zone VI〜VII は強い core suture、zone VII は4-strand が提案されている）",
+      "筋腹の8の字縫合（zone VIII）"
+     ],
+     "timing": "受傷4日以内（BSSH）"
+    },
+    "followup": [
+     {
+      "when": "術後10〜14日",
+      "what": "術後装具（遅延運動プロトコルの一例。施設による）"
+     },
+     {
+      "when": "術後4〜6週",
+      "what": "装具終了、自動屈曲へ（zone VI）"
+     },
+     {
+      "when": "術後6週以降",
+      "what": "抵抗運動（目安・未確認）"
+     },
+     {
+      "when": "約6か月",
+      "what": "保存的リハで改善しない癒着・伸展不足は腱剥離を検討（Griffin 2012）"
+     }
+    ],
+    "pitfalls": [
+     "腱間結合で指が伸びるため断裂なしと判断する（抵抗下の伸展・創の探索で確認）",
+     "長母指伸筋腱（EPL）の断裂を母指の伸展を個別に確認せず見落とす（EPL修復後は母指MP完全伸展・手関節40°伸展で3〜4週＝Griffin 2012）"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Griffin M, Hindocha S, Jordan D, Saleh M, Khan W. Management of Extensor Tendon Injuries. Open Orthop J 2012;6:36-42",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3293224/"
+   },
+   {
+    "title": "Leggit JC, Meko CJ. Acute Finger Injuries: Part I. Tendons and Ligaments. Am Fam Physician 2006;73(5):810-816",
+    "url": "https://www.aafp.org/pubs/afp/issues/2006/0301/p810.html"
+   },
+   {
+    "title": "British Society for Surgery of the Hand. Hand Trauma Standards: Lacerations with extensor tendon involvement (2021)",
+    "url": "https://www.bssh.ac.uk/_userfiles/pages/files/professionals/Trauma%20standards/4%20Extensor%20tendon%20final.pdf"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】AFP 2006本文（中央索損傷: PIP 15〜30°屈曲位で自動伸展できない・他動伸展可・中節骨背側の圧痛、骨片なしまたは1/3未満ならPIP完全伸展位で6週連続、スタック型以外の装具、紹介: 他動で完全伸展不可・骨片1/3超、装具で競技可）。Griffin 2012本文（zone II: 伸展不足なら修復・弱いだけなら3〜4週・50%超は修復、zone III: 閉鎖性4〜6週PIP伸展・DIPと手関節自由、手術適応、術後K-wire 10〜14日、開放でも装具で寄れば手術不要のことあり、高齢者は2週に短縮可、zone IV: 部分3〜4週・完全は修復後6週・後療法の週ごとの段階、zone V: ヒト咬傷として培養・洗浄・広域抗菌薬・創開放、腱と矢状索の一次修復、手関節30〜45°伸展・MCP 20〜30°屈曲・PIP自由、創は5〜10日、zone VI: 4〜6週・EDCなら全指、zone VII: 支帯を一部残す・4-strand、zone VIII: 手関節45°伸展・MCP 15〜20°で4〜5週、EPL 3〜4週、癒着は6か月で腱剥離を検討）。BSSH 伸筋腱の外傷基準（PDF本文: 開放創は4日以内、24時間以内に手の外科外来、EDMの単独断裂は共同意思決定、文書は2024年改訂予定と記載）。【未確認】閉鎖性の矢状索断裂（boxer's knuckle）の装具期間（二次資料で4〜6週を見たが一次情報未確認のため本文に入れていない）、中央索損傷の装具終了後の離脱方法、DIP屈曲運動の効果の根拠、陳旧性ボタン穴変形の治療の流れ、ファイトバイトの抗菌薬の種類・期間（今回は確認していない）、zone V 修復後の装具期間、zone II の装具の肢位、zone VI〜VIII の50%基準、Elson テストの原典（本カードでは AFP 2006 の診察法のみ記載）、日本の診療ガイドライン（なし）。【意見が分かれる点】(1)中央索損傷の固定期間（AFP 2006 は6週、Griffin 2012 は4〜6週）。(2)zone V〜VI 修復後に静的固定か早期運動（相対運動装具）か（短期は早期運動が有利、長期差は不明）。"
+ }
+]

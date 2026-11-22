@@ -2,7 +2,7 @@
 // 骨折カード：骨折アシストのデータを暗記カードにして、間隔反復（忘れかけた頃に再出題）で回す。
 // 学習記録はこの端末の localStorage にだけ保存する（送信しない）。
 
-const VERSION = "2026-11-21b";
+const VERSION = "2026-11-23";
 const KEY = "fc-state-v1";
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));

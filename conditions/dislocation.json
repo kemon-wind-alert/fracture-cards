@@ -1,0 +1,1807 @@
+[
+ {
+  "id": "shoulder_anterior_dislocation",
+  "name": "肩関節前方脱臼（外傷性・初回／反復性）",
+  "category": "脱臼",
+  "group": "upper",
+  "aliases": [
+   "肩関節脱臼",
+   "外傷性肩関節前方脱臼",
+   "反復性肩関節脱臼",
+   "肩が外れた",
+   "Bankart損傷",
+   "Hill-Sachs損傷",
+   "肩関節前方不安定症"
+  ],
+  "summary": "初回脱臼の方針は年齢とスポーツで変わる。15〜35歳の初回脱臼では2年で55.7%、5年で66.8%が再発し（Robinson 2006）、若年男性のコンタクト・オーバーヘッドスポーツでは初回から関節鏡視下Bankart修復が支持される（BESS/BOA 2015）。それ以外は三角巾を疼痛に応じて短期間（1週を超える固定に再発予防効果なし）とし、早期に理学療法へ。40歳以上は腱板断裂、大結節骨折、腋窩神経麻痺の合併を必ず探す（合併損傷は全体で神経障害13.5%、腱板断裂または大結節骨折33.4%＝Robinson 2012）。",
+  "how_to_classify": "まず初回か反復性か。初回なら年齢（20歳未満・20〜40歳・40歳以上）とスポーツ（コンタクト／オーバーヘッド／しない）で再発リスクを見積もる。次に整復前後のX線（正面は必須、もう1方向＝BESS/BOA 2015）で大結節骨折・関節窩骨折の有無、40歳以上は腱板の評価（40〜60歳は超音波またはMRIをルーチンに）、神経（腋窩神経の感覚・三角筋）を確認する。反復性・手術を考える例は、MRA（Bankart損傷）とCT（関節窩の骨欠損）、Hill-Sachs損傷が関節窩トラック内（on-track）か外（off-track）かで術式を選ぶ。",
+  "red_flags": [
+   "整復できない脱臼（同日に緊急紹介＝BESS/BOA 2015）",
+   "大結節骨折・上腕骨頸部骨折を伴う脱臼（頸部骨折を伴う場合、無理な徒手整復で骨折転位を起こしうる）",
+   "整復後に挙上・外旋の筋力が戻らない（急性の外傷性腱板断裂は早期の専門外来へ。棘下筋の筋力低下は大きな断裂を示唆）",
+   "腋窩神経麻痺・腕神経叢損傷（三角筋の収縮、肩外側の感覚を整復前後に記録）",
+   "血管損傷（高齢者の脱臼で腋窩動脈損傷の報告がある。橈骨動脈の拍動を確認。頻度の数値は今回未確認）",
+   "後方脱臼の見落とし（てんかん発作・感電後で外旋できない肩。正面像だけでは見逃しうる）"
+  ],
+  "imaging": {
+   "initial": [
+    "整復前後のX線: 正面（必須）＋もう1方向（肩甲骨Y像または腋窩像）（BESS/BOA 2015）"
+   ],
+   "additional": [
+    "40〜60歳: 腱板の超音波またはMRIをルーチンに。60歳以上は腱板の筋力低下を評価して必要なら画像（BESS/BOA 2015）",
+    "大結節骨折（5mm未満で保存）: 最初の4週間は毎週X線（遅れて転位することがある）",
+    "Bankart損傷: MRA（ABER肢位で精度が上がる）。代わりにCTA（BESS/BOA 2015）",
+    "関節窩の骨欠損: CTが最も正確。MRIも可で軟部組織に優れる（BESS/BOA 2015）",
+    "神経麻痺が臨床的に回復しない: 6週で筋電図（BESS/BOA 2015）"
+   ]
+  },
+  "tables": [
+   {
+    "title": "初回脱臼後の再発リスクを左右する因子",
+    "header": [
+     "因子",
+     "数値・内容",
+     "出典"
+    ],
+    "rows": [
+     [
+      "年齢（15〜35歳の集団）",
+      "再発 2年で55.7%、5年で66.8%。再発の86.7%は2年以内",
+      "Robinson 2006"
+     ],
+     [
+      "20歳未満",
+      "男性で約72%、女性で約40%（15歳では男性86%・女性54%）。同じ論文の要約は『18歳未満の男性で80%』とし数値が一致しない",
+      "BESS/BOA 2015"
+     ],
+     [
+      "30歳未満と30歳以上",
+      "30歳未満で再発が多い",
+      "Paterson 2010"
+     ],
+     [
+      "スポーツ",
+      "コンタクト47%、ノンコンタクト37%、スポーツなし8.3%（2年、外旋位固定のRCTの集団）",
+      "Itoi 2013"
+     ],
+     [
+      "固定期間",
+      "内旋位で1週未満と3週超で再発に差なし（30歳未満で41%と37%）",
+      "Paterson 2010"
+     ],
+     [
+      "鏡視下Bankart修復後の再発因子",
+      "22歳未満、男性、初回脱臼から6か月超の手術",
+      "BESS/BOA 2015"
+     ],
+     [
+      "ISIS（10点満点）",
+      "6点超で鏡視下Bankart修復後の再発70%→Latarjet（Bristow-Latarjet）を勧める",
+      "Balg & Boileau 2007"
+     ]
+    ],
+    "note": "外旋位固定の効果は試験で分かれる（Itoi 2007は有意に再発減少、Liavaag 2011は差なし、Shinagawa 2020のメタ解析9RCTは再発21.5%対34.9%で減少、20〜40歳で有意）。BESS/BOA 2015は外旋位固定を勧めていない。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "first_young_athlete",
+    "name": "初回脱臼 若年（おおむね25歳以下）・コンタクト／オーバーヘッドスポーツ",
+    "criteria": "初回の外傷性前方脱臼で、若年（特に20歳未満の男性）かつコンタクトスポーツ・オーバーヘッドスポーツ・オーバーヘッド作業をする。大結節骨折・腱板断裂なし。",
+    "urgency": "整復は受診時に。手術を考えるなら早期（数週以内）に肩の専門外来へ紹介",
+    "standard": "整復後は三角巾（疼痛に応じて短期間）と理学療法を始めつつ、初回から関節鏡視下Bankart修復（スーチャーアンカーによる解剖学的修復）を提示する。BESS/BOA 2015は若年男性のコンタクト・オーバーヘッドスポーツで初回手術を支持し、15歳の男女と25歳の男性では初回手術が費用対効果で優るとしている。保存を選んだ場合の再発は高い（15〜35歳で2年55.7%）。",
+    "by_background": [
+     {
+      "who": "20歳未満の男性・コンタクトスポーツ（ラグビー・柔道など）",
+      "plan": "再発リスクが最も高い（20歳未満の男性で約72%）。初回鏡視下Bankart修復を強く考える。初回脱臼から6か月を超える手術は術後再発の危険因子（BESS/BOA 2015）。骨欠損が大きければLatarjet。"
+     },
+     {
+      "who": "シーズン中の競技者・本人が保存を希望",
+      "plan": "理学療法でシーズン復帰を目指し、シーズン後に手術を検討する選択肢がある（シーズン中の装具での復帰の成績は今回未確認）。再発のたびに骨欠損が増えうることを説明。"
+     },
+     {
+      "who": "若年でもスポーツをしない・低活動",
+      "plan": "スポーツなしの再発は8.3%（Itoi 2013の集団）。保存（三角巾短期間＋理学療法）でよい。"
+     }
+    ],
+    "conservative": {
+     "indication": "本人が手術を望まない、シーズン中、予想される再発リスクが低い（BESS/BOA 2015は再発約32%を効用の境目とした）",
+     "method": "整復→三角巾（内旋位）を疼痛に応じて→早期の可動域・腱板・肩甲骨周囲の理学療法",
+     "range_position": "三角巾（内旋位）。外旋位固定はBESS/BOA 2015では勧めない（効果は試験で分かれる）",
+     "duration": "三角巾は疼痛に応じて1週以内（1週を超える固定は再発を減らさない＝BESS/BOA 2015、Paterson 2010）。理学療法は4〜12週（BESS/BOA 2015）。コンタクトスポーツ復帰は3か月前後（目安・未確認）",
+     "notes": "再発の約90%は初回から2年以内（BESS/BOA 2015）。外旋位固定（Itoi 2007）は日本発のRCTで有効とされたが追試で分かれる。"
+    },
+    "surgical": {
+     "indication": [
+      "若年男性のコンタクト・オーバーヘッドスポーツ（初回から）",
+      "本人の希望（再発リスクを説明したうえで）",
+      "関節窩の骨欠損が大きい（約20%以上）・off-trackのHill-Sachs損傷"
+     ],
+     "options": [
+      "関節鏡視下Bankart修復（スーチャーアンカー。非解剖学的修復や経関節窩法・吸収性タックは勧めない＝BESS/BOA 2015）",
+      "Bankart修復＋remplissage（大きなHill-Sachs損傷）",
+      "Latarjet（関節窩骨欠損約20%以上）"
+     ],
+     "timing": "受傷後数週〜6か月以内（6か月超は術後再発の危険因子＝BESS/BOA 2015。最適な時期の数値は未確認）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線2方向で整復位・骨折、腋窩神経・血流の記録"
+     },
+     {
+      "when": "1〜2週",
+      "what": "三角巾を外し理学療法開始、手術の希望を相談"
+     },
+     {
+      "when": "6〜12週",
+      "what": "可動域・筋力・不安感（apprehension）を評価し、スポーツ復帰か手術か"
+     },
+     {
+      "when": "2年",
+      "what": "再発の多い期間。再発したら反復性として扱う"
+     }
+    ],
+    "pitfalls": [
+     "若年男性のコンタクト選手を『まず保存』で漫然と経過観察し、再発で骨欠損を増やす",
+     "三角巾を3週以上つけさせる（再発は減らず拘縮を作るだけ）",
+     "小児（骨端線開存）は再発率が高い一方で手術適応の考え方が異なる（本カードの対象外）"
+    ]
+   },
+   {
+    "id": "first_general_adult",
+    "name": "初回脱臼 一般成人（おおむね25〜40歳・コンタクトスポーツなし）",
+    "criteria": "初回の外傷性前方脱臼で、コンタクト・オーバーヘッドスポーツをしない成人。大結節骨折・腱板断裂・神経麻痺なし。",
+    "urgency": "外来で保存（整復は受診時に）",
+    "standard": "整復後、三角巾を疼痛に応じて短期間（1週以内）使い、早期に可動域訓練と理学療法（4〜12週）。外旋位固定はBESS/BOA 2015では勧めない。再脱臼したら反復性として手術を相談。",
+    "by_background": [
+     {
+      "who": "オーバーヘッド作業の職業（電気工事・建設など）",
+      "plan": "再発は仕事への影響が大きい。初回手術も選択肢として説明（BESS/BOA 2015はオーバーヘッド職を初回手術の対象に含める）。"
+     },
+     {
+      "who": "30歳以上・低活動",
+      "plan": "再発は30歳未満より少ない（Paterson 2010）。保存で十分なことが多い。"
+     }
+    ],
+    "conservative": {
+     "indication": "初回の単純な前方脱臼（合併損傷なし）",
+     "method": "整復→三角巾（疼痛に応じて）→早期の自動可動域訓練→腱板・肩甲骨周囲筋の理学療法",
+     "range_position": "三角巾（内旋位）",
+     "duration": "三角巾は疼痛に応じて1週以内（1週を超える固定は再発を減らさない＝BESS/BOA 2015、Paterson 2010）。理学療法4〜12週（BESS/BOA 2015）。外転外旋の強い動作の制限は6週前後まで（目安・未確認）",
+     "notes": "外旋位固定は長期でも再発は同等だが手術に至った率は低かった（Itoi 2022、追跡率35%）。"
+    },
+    "surgical": {
+     "indication": [
+      "再脱臼（反復性）",
+      "骨欠損が大きい"
+     ],
+     "options": [
+      "関節鏡視下Bankart修復",
+      "Latarjet"
+     ],
+     "timing": "待機的（再発後）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線2方向、腋窩神経・腱板の機能"
+     },
+     {
+      "when": "1〜2週",
+      "what": "三角巾をやめ可動域訓練へ。挙上・外旋の筋力を再確認（腱板断裂の見落とし防止）"
+     },
+     {
+      "when": "6〜12週",
+      "what": "可動域・筋力が戻らなければX線2方向・画像評価（BESS/BOA 2015）"
+     }
+    ],
+    "pitfalls": [
+     "整復後の『肩が上がらない』を疼痛のせいにして腱板断裂・腋窩神経麻痺を見落とす"
+    ]
+   },
+   {
+    "id": "first_older",
+    "name": "初回脱臼 40歳以上（腱板断裂・腋窩神経麻痺の合併に注意）",
+    "criteria": "40歳以上の初回外傷性前方脱臼。再発は少ないが、腱板断裂・大結節骨折・神経障害（腋窩神経・腕神経叢）の合併が多い（腱板断裂または大結節骨折と複雑な神経障害は60歳以上でより多い＝Robinson 2012）。",
+    "urgency": "外来で保存（急性の外傷性腱板断裂は早期に専門外来へ＝BESS/BOA 2015）",
+    "standard": "整復後、三角巾は短期間で早期に可動域訓練。40〜60歳は腱板の超音波またはMRIをルーチンに行い、60歳以上は腱板の筋力を評価して必要なら画像（BESS/BOA 2015）。急性の外傷性腱板断裂があれば早期に修復を検討する。神経麻痺は経過観察し、6週で臨床的回復がなければ筋電図、6週の筋電図で回復がなければ末梢神経の専門施設へ（BESS/BOA 2015）。",
+    "by_background": [
+     {
+      "who": "40〜60歳・活動性が高い",
+      "plan": "急性の外傷性腱板断裂は早期修復を考える。脱臼・腱板断裂・神経損傷が重なる『肩のterrible triad』では腱板修復の時期は10日〜6か月と幅があり成績は同等、神経は経過観察とする報告（Deshpande 2025）。"
+     },
+     {
+      "who": "高齢・低活動",
+      "plan": "拘縮予防の早期運動を優先。腱板断裂があっても機能要求に応じて保存も選ぶ（高齢者の修復の要否の基準は今回未確認）。"
+     }
+    ],
+    "conservative": {
+     "indication": "腱板断裂なし、または修復を選ばない腱板断裂。神経麻痺（経過観察）",
+     "method": "整復→三角巾（疼痛に応じて）→早期の他動・自動可動域訓練",
+     "range_position": "三角巾（内旋位）",
+     "duration": "三角巾は疼痛に応じて1週程度（高齢者に特有の期間は未確認。拘縮を避けるため短く）。理学療法4〜12週（BESS/BOA 2015）",
+     "notes": "整復後も挙上できない場合、腱板断裂と腋窩神経麻痺の両方を考える（両方のこともある）。"
+    },
+    "surgical": {
+     "indication": [
+      "急性の外傷性腱板断裂（特に大きな断裂・活動性が高い）",
+      "回復しない神経麻痺（専門施設で神経手術を検討）"
+     ],
+     "options": [
+      "腱板修復（鏡視下・直視下）",
+      "神経剥離・神経移行（末梢神経の専門施設）"
+     ],
+     "timing": "腱板修復は早期（具体的な週数は未確認。報告は10日〜6か月＝Deshpande 2025）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線2方向、三角筋・肩外側の感覚、橈骨動脈"
+     },
+     {
+      "when": "1〜2週",
+      "what": "腱板の筋力（棘上筋・棘下筋）、40〜60歳は超音波またはMRI"
+     },
+     {
+      "when": "6週",
+      "what": "神経麻痺が回復しなければ筋電図（BESS/BOA 2015）"
+     }
+    ],
+    "pitfalls": [
+     "『高齢なので再発しにくい』で安心し、腱板断裂を見落として修復の時期を逃す",
+     "腋窩神経麻痺による挙上不能を腱板断裂と取り違える（逆も）"
+    ]
+   },
+   {
+    "id": "greater_tuberosity_fracture",
+    "name": "大結節骨折を伴う前方脱臼",
+    "criteria": "前方脱臼に大結節骨折を合併（前方脱臼の約16%、その半数以上は整復で満足な位置に戻る＝BESS/BOA 2015）。整復後の転位量（5mm）で分ける。上腕骨頸部骨折を伴うものは別扱い（骨折カード）。",
+    "urgency": "整復は受診時に（頸部骨折がないことをX線で確認してから）。整復後も5mm超の転位なら早期に手術",
+    "standard": "整復後の転位が5mm未満なら三角巾を約3週、その後に自動介助・自動運動。最初の4週間は毎週X線で遅れての転位を確認する。整復後5mm超の転位は手術固定を勧める。オーバーヘッド作業者では手術の閾値を下げる（BESS/BOA 2015）。",
+    "by_background": [
+     {
+      "who": "オーバーヘッド作業・スポーツ",
+      "plan": "5mm未満でも手術の閾値を下げる（BESS/BOA 2015。具体的な数値は未確認）。"
+     },
+     {
+      "who": "高齢・低活動",
+      "plan": "5mm未満は保存。拘縮に注意して3週以降は運動を進める。"
+     }
+    ],
+    "conservative": {
+     "indication": "整復後の転位5mm未満（BESS/BOA 2015）",
+     "method": "三角巾→自動介助運動→自動運動",
+     "range_position": "三角巾（内旋位）",
+     "duration": "三角巾約3週、その後に自動介助・自動運動（BESS/BOA 2015）。最初の4週は毎週X線",
+     "notes": "大結節骨折を伴う脱臼は再発が少ないとされるが、今回の出典では数値を確認していない。"
+    },
+    "surgical": {
+     "indication": [
+      "整復後の転位5mm超（BESS/BOA 2015）",
+      "経過中に転位が5mmを超えた",
+      "オーバーヘッド作業者では閾値を下げる"
+     ],
+     "options": [
+      "スクリュー固定",
+      "スーチャーアンカー・縫合による固定（鏡視下・直視下）"
+     ],
+     "timing": "早期（2週以内（目安・未確認））"
+    },
+    "followup": [
+     {
+      "when": "毎週（4週まで）",
+      "what": "X線で大結節の転位"
+     },
+     {
+      "when": "3週",
+      "what": "三角巾をやめ自動介助運動"
+     },
+     {
+      "when": "6〜12週",
+      "what": "可動域・骨癒合"
+     }
+    ],
+    "pitfalls": [
+     "整復後のX線だけで安心し、遅れての転位を見逃す",
+     "頸部骨折（非転位）を見落としたまま整復して転位させる"
+    ]
+   },
+   {
+    "id": "recurrent",
+    "name": "反復性肩関節前方脱臼（前方不安定症）",
+    "criteria": "2回以上の脱臼・亜脱臼、または不安感で日常・スポーツに支障がある。Bankart損傷（前下方関節唇・関節包の剥離）、関節窩の骨欠損（骨性Bankart・関節窩の摩耗）、Hill-Sachs損傷（上腕骨頭後外側の陥凹）を評価する。",
+    "urgency": "待機的に手術を相談（整復できない脱臼は同日に緊急）",
+    "standard": "反復性は手術で安定化するのが基本。骨欠損が小さければ関節鏡視下Bankart修復（スーチャーアンカー、2〜4年の再発約8%）、関節窩骨欠損が約20%以上、ISIS 6点超、軟部組織修復の失敗ではLatarjet（再発2.9〜8%、合併症25〜30%）を考える（BESS/BOA 2015、Balg 2007）。Hill-Sachs損傷は関節窩トラックでon/off-trackを判定し、off-trackや大きな欠損（骨頭の40%超は不安定になりやすい）はremplissageやLatarjetを検討（エビデンスは低い）。",
+    "by_background": [
+     {
+      "who": "若年・コンタクトスポーツ",
+      "plan": "ISISが高く骨欠損があればLatarjetを優先して考える。鏡視下修復の再発因子は22歳未満・男性（BESS/BOA 2015）。"
+     },
+     {
+      "who": "手術を望まない・低活動・高齢",
+      "plan": "腱板・肩甲骨周囲筋の理学療法と脱臼肢位の回避。再脱臼のたびに整復が必要になることを説明。"
+     },
+     {
+      "who": "非外傷性の多方向不安定・全身弛緩性",
+      "plan": "外傷性とは別の病態（BESS/BOA 2019の非外傷性不安定症の経路）。まず理学療法（本カードの対象外）。"
+     }
+    ],
+    "conservative": {
+     "indication": "手術を望まない、低活動、非外傷性要素が強い",
+     "method": "理学療法（腱板・肩甲骨周囲筋）、脱臼肢位（外転外旋）を避ける生活指導",
+     "range_position": "固定なし（再脱臼時は整復後に三角巾を短期間）",
+     "duration": "理学療法は4〜12週を目安に反応を見る（BESS/BOA 2015は外傷性不安定症全般について記載）",
+     "notes": "保存で再発を防げる見込みは低い（数値は未確認）。"
+    },
+    "surgical": {
+     "indication": [
+      "2回以上の脱臼・亜脱臼、不安感で支障がある",
+      "関節窩骨欠損 約20%以上（Latarjetを考慮）",
+      "ISIS 6点超（鏡視下Bankart修復後の再発70%＝Balg 2007）",
+      "off-trackのHill-Sachs損傷、骨頭の40%超のHill-Sachs損傷",
+      "軟部組織修復後の再発"
+     ],
+     "options": [
+      "関節鏡視下Bankart修復（スーチャーアンカー）",
+      "Bankart修復＋remplissage",
+      "Latarjet（烏口突起移行）",
+      "大きな骨欠損では骨移植による関節窩再建（詳細は未確認）"
+     ],
+     "timing": "待機的（初回脱臼から6か月超の手術は鏡視下修復の再発因子＝BESS/BOA 2015）"
+    },
+    "followup": [
+     {
+      "when": "術前",
+      "what": "MRA（Bankart）、CT（関節窩骨欠損・Hill-Sachs）、ISIS"
+     },
+     {
+      "when": "術後",
+      "what": "術式ごとの後療法（装具期間・スポーツ復帰の数値は今回未確認）"
+     }
+    ],
+    "pitfalls": [
+     "関節窩骨欠損を評価せずに鏡視下Bankart修復だけ行い再発させる",
+     "関節窩トラックは固定値83%でなく個別化すべきとの提案がある（Itoi 2024）。境界域（peripheral-track）の扱いは定まっていない",
+     "非外傷性・多方向不安定症を外傷性と同じ手術で治そうとする"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Brownson P, Donaldson O, Fox M, et al. BESS/BOA Patient Care Pathways: Traumatic anterior shoulder instability. Shoulder Elbow 2015;7(3):214-226",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4935160/"
+   },
+   {
+    "title": "Paterson WH, Throckmorton TW, Koester M, et al. Position and duration of immobilization after primary anterior shoulder dislocation: a systematic review and meta-analysis. J Bone Joint Surg Am 2010;92(18):2924-2933",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21159993/"
+   },
+   {
+    "title": "Robinson CM, Howes J, Murdoch H, et al. Functional outcome and risk of recurrent instability after primary traumatic anterior shoulder dislocation in young patients. J Bone Joint Surg Am 2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17079387/"
+   },
+   {
+    "title": "Robinson CM, Shur N, Sharpe T, et al. Injuries associated with traumatic anterior glenohumeral dislocations. J Bone Joint Surg Am 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22218378/"
+   },
+   {
+    "title": "Itoi E, et al. Immobilization in external rotation after shoulder dislocation reduces the risk of recurrence. J Bone Joint Surg Am 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17908886/"
+   },
+   {
+    "title": "Liavaag S, et al. Immobilization in external rotation after primary shoulder dislocation did not reduce the risk of recurrence. J Bone Joint Surg Am 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21498489/"
+   },
+   {
+    "title": "Shinagawa K, et al. Immobilization in External Rotation Reduces the Risk of Recurrence After Primary Anterior Shoulder Dislocation: A Meta-analysis. Orthop J Sports Med 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32596407/"
+   },
+   {
+    "title": "Itoi E, et al. Is protecting the healing ligament beneficial after immobilization in external rotation for an initial shoulder dislocation? Am J Sports Med 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23524151/"
+   },
+   {
+    "title": "Itoi E, et al. Long-term effect of immobilization in external rotation after first-time shoulder dislocation. J Shoulder Elbow Surg 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34656781/"
+   },
+   {
+    "title": "Balg F, Boileau P. The instability severity index score. J Bone Joint Surg Br 2007;89(11):1470-1477",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17998184/"
+   },
+   {
+    "title": "Itoi E, et al. Glenoid track revisited. J Shoulder Elbow Surg 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38735636/"
+   },
+   {
+    "title": "Deshpande N, et al. Timing of surgery for terrible triad of the shoulder: a systematic review. Clin Shoulder Elb 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40275807/"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】BESS/BOA 2015本文（1週を超える固定は再発を減らさない・早期運動、外旋位固定は勧めない、理学療法4〜12週、20歳未満の男性約72%・女性約40%、初回手術は若年男性のコンタクト・オーバーヘッドで支持、15歳男女・25歳男性で費用対効果、再発約32%が効用の境目、鏡視下修復後の再発因子＝22歳未満・男性・6か月超、関節窩骨欠損約20%、Hill-Sachs 40%超、大結節骨折 約16%・5mm未満は三角巾約3週＋4週まで毎週X線・5mm超は固定、40〜60歳は腱板の超音波/MRI、6週で筋電図、MRA/CT、再発の約90%は2年以内、鏡視下修復の再発約8%、Latarjet 2.9〜8%・合併症25〜30%）。Paterson 2010、Robinson 2006・2012、Itoi 2007/2013/2022、Liavaag 2011、Shinagawa 2020、Balg 2007、Itoi 2024、Deshpande 2025はEurope PMCの抄録で確認。【未確認】コンタクトスポーツ復帰の時期、外転外旋の制限期間、大結節骨折の手術時期、高齢者の腱板修復の基準、血管損傷の頻度、術後の装具期間・復帰時期。日本整形外科学会の診療ガイドラインは本疾患について確認できなかった。【意見が分かれる点】(1)外旋位固定: Itoi 2007・Shinagawa 2020メタ解析は有効、Liavaag 2011は無効、BESS/BOA 2015は勧めない。(2)若年者の再発率の数値: BESS/BOA 2015の要約（18歳未満の男性80%）と本文（20歳未満の男性約72%）が一致しない。(3)初回手術の適応年齢・スポーツの線引き。"
+ },
+ {
+  "id": "ac_joint_dislocation",
+  "name": "肩鎖関節脱臼（Rockwood分類 I〜VI型）",
+  "category": "脱臼",
+  "group": "upper",
+  "aliases": [
+   "肩鎖関節脱臼",
+   "肩鎖関節損傷",
+   "AC関節脱臼",
+   "肩鎖関節捻挫",
+   "鎖骨遠位端が浮いている",
+   "ピアノキーサイン"
+  ],
+  "summary": "I・II型は保存が一般的な合意。III型は保存から始めるのが現在の主流で、多施設RCT（COTS 2015、III〜V型）ではフックプレート固定は6週・3か月で保存より悪く、6か月以降は差がなく、再手術は保存が少なかった。ISAKOS 2014はIII型をIIIA（安定）とIIIB（水平不安定・肩甲骨機能障害）に分け、IIIBで保存に反応しなければ再建を考える。IV〜VI型は手術が一般的とされるが、V型も保存と長期の臨床成績が同等という小規模RCTがあり、意見が分かれる。急性と慢性の境目は受傷後3週（ESA-ESSKA 2021）。",
+  "how_to_classify": "両側の正面像（真の正面像またはZanca像）で鎖骨遠位端の上方転位を健側と比べ、腋窩像で後方転位（IV型）を見る（ESA-ESSKA 2021は正面像・両側Zanca像で診断に十分とする）。Rockwood分類: I型＝肩鎖靱帯の捻挫、II型＝肩鎖靱帯断裂・烏口鎖骨靱帯は温存（亜脱臼）、III型＝両靱帯断裂で完全脱臼、IV型＝鎖骨が後方へ転位（僧帽筋に刺さる）、V型＝III型の高度なもの（三角筋・僧帽筋の筋膜が鎖骨から剥がれる）、VI型＝鎖骨が烏口突起の下へ転位（まれ）。烏口鎖骨間距離の何％で分けるかの具体的数値は今回原典で確認していない。III型は体の前で腕を交差させる撮影（cross-body adduction view）で鎖骨が肩峰に乗り上げるか（水平不安定）と、肩甲骨の機能障害でIIIA/IIIBに分ける（ISAKOS 2014）。",
+  "red_flags": [
+   "VI型（烏口下転位）: 高エネルギー外傷で腕神経叢・血管損傷を伴いうる",
+   "IV型（後方転位）は正面像だけでは見逃しやすい（腋窩像で確認）",
+   "鎖骨遠位端骨折・烏口突起骨折との区別（骨折なら骨折カードへ）",
+   "皮膚が鎖骨で強く押し上げられ皮膚障害の恐れ（開放化の危険）"
+  ],
+  "imaging": {
+   "initial": [
+    "両肩の正面像（真の正面像または両側Zanca像）で健側と比較（ESA-ESSKA 2021）",
+    "腋窩像（後方転位＝IV型の確認）"
+   ],
+   "additional": [
+    "III型: cross-body adduction view（体の前で腕を交差させた撮影）で鎖骨が肩峰に乗り上げるか＝IIIA/IIIB（ISAKOS 2014）",
+    "ESA-ESSKA 2021は、不安定性の評価に追加画像（CT・MRI）は不要としている",
+    "臨床では体の前で腕を交差させる診察（body cross test）で鎖骨の乗り上げを見る（ESA-ESSKA 2021で93%が合意）"
+   ]
+  },
+  "tables": [
+   {
+    "title": "Rockwood分類と方針の目安",
+    "header": [
+     "型",
+     "損傷",
+     "方針"
+    ],
+    "rows": [
+     [
+      "I",
+      "肩鎖靱帯の捻挫。転位なし",
+      "保存"
+     ],
+     [
+      "II",
+      "肩鎖靱帯断裂、烏口鎖骨靱帯は温存。亜脱臼",
+      "保存"
+     ],
+     [
+      "III（IIIA/IIIB）",
+      "肩鎖・烏口鎖骨靱帯とも断裂。完全脱臼",
+      "まず保存。IIIBで保存に反応しなければ再建を考慮"
+     ],
+     [
+      "IV",
+      "鎖骨が後方へ転位（僧帽筋内）",
+      "手術が一般的（一次情報は今回未確認）"
+     ],
+     [
+      "V",
+      "高度な上方転位、筋膜が鎖骨から剥離",
+      "手術が一般的とされるが、COTS 2015（III〜V型）・Joukainen 2014（III・V型）は保存と臨床成績が同等"
+     ],
+     [
+      "VI",
+      "鎖骨が烏口突起の下へ（まれ）",
+      "手術（一次情報は今回未確認）"
+     ]
+    ],
+    "note": "I・II型を保存とすることは複数の総説で一般的な合意とされるが、ガイドラインとしての一次情報は今回確認できなかった。烏口鎖骨間距離の％の基準は原典未確認。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "type1",
+    "name": "Rockwood I型（肩鎖靱帯の捻挫）",
+    "criteria": "肩鎖関節の圧痛・腫脹があるが、X線で転位なし（健側と同じ）。",
+    "urgency": "外来で保存",
+    "standard": "三角巾は疼痛に応じて短期間、冷却と鎮痛、早期の可動域訓練。疼痛に応じて活動を戻す。",
+    "by_background": [
+     {
+      "who": "スポーツ選手",
+      "plan": "疼痛が引けば早期に復帰（期間は目安・未確認）。コンタクトスポーツでは肩鎖関節のパッドで保護することがある（効果の根拠は未確認）。"
+     },
+     {
+      "who": "一般成人・高齢",
+      "plan": "疼痛に応じて日常生活を戻す。"
+     }
+    ],
+    "conservative": {
+     "indication": "I型",
+     "method": "三角巾（疼痛に応じて）、冷却、鎮痛、早期の可動域訓練",
+     "range_position": "三角巾",
+     "duration": "三角巾は数日〜1週程度（目安・未確認）。スポーツ復帰は約2週（目安・未確認）",
+     "notes": "総説間で期間の記載がばらつく（I型7〜10日とする総説、I・II型とも最長2週とする総説）。"
+    },
+    "surgical": null,
+    "followup": [
+     {
+      "when": "1〜2週",
+      "what": "疼痛・可動域"
+     }
+    ],
+    "pitfalls": [
+     "健側と比べずに軽い転位（II型）を見落とす"
+    ]
+   },
+   {
+    "id": "type2",
+    "name": "Rockwood II型（肩鎖靱帯断裂・亜脱臼）",
+    "criteria": "肩鎖靱帯が断裂し、烏口鎖骨靱帯は温存。X線で鎖骨遠位端が軽度に上方へ転位（亜脱臼）。",
+    "urgency": "外来で保存",
+    "standard": "三角巾は疼痛に応じて、早期の可動域訓練、その後に肩甲骨周囲・腱板の筋力訓練。疼痛が続けば後に肩鎖関節症として扱う。",
+    "by_background": [
+     {
+      "who": "コンタクトスポーツ・重量挙げ",
+      "plan": "疼痛と筋力が戻ってから復帰。復帰時期は総説で3〜6週から8〜12週まで記載が分かれる（目安・未確認）。"
+     },
+     {
+      "who": "一般成人・高齢",
+      "plan": "疼痛に応じて日常生活を戻す。"
+     }
+    ],
+    "conservative": {
+     "indication": "II型",
+     "method": "三角巾（疼痛に応じて）→可動域訓練→筋力訓練",
+     "range_position": "三角巾",
+     "duration": "三角巾は1〜2週程度（目安・未確認。総説では最長2週から4〜6週まで分かれる）。スポーツ復帰は3〜6週程度（目安・未確認）",
+     "notes": "後に疼痛が残る例がある（頻度は未確認）。"
+    },
+    "surgical": {
+     "indication": [
+      "保存で改善しない慢性の疼痛（肩鎖関節症）"
+     ],
+     "options": [
+      "鎖骨遠位端切除（適応・成績は今回未確認）"
+     ],
+     "timing": "待機的（慢性期）"
+    },
+    "followup": [
+     {
+      "when": "1〜2週",
+      "what": "疼痛・可動域、必要ならX線で転位の進行"
+     },
+     {
+      "when": "6週",
+      "what": "筋力・スポーツ復帰の判断"
+     }
+    ],
+    "pitfalls": [
+     "長期間の三角巾で拘縮を作る"
+    ]
+   },
+   {
+    "id": "type3",
+    "name": "Rockwood III型（完全脱臼。IIIA／IIIB）",
+    "criteria": "肩鎖靱帯・烏口鎖骨靱帯とも断裂し、鎖骨遠位端が完全に上方へ転位（ピアノキーサイン）。IIIA＝安定（cross-body adduction viewで鎖骨が肩峰に乗り上げない、肩甲骨の機能障害が目立たない）、IIIB＝不安定（乗り上げあり、治療抵抗性の肩甲骨機能障害）（ISAKOS 2014）。",
+    "urgency": "外来で保存（手術を考える場合は受傷後3週以内が急性期＝ESA-ESSKA 2021）",
+    "standard": "まず保存（三角巾は疼痛に応じて、早期の可動域訓練、肩甲骨周囲筋の訓練）。COTS 2015（III〜V型83例、フックプレート対保存）では保存の方が6週・3か月のDASHが良く、6か月以降は差がなく、再手術は保存で少なかった。ISAKOS 2014の分類でIIIBかつ保存に反応しない例は、解剖学的な烏口鎖骨靱帯再建を考える。",
+    "by_background": [
+     {
+      "who": "オーバーヘッドスポーツ・重労働",
+      "plan": "まず保存で数週見て、水平不安定・肩甲骨の機能障害が残る（IIIB）なら再建を考える。早期手術を選ぶなら受傷3週以内に（鏡視補助下の解剖学的再建＋サスペンション器具＝ESA-ESSKA 2021で86.2%が合意）。"
+     },
+     {
+      "who": "一般成人・デスクワーク",
+      "plan": "保存。見た目（鎖骨の突出）は残ることを説明（長期RCTでも保存は突出・不安定な外観が多いが臨床成績は同等＝Joukainen 2014）。"
+     },
+     {
+      "who": "高齢・低活動",
+      "plan": "保存。"
+     }
+    ],
+    "conservative": {
+     "indication": "III型（IIIAは保存。IIIBもまず保存）",
+     "method": "三角巾（疼痛に応じて）→可動域訓練→肩甲骨周囲筋・腱板の訓練",
+     "range_position": "三角巾",
+     "duration": "三角巾は1〜3週程度（目安・未確認。臨床医の調査では3週が最多の42%で、これは実態でありエビデンスではない）。保存の効果判定（IIIA/IIIBの見極め）は受傷後3〜6週（目安・未確認）。スポーツ復帰は6〜12週（目安・未確認）",
+     "notes": "保存しても見た目の突出は残る。保存で残る症状は肩甲骨の機能障害として訓練する。"
+    },
+    "surgical": {
+     "indication": [
+      "IIIBで保存に反応しない（ISAKOS 2014の提案と、それに基づく総説）",
+      "早期手術を強く希望するオーバーヘッド競技者（適応は意見が分かれる）"
+     ],
+     "options": [
+      "急性期: 鏡視補助下の解剖学的再建（サスペンション器具、生物学的補強は不要＝ESA-ESSKA 2021）",
+      "慢性期: 腱移植による烏口鎖骨・肩鎖靱帯の再建（ESA-ESSKA 2021）",
+      "フックプレート固定（COTS 2015で保存に優らず）"
+     ],
+     "timing": "急性期の手術は受傷後3週以内（急性と慢性の境目＝ESA-ESSKA 2021）。保存に反応しないIIIBは慢性期の再建"
+    },
+    "followup": [
+     {
+      "when": "1〜2週",
+      "what": "疼痛・可動域"
+     },
+     {
+      "when": "3〜6週（目安・未確認）",
+      "what": "水平不安定（body cross test）・肩甲骨の機能障害でIIIA/IIIBを判断"
+     },
+     {
+      "when": "3〜6か月",
+      "what": "症状が残れば慢性期の再建を相談"
+     }
+    ],
+    "pitfalls": [
+     "手術を考える例を3週を超えて放置し、急性期の術式の機会を逃す（急性・慢性の境目3週）",
+     "見た目の突出だけで手術を決める（臨床成績は保存と同等の報告が多い）"
+    ]
+   },
+   {
+    "id": "type4to6",
+    "name": "Rockwood IV・V・VI型（高度の転位）",
+    "criteria": "IV型＝鎖骨遠位端が後方へ転位し僧帽筋に刺さる（腋窩像で判明）、V型＝高度な上方転位で三角筋・僧帽筋の筋膜が鎖骨から剥がれる、VI型＝鎖骨が烏口突起の下へ転位（まれ、高エネルギー）。",
+    "urgency": "早期（受傷後3週以内）に専門外来へ紹介。VI型の神経血管損傷は緊急",
+    "standard": "IV〜VI型は手術（解剖学的な烏口鎖骨靱帯の再建・固定）が一般的とされる（今回、この適応を明示したガイドラインは確認できなかった）。急性期の手術は受傷後3週以内（ESA-ESSKA 2021）。ただしV型については、COTS 2015（III〜V型）とJoukainen 2014（III・V型、18〜20年追跡）で保存と臨床成績が同等で、保存を選ぶ余地がある。",
+    "by_background": [
+     {
+      "who": "活動性が高い・スポーツ・重労働",
+      "plan": "受傷3週以内に解剖学的再建を考える。"
+     },
+     {
+      "who": "高齢・低活動・手術リスクが高い（V型）",
+      "plan": "保存も選択肢（V型での臨床成績同等のRCTがある）。IV型・VI型の保存の成績は今回未確認。"
+     }
+    ],
+    "conservative": {
+     "indication": "V型で低活動・手術を望まない（IV・VI型の保存は今回未確認）",
+     "method": "三角巾（疼痛に応じて）→可動域訓練→筋力訓練（III型に準じる）",
+     "range_position": "三角巾",
+     "duration": "III型に準じる（三角巾1〜3週程度（目安・未確認））",
+     "notes": "長期RCTでは保存は肩鎖関節の開大（8.3mm対3.4mm）や突出が多いが、臨床スコアは同等（Joukainen 2014、25例）。"
+    },
+    "surgical": {
+     "indication": [
+      "IV型（後方転位）",
+      "V型（活動性が高い場合。保存との優劣は意見が分かれる）",
+      "VI型（烏口下転位）"
+     ],
+     "options": [
+      "鏡視補助下の解剖学的再建（サスペンション器具）",
+      "慢性期は腱移植による再建",
+      "フックプレート固定"
+     ],
+     "timing": "受傷後3週以内（ESA-ESSKA 2021の急性期の定義）。VI型の神経血管損傷は緊急"
+    },
+    "followup": [
+     {
+      "when": "術後",
+      "what": "術式ごとの後療法（装具期間・復帰時期は今回未確認）"
+     }
+    ],
+    "pitfalls": [
+     "腋窩像を撮らずにIV型を見落とす",
+     "VI型の神経血管損傷を見落とす"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Beitzel K, Mazzocca AD, Bak K, et al. ISAKOS upper extremity committee consensus statement on the need for diversification of the Rockwood classification for acromioclavicular joint injuries. Arthroscopy 2014;30(2):271-278",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24485119/"
+   },
+   {
+    "title": "Canadian Orthopaedic Trauma Society. Multicenter randomized clinical trial of nonoperative versus operative treatment of acute acromio-clavicular joint dislocation. J Orthop Trauma 2015;29(11):479-487",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26489055/"
+   },
+   {
+    "title": "Joukainen A, Kröger H, Niemitukia L, et al. Results of Operative and Nonoperative Treatment of Rockwood Types III and V Acromioclavicular Joint Dislocation: A Prospective, Randomized Trial With an 18- to 20-Year Follow-up. Orthop J Sports Med 2014;2(12)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26535287/"
+   },
+   {
+    "title": "Rosso C, Martetschläger F, Saccomanno MF, et al. High degree of consensus achieved regarding diagnosis and treatment of acromioclavicular joint instability among ESA-ESSKA members. Knee Surg Sports Traumatol Arthrosc 2021;29(7):2325-2332",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32980887/"
+   }
+  ],
+  "confidence": "low",
+  "review_note": "【確認済み】ISAKOS 2014（IIIA/IIIBの定義）、COTS 2015（III〜V型、受傷28日以内、83例、フックプレートは6週・3か月のDASHで保存に劣り6か月以降は差なし、再手術は保存で少ない）、Joukainen 2014（III・V型、保存は整復副子4週、18〜20年で臨床スコア同等、保存は肩鎖関節の開大8.3mm対3.4mm）、ESA-ESSKA 2021（両側Zanca像で十分、追加画像不要、body cross test 93%、急性・慢性の境目3週、急性期は鏡視補助下解剖学的再建＋サスペンション器具86.2%・生物学的補強不要82.8%、慢性期は腱移植）はEurope PMCの抄録で確認。【未確認】I・II型を保存とすることのガイドライン上の出典（総説で一般的な合意とされることは検索結果で確認したが、総説そのものの本文は読めていない）、三角巾の期間（総説で7〜10日、最長2週、4〜6週と分かれる）、スポーツ復帰の時期、IIIA/IIIBの判定時期（3〜6週）、IV〜VI型を手術とする一次情報、烏口鎖骨間距離の％基準、IV・VI型の保存成績、術後の後療法。日本のガイドラインなし。【意見が分かれる点】(1)III型の手術適応（保存が主流だが、2024年のメタ解析はIII〜V型で手術が機能・画像で優るとした＝検索結果の要約のみで原典未確認）。(2)V型を手術とするか（COTS 2015とJoukainen 2014は保存と同等）。"
+ },
+ {
+  "id": "elbow_dislocation",
+  "name": "肘関節脱臼（単純脱臼／骨折を伴う複合脱臼）",
+  "category": "脱臼",
+  "group": "upper",
+  "aliases": [
+   "肘関節脱臼",
+   "肘関節後方脱臼",
+   "単純肘関節脱臼",
+   "肘が外れた",
+   "terrible triad",
+   "肘関節脱臼骨折"
+  ],
+  "summary": "骨折を伴わない単純脱臼は整復後に早期の自動運動が標準。RCT（FuncSiE、100例）で3週のギプス固定と比べ1年の成績は同等、復職は10日対18日と早かった。整復後に安定性を確認し、伸展域で再脱臼する・両側の靱帯の高度損傷で不安定な例は手術を考える。橈骨頭骨折と鉤状突起骨折を伴う脱臼（terrible triad）など骨折を伴う複合脱臼は手術が基本。",
+  "how_to_classify": "まず骨折の有無で単純脱臼（骨折なし）と複合脱臼（橈骨頭・鉤状突起・肘頭などの骨折を伴う）に分ける。単純脱臼は整復後に屈曲伸展の全域で安定か（どの伸展角度まで再脱臼しないか、回内で安定するか）を確認し、安定型と不安定型に分ける。複合脱臼は橈骨頭骨折＋鉤状突起骨折＋脱臼＝terrible triad、その他の脱臼骨折（経肘頭脱臼骨折、Monteggia型など）として骨折カード・専門医へ。",
+  "red_flags": [
+   "上腕動脈損傷（整復前後の橈骨動脈の拍動・手の血流。開放脱臼・高エネルギーで注意）",
+   "正中神経・尺骨神経障害（整復前後に記録。整復後に新たに出た正中神経障害は関節内への神経の嵌頓を疑う）",
+   "コンパートメント症候群（前腕の強い腫脹と他動伸展時痛）",
+   "骨折を伴う脱臼（terrible triad・経肘頭脱臼骨折など）：手術が基本",
+   "整復後の関節裂隙の不整（骨片・軟部組織の嵌頓）",
+   "整復後も伸展域で再脱臼する（不安定型）"
+  ],
+  "imaging": {
+   "initial": [
+    "肘関節の正面・側面（整復前後）。整復後は関節の適合（腕尺関節・腕橈関節の裂隙が均等か）を確認"
+   ],
+   "additional": [
+    "骨折を伴う（疑い）: CT（3D再構成）で橈骨頭・鉤状突起の骨片を評価（terrible triadは整復後にCT＝Waterworth 2023）",
+    "整復後の安定性が不確か: MRIを選択的に（単純脱臼の内側側副靱帯損傷90.6%・外側側副靱帯損傷94.3%。ルーチンのMRIは支持されない＝Sachinis 2026）",
+    "整復後1週前後: X線で亜脱臼がないか（時期は目安・未確認）"
+   ]
+  },
+  "tables": [],
+  "subtypes": [
+   {
+    "id": "simple_stable",
+    "name": "単純脱臼・整復後に安定",
+    "criteria": "骨折を伴わない肘関節脱臼（多くは後方・後外側）で、整復後に屈曲伸展の機能的な範囲で再脱臼しない。",
+    "urgency": "整復は受診時に。その後は外来で保存",
+    "standard": "整復後、短期間の圧迫包帯と必要に応じた三角巾で、疼痛の範囲で早期に自動運動を始める（FuncSiE: 早期運動と3週のギプス固定で1年のQuick-DASHは4.0対4.2で同等、復職は10日対18日で早期運動が早い、再脱臼なし）。系統的レビューでも早期運動の方が可動域が良く（屈伸の弧137°対3週以上の固定131°＝Pott 2024）、再脱臼は増えない（1.3%対2.2%＝Catapano 2022）。",
+    "by_background": [
+     {
+      "who": "スポーツ選手・肉体労働",
+      "plan": "早期運動で拘縮を防ぎ、疼痛と安定性を見て復帰。復帰時期の数値は今回未確認（高校レスリング選手の早期復帰プロトコルの報告あり＝Barton 2021）。"
+     },
+     {
+      "who": "一般成人・デスクワーク",
+      "plan": "早期運動。早期運動群は復職が早い（10日対18日）。"
+     },
+     {
+      "who": "高齢者",
+      "plan": "拘縮を作りやすいので固定は最小限に。骨折の見落としに注意してCTを考える（高齢者に特有の推奨は未確認）。"
+     }
+    ],
+    "conservative": {
+     "indication": "骨折のない単純脱臼で、整復後に機能的な範囲で安定",
+     "method": "整復→圧迫包帯・三角巾（必要に応じ）→疼痛の範囲で早期の自動屈伸・回内外。伸展の最終域が不安定ならヒンジ付き装具で伸展を制限することがある（制限角度は目安・未確認）",
+     "range_position": "三角巾（肘90°屈曲前後）。ギプスを使う場合も肘90°",
+     "duration": "早期運動（受傷後数日以内から疼痛の範囲で）。三角巾・圧迫包帯は数日〜1週程度（目安・未確認）。ギプス固定を選ぶ場合も3週以内（FuncSiEの対照群は3週）",
+     "notes": "早期運動はリハビリ中の疼痛がやや強い（Catapano 2022）。単純脱臼でも10%未満は成績不良（Robinson PM 2017）、拘縮はよくある後遺症。"
+    },
+    "surgical": null,
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線で関節の適合、神経血管の記録、安定な屈伸の範囲"
+     },
+     {
+      "when": "1週前後（目安・未確認）",
+      "what": "X線で亜脱臼がないか、自動運動の確認"
+     },
+     {
+      "when": "2〜6週",
+      "what": "可動域（特に伸展制限）、必要なら理学療法"
+     },
+     {
+      "when": "3か月",
+      "what": "伸展制限・異所性骨化・不安定感"
+     }
+    ],
+    "pitfalls": [
+     "単純脱臼と思い込み、橈骨頭・鉤状突起の小骨片を見落とす（迷えばCT）",
+     "3週以上ギプス固定して伸展制限を残す",
+     "整復後の関節裂隙の不均等（亜脱臼・嵌頓）を見逃す"
+    ]
+   },
+   {
+    "id": "simple_unstable",
+    "name": "単純脱臼・整復後に不安定（再脱臼・伸展域の不安定）",
+    "criteria": "骨折はないが、整復後に機能的な伸展域で再脱臼・亜脱臼する、または内外側の靱帯の高度損傷で中等度以上の不安定性がある。",
+    "urgency": "早期（数日〜1週）に肘の専門医へ紹介",
+    "standard": "回内位やヒンジ付き装具で伸展を制限して安定する範囲で早期運動を試み、それでも不安定なら手術（外側側副靱帯複合体の修復±内側側副靱帯修復、必要ならヒンジ付き創外固定）。系統的レビューは、両側の靱帯の高度損傷や中等度以上の不安定性を『持続する不安定性のred flag』として手術を考えるよう述べる（Breulmann 2024）。早期の靱帯修復の長期的な利点は示されていない（Grazette 2017）。",
+    "by_background": [
+     {
+      "who": "活動性が高い・スポーツ",
+      "plan": "持続する後外側回旋不安定・外反不安定を残さないよう手術を考える。"
+     },
+     {
+      "who": "高齢・低活動",
+      "plan": "装具で安定する範囲の運動を優先。拘縮と不安定性のバランスで判断。"
+     }
+    ],
+    "conservative": {
+     "indication": "回内位・伸展制限で安定する範囲がある",
+     "method": "ヒンジ付き装具（伸展制限）または回内位で、安定する範囲の早期運動",
+     "range_position": "ヒンジ付き装具で伸展を制限（角度は目安・未確認）",
+     "duration": "伸展制限を3〜6週で段階的に緩める（目安・未確認）",
+     "notes": "持続する単純脱臼（整復位が保てない）は全例手術となり屈伸の弧は90°にとどまった（Pott 2024）。"
+    },
+    "surgical": {
+     "indication": [
+      "整復後に機能的な伸展域で再脱臼・亜脱臼する",
+      "両側の靱帯の高度損傷・中等度以上の不安定性（Breulmann 2024）",
+      "整復位が保てない（持続する脱臼）"
+     ],
+     "options": [
+      "外側側副靱帯複合体の修復（スーチャーアンカーなど）",
+      "内側側副靱帯の修復",
+      "ヒンジ付き創外固定"
+     ],
+     "timing": "早期（1〜2週以内（目安・未確認））"
+    },
+    "followup": [
+     {
+      "when": "1週ごと（初期）",
+      "what": "X線で関節の適合（亜脱臼）"
+     },
+     {
+      "when": "6週",
+      "what": "装具の終了、可動域"
+     },
+     {
+      "when": "3か月",
+      "what": "不安定感・拘縮・異所性骨化"
+     }
+    ],
+    "pitfalls": [
+     "側面像の腕尺関節の裂隙の開大（亜脱臼）を見落とす",
+     "不安定性を恐れて長期固定し、強い拘縮を作る"
+    ]
+   },
+   {
+    "id": "complex_terrible_triad",
+    "name": "骨折を伴う複合脱臼（terrible triadなど）",
+    "criteria": "肘関節脱臼に骨折を伴う。terrible triad＝後方脱臼＋橈骨頭骨折＋鉤状突起骨折。そのほか経肘頭脱臼骨折、Monteggia型の脱臼骨折など。",
+    "urgency": "整復は受診時に（緊急）。手術は早期（専門医へ当日〜数日以内に紹介）",
+    "standard": "緊急で整復し、CT（3D）で骨片を評価してから、損傷した安定化構造を手術で修復・置換するのが標準（Waterworth 2023）。一般的な手術は外側靱帯複合体の修復、橈骨頭の固定または置換、鉤状突起の固定、必要に応じて内側の修復と創外固定で、早期の可動域訓練を重視する（Fahs 2024）。保存で亜脱臼が残ったまま治療が遅れることは避ける（Klug 2023）。",
+    "by_background": [
+     {
+      "who": "活動性が高い成人",
+      "plan": "全ての安定化要素に対する手術。術後は早期運動（他動運動の開始は7日が最多だったが、早期の他動運動は可動域・機能の改善と関連しなかった＝Larwa 2025）。"
+     },
+     {
+      "who": "高齢・合併症が多い",
+      "plan": "手術が基本だが、全身状態で判断（高齢者の保存の基準は今回未確認）。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "terrible triad（脱臼＋橈骨頭骨折＋鉤状突起骨折）",
+      "経肘頭脱臼骨折・Monteggia型の脱臼骨折",
+      "骨片の嵌頓・整復位が保てない"
+     ],
+     "options": [
+      "外側側副靱帯複合体の修復",
+      "橈骨頭の観血的整復固定または人工橈骨頭置換",
+      "鉤状突起の固定",
+      "内側側副靱帯の修復",
+      "ヒンジ付き創外固定"
+     ],
+     "timing": "整復は緊急。手術は早期（1〜2週以内（目安・未確認））。遅れて亜脱臼が残ったままにしない（Klug 2023）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線・CT、神経血管"
+     },
+     {
+      "when": "術後早期",
+      "what": "早期の可動域訓練"
+     },
+     {
+      "when": "3〜12か月",
+      "what": "異所性骨化（11%）・尺骨神経障害（2.6%）・拘縮・関節症（Stambulic 2022）"
+     }
+    ],
+    "pitfalls": [
+     "鉤状突起の小骨片を『単純脱臼』として見落とす（側面像で見にくい。CTを）",
+     "合併症は約30%、再手術7.8%と多い（Stambulic 2022）。術前に説明する"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Iordens GIT, Van Lieshout EMM, Schep NWL, et al. Early mobilisation versus plaster immobilisation of simple elbow dislocations: results of the FuncSiE multicentre randomised clinical trial. Br J Sports Med 2017;51(6):531-538",
+    "url": "https://pure.eur.nl/en/publications/early-mobilisation-versus-plaster-immobilisation-of-simple-elbow-/"
+   },
+   {
+    "title": "de Haan J, et al. Functional treatment versus plaster for simple elbow dislocations (FuncSiE): a randomized trial (protocol). BMC Musculoskelet Disord 2010",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2994812/"
+   },
+   {
+    "title": "Catapano M, et al. Early functional mobilization for non-operative treatment of simple elbow dislocations: a systematic review. Shoulder Elbow 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35265188/"
+   },
+   {
+    "title": "Pott CMJM, et al. Treatment Outcomes of Simple Elbow Dislocations: A Systematic Review of 1,081 Cases. JBJS Rev 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38181107/"
+   },
+   {
+    "title": "Breulmann FL, et al. Treatment strategies for simple elbow dislocation - a systematic review. BMC Musculoskelet Disord 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38365699/"
+   },
+   {
+    "title": "Sachinis NP, et al. Magnetic resonance imaging findings in simple elbow dislocations: a systematic review and meta-analysis. J Shoulder Elbow Surg 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42665225/"
+   },
+   {
+    "title": "Robinson PM, et al. Simple elbow dislocation. Shoulder Elbow 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28588660/"
+   },
+   {
+    "title": "Grazette AJ, et al. The Assessment and Management of Simple Elbow Dislocations. Open Orthop J 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29290877/"
+   },
+   {
+    "title": "Fahs A, et al. Management of Elbow Terrible Triad Injuries: A Comprehensive Review and Update. J Am Acad Orthop Surg 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39151182/"
+   },
+   {
+    "title": "Waterworth R, et al. Current concepts in the management of 'Terrible Triad' injuries of the elbow. Injury 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37353449/"
+   },
+   {
+    "title": "Klug A, Sauter M, Hoffmann R. [Terrible triad injuries]. Unfallchirurgie (Heidelb) 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37115205/"
+   },
+   {
+    "title": "Stambulic T, et al. Terrible triad injuries are no longer terrible! Functional outcomes of terrible triad injuries: a scoping review. JSES Rev Rep Tech 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37587961/"
+   },
+   {
+    "title": "Larwa J, et al. Characteristics of rehabilitation protocols following operative treatment of terrible triad elbow injuries. Shoulder Elbow 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39552691/"
+   },
+   {
+    "title": "Barton D, et al. An Update on Simple Elbow Dislocations: A Protocol for Early Return to Sport in High School Wrestlers. Curr Sports Med Rep 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33908914/"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】FuncSiE（100例、早期運動48対ギプス3週52、1年のQuick-DASH 4.0対4.2、復職10日対18日、再脱臼なし）は抄録・リポジトリで確認。プロトコル（2010）は早期運動を疼痛範囲の自動運動（三角巾・ヒンジ付き装具の有無を問わない）、ギプスは肘90°で3週と定義。Catapano 2022（再脱臼1.3%対2.2%、復職10対18日、早期運動はリハ中の疼痛が多い）、Pott 2024（屈伸の弧137°・129°・131°、手術128°、持続脱臼90°）、Breulmann 2024（手術を考えるred flag）、Sachinis 2026（MCL損傷90.6%・LCL損傷94.3%、MRIは選択的）、Robinson PM 2017（成績不良10%未満）、terrible triadの総説（Fahs 2024、Waterworth 2023、Klug 2023）、Stambulic 2022（合併症約30%、再手術7.8%、異所性骨化11%、尺骨神経障害2.6%）、Larwa 2025はEurope PMCの抄録で確認。【未確認】三角巾の期間、整復後のX線の時期、ヒンジ付き装具の伸展制限角度と期間、不安定型・terrible triadの手術時期（週数）、スポーツ復帰時期、高齢者の扱い。異所性骨化の早期運動36%対固定54%は検索結果の要約のみ（定義未確認）のため本文に入れなかった。日本のガイドラインなし。【意見が分かれる点】不安定な単純脱臼で早期に靱帯修復をするか（長期的な利点を示した研究はない＝Grazette 2017）。"
+ },
+ {
+  "id": "pip_dislocation",
+  "name": "指PIP関節脱臼（背側・掌側・側方）",
+  "category": "脱臼",
+  "group": "upper",
+  "aliases": [
+   "PIP関節脱臼",
+   "指の脱臼",
+   "突き指（脱臼）",
+   "coach's finger",
+   "掌側板損傷",
+   "中央索損傷",
+   "PIP関節脱臼骨折"
+  ],
+  "summary": "PIP関節は全身で最も脱臼の多い関節で、多くは背側脱臼（掌側板損傷）。背側脱臼は整復後に伸展ブロック副子（屈曲20〜30°）を2〜3週、その後に隣接指とのバディテーピングで、1週以内に保護下の運動を始める。掌側脱臼は中央索の断裂を伴いやすく、放置するとボタン穴変形になるため、PIP関節を完全伸展位で少なくとも4〜6週副子固定する（AFP 2022）。開放創・整復不能・関節面の30%を超える裂離骨折・側方脱臼は紹介（AFP 2022 表2）。",
+  "how_to_classify": "中節骨が基節骨に対してどちらへずれたかで、背側（最多・掌側板損傷）、掌側（中央索損傷）、側方（側副靱帯損傷）に分ける。X線（正面・側面・斜位）で中節骨基部の骨片の有無と大きさ（関節面の何％か、30%が紹介の目安）を見て、骨片があれば脱臼骨折とする。整復後は自動屈伸ができるか、側副靱帯の安定性、中央索のテスト（Elson test）を確認する。",
+  "red_flags": [
+   "開放脱臼（指の掌側の皮膚が裂ける。紹介）",
+   "整復できない脱臼（掌側脱臼で基節骨頭が伸展機構の間に挟まる『ボタン穴』化、掌側板の嵌頓など。紹介）",
+   "関節面の30%を超える裂離骨折・粉砕骨折（ピロン骨折）",
+   "整復後に側面像で関節が適合しない（V字の背側亜脱臼が残る）",
+   "掌側脱臼・中央索損傷の見逃し（遅れてボタン穴変形）"
+  ],
+  "imaging": {
+   "initial": [
+    "指の正面・側面・斜位（整復前と整復後の確認＝AFP 2022）。側面像は患指単独で撮る"
+   ],
+   "additional": [
+    "背側脱臼の整復後: 1週でX線（AFP 2006）",
+    "脱臼骨折: 側面像で関節の適合と骨片の大きさ（関節面の％）。必要ならCT（適応の基準は未確認）"
+   ]
+  },
+  "tables": [
+   {
+    "title": "PIP関節脱臼の型と固定",
+    "header": [
+     "型",
+     "主な損傷",
+     "固定",
+     "期間"
+    ],
+    "rows": [
+     [
+      "背側",
+      "掌側板（中節骨掌側唇の裂離骨折）",
+      "伸展ブロック副子（屈曲20〜30°）→バディテーピング",
+      "伸展ブロック副子2〜3週。掌側板損傷を疑えば4〜6週の副子後に運動を進める（AFP 2022）"
+     ],
+     [
+      "掌側",
+      "中央索（中節骨背側唇の裂離骨折）",
+      "PIP完全伸展位の副子（DIP・MCPは自動運動）",
+      "少なくとも4〜6週（AFP 2022）、6週（AFP 2006・2012）"
+     ],
+     [
+      "側方",
+      "側副靱帯",
+      "整復→（AFP 2022は紹介の対象）",
+      "未確認"
+     ]
+    ],
+    "note": "Childress MA, et al. Am Fam Physician 2022 と Leggit JC, Meko CJ. Am Fam Physician 2006。プライマリケア向けの総説で、根拠は主に専門家意見（SORT C）。AFP 2006は本文で屈曲30°の副子とするが、要約表は70〜90°・6週としており記載が一致しない。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "dorsal_simple",
+    "name": "背側脱臼（骨片なし、または小さな掌側唇の裂離骨折）",
+    "criteria": "過伸展で中節骨が背側へ脱臼し、掌側板が断裂または中節骨掌側唇の小さな裂離骨折を伴う。整復後に関節が適合し安定している。",
+    "urgency": "整復は受診時に。その後は外来で保存",
+    "standard": "関節をいったん過伸展して関節面を合わせ、ゆっくり屈曲して整復する（AFP 2022）。または長軸方向の牽引と中節骨への掌側方向の圧迫（整復できなければ遠位を過伸展して外してから再度＝AFP 2006）。受傷から1時間以上たっていれば指ブロック（エピネフリンなしの1〜2%リドカイン）。整復後にX線で適合を確認し、伸展ブロック副子（屈曲20〜30°）を2〜3週、その後は耐えられる範囲で屈曲を進め、隣接指とバディテーピング。1週以内に疼痛・腫脹に応じて保護下の運動を始める（AFP 2022、SORT C）。",
+    "by_background": [
+     {
+      "who": "球技・競技中",
+      "plan": "その場で整復できればバディテーピング（軽度屈曲）で競技を続けてよいが、後日必ず外来でX線を撮る（AFP 2006）。競技復帰時の保護期間は未確認。"
+     },
+     {
+      "who": "一般成人・手を使う仕事",
+      "plan": "伸展ブロック副子2〜3週→バディテーピング。腫脹が長く続く（治癒に12〜18か月かかりうる＝AFP 2022）ことを説明。"
+     },
+     {
+      "who": "高齢者",
+      "plan": "拘縮を作りやすいので早期運動を優先（高齢者に特有の推奨は未確認）。"
+     }
+    ],
+    "conservative": {
+     "indication": "整復でき、整復後に関節が適合し安定。骨片は関節面の30%以下",
+     "method": "整復→伸展ブロック副子→バディテーピング。1週以内に保護下の運動",
+     "range_position": "PIP関節屈曲20〜30°の伸展ブロック副子（屈曲は自由、伸展を止める）。AFP 2006は屈曲30°",
+     "duration": "伸展ブロック副子2〜3週、その後は屈曲を進めながらバディテーピング（AFP 2022）。掌側板損傷を疑う場合は4〜6週副子のあと運動を進める（AFP 2022）。バディテーピングの期間は未確認（3〜4週（目安・未確認））",
+     "notes": "AFP 2006は屈曲30°の副子、1週でX線、安定なら損傷の程度に応じて2〜4週追加で屈曲位副子のあとバディテーピング。経過観察は2〜4週ごと（AFP 2022）。"
+    },
+    "surgical": {
+     "indication": [
+      "整復できない",
+      "開放脱臼",
+      "整復後も不安定（脱臼骨折は別病型）"
+     ],
+     "options": [
+      "観血的整復（嵌頓した掌側板の解除）"
+     ],
+     "timing": "早期（数日以内）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線で適合、自動屈伸、側副靱帯"
+     },
+     {
+      "when": "1週",
+      "what": "X線で再脱臼がないか（AFP 2006）"
+     },
+     {
+      "when": "2〜4週ごと",
+      "what": "可動域・副子からバディテーピングへ（AFP 2022）"
+     }
+    ],
+    "pitfalls": [
+     "『突き指』としてX線を撮らない",
+     "長期の伸展位固定でPIP関節の屈曲拘縮・伸展拘縮を作る",
+     "掌側板を放置して偽ボタン穴変形（PIP屈曲拘縮）を残す"
+    ]
+   },
+   {
+    "id": "dorsal_fracture_dislocation",
+    "name": "背側脱臼骨折（中節骨掌側唇の大きな骨片）",
+    "criteria": "背側脱臼に中節骨基部の掌側唇の骨折を伴い、骨片が大きい（関節面の30%超＝AFP 2022、AFP 2006は1/3超）、整復後に亜脱臼する、または粉砕（ピロン骨折）。",
+    "urgency": "早期（数日以内）に手の外科へ紹介",
+    "standard": "関節面の30%を超える裂離骨折、複雑な骨折、整復不能は紹介（AFP 2022 表2）。骨片が小さく伸展ブロック副子で適合が保てるなら保存も可能。手術は経皮的ピンニング、伸展ブロックピンニング、観血的整復固定、掌側板関節形成術、動的創外固定、hemi-hamate関節形成術などで、どれが一貫して優るかは示されていない（Demino 2021、Gianakos 2020）。",
+    "by_background": [
+     {
+      "who": "活動性が高い・手を使う仕事",
+      "plan": "関節の適合を回復させる手術を早期に。遅れての受診は可動域の回復が悪い（Caggiano 2018）。"
+     },
+     {
+      "who": "高齢・低活動",
+      "plan": "適合が保てれば伸展ブロック副子での保存も検討（基準は未確認）。"
+     }
+    ],
+    "conservative": {
+     "indication": "骨片が関節面の30%以下で、伸展ブロック副子により関節の適合が保てる",
+     "method": "伸展ブロック副子（屈曲位で適合が保たれる角度）→段階的に伸展を許可",
+     "range_position": "PIP関節の屈曲位（適合が保たれる角度。具体的な角度は症例ごと）",
+     "duration": "3〜4週程度で段階的に伸展を許可（目安・未確認）。毎週X線で適合を確認（目安・未確認）",
+     "notes": "安定性を骨片の大きさ（30%未満は安定、30〜50%は境界、50%超は不安定）で分ける考え方は広く使われるが、今回原典を確認していない（目安・未確認）。"
+    },
+    "surgical": {
+     "indication": [
+      "骨片が関節面の30%超（AFP 2022）",
+      "副子で関節の適合が保てない（亜脱臼が残る）",
+      "粉砕骨折（ピロン骨折）",
+      "整復不能・開放"
+     ],
+     "options": [
+      "閉鎖的整復＋経皮的ピンニング（合併症が少なく成績良好＝Gianakos 2020）",
+      "伸展ブロックピンニング",
+      "観血的整復固定（再手術が多い19.7%＝Gianakos 2020）",
+      "掌側板関節形成術（可動域が最も大きい90.6°＝Gianakos 2020）",
+      "動的創外固定・hemi-hamate関節形成術（複雑な損傷）"
+     ],
+     "timing": "早期（1〜2週以内（目安・未確認））。遅れると成績が落ちる（Caggiano 2018）"
+    },
+    "followup": [
+     {
+      "when": "毎週（初期）",
+      "what": "側面像で関節の適合"
+     },
+     {
+      "when": "3〜6週",
+      "what": "可動域訓練"
+     }
+    ],
+    "pitfalls": [
+     "側面像の『V字』の背側亜脱臼を見落とす",
+     "小さな骨片として扱い、関節面の％を評価しない"
+    ]
+   },
+   {
+    "id": "volar",
+    "name": "掌側脱臼（中央索損傷）",
+    "criteria": "中節骨が掌側へ脱臼（まれ）。掌側板は多くは保たれるが、伸筋腱の中央索がしばしば断裂する（中節骨背側唇の裂離骨折を伴うことがある）。放置するとボタン穴変形になる。",
+    "urgency": "整復は受診時に（試みは1回まで）。整復できなければ早期に手の外科へ",
+    "standard": "中節骨を過屈曲して関節を外してから牽引して整復する。試みは1回だけ（AFP 2006）。整復後はPIP関節を完全伸展位で少なくとも4〜6週副子固定し、その間もDIP・MCP関節は自動運動させる（AFP 2022）。中央索のテスト: PIP関節を台の縁で90°屈曲させ抵抗に抗して伸展させ、PIPが伸びずDIPが伸展すれば陽性（Elson test）。",
+    "by_background": [
+     {
+      "who": "手を使う仕事・スポーツ",
+      "plan": "伸展位固定を守らせる（外すとボタン穴変形）。腫脹が恒久的に残り疼痛が1年以上続くことがある（AFP 2022）。"
+     },
+     {
+      "who": "受診が遅れた例",
+      "plan": "陳旧例は治療が難しく成績が悪い（Choke 2024）。手の外科へ。"
+     }
+    ],
+    "conservative": {
+     "indication": "整復でき、背側唇の骨片が関節面の1/3以下（AFP 2006）",
+     "method": "PIP関節完全伸展位の副子（DIP・MCPは自由）。DIP関節の自動屈曲で側索を遠位に引く",
+     "range_position": "PIP関節0°（完全伸展位）",
+     "duration": "PIP関節伸展位固定を少なくとも4〜6週（AFP 2022）、AFP 2006・2012は6週",
+     "notes": "経過観察は2〜4週ごと（AFP 2022）。固定中もPIP関節を屈曲させない（屈曲させると最初からやり直し、という指導の根拠は未確認）。"
+    },
+    "surgical": {
+     "indication": [
+      "整復できない（基節骨頭が伸展機構の間にボタン穴状に挟まる）",
+      "背側唇の骨片が関節面の1/3超（AFP 2006）",
+      "開放脱臼"
+     ],
+     "options": [
+      "観血的整復＋中央索の修復",
+      "骨片の固定"
+     ],
+     "timing": "早期（数日以内）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線で適合、中央索のテスト"
+     },
+     {
+      "when": "2〜4週ごと",
+      "what": "伸展位固定の確認、PIPの伸展不全（extension lag）"
+     },
+     {
+      "when": "4〜6週",
+      "what": "固定を外し屈曲を進める。伸展不全が出れば固定を延長（期間は未確認）"
+     }
+    ],
+    "pitfalls": [
+     "背側脱臼と同じ屈曲位副子にして、ボタン穴変形を作る",
+     "何度も強く整復を試みる（1回まで）"
+    ]
+   },
+   {
+    "id": "lateral",
+    "name": "側方脱臼（側副靱帯損傷）",
+    "criteria": "中節骨が橈側または尺側へ脱臼し、側副靱帯（多くは橈側）が断裂する。",
+    "urgency": "整復は受診時に。その後に手の外科へ紹介（AFP 2022 表2で側方脱臼は紹介の対象）",
+    "standard": "基節骨を固定し、偏位した中節骨を押し戻して整復し、軟部組織損傷に焦点を当ててX線で確認する（AFP 2006）。AFP 2022は側方（内側・外側）のPIP関節脱臼を紹介の対象としている。整復後に安定していれば隣接指とのバディテーピングで早期運動とするのが一般的（期間・基準は未確認）。",
+    "by_background": [
+     {
+      "who": "スポーツ・つまみ動作が多い",
+      "plan": "示指の橈側側副靱帯はつまみで負荷がかかる（指の別による推奨は未確認）。不安定性が残れば修復を検討。"
+     },
+     {
+      "who": "一般成人",
+      "plan": "安定していればバディテーピング（隣接指は損傷した靱帯の側に組む（目安・未確認））。"
+     }
+    ],
+    "conservative": {
+     "indication": "整復後に安定し、側方動揺性が強くない",
+     "method": "整復→隣接指とのバディテーピング（損傷側の指と組む）",
+     "range_position": "隣接指と固定",
+     "duration": "バディテーピング3〜6週（目安・未確認）",
+     "notes": "AFP 2022は側方脱臼を紹介の対象とし、具体的な固定期間を示していない。"
+    },
+    "surgical": {
+     "indication": [
+      "整復できない（軟部組織の嵌頓）",
+      "整復後も高度の側方不安定性（基準は未確認）",
+      "側副靱帯付着部の転位した裂離骨片"
+     ],
+     "options": [
+      "側副靱帯の修復",
+      "裂離骨片の固定"
+     ],
+     "timing": "早期（数週以内（目安・未確認））"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線、側方ストレスでの安定性（指ブロック下が望ましい（目安・未確認））"
+     },
+     {
+      "when": "2〜4週ごと",
+      "what": "疼痛・不安定性・可動域"
+     }
+    ],
+    "pitfalls": [
+     "側方脱臼を背側脱臼と同じに扱い、側副靱帯の不安定性を評価しない",
+     "PIP関節の腫脹が長く残ることを説明しない"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Childress MA, Olivas J, Crutchfield A. Common Finger Fractures and Dislocations. Am Fam Physician 2022;105(6):631-639",
+    "url": "https://www.aafp.org/pubs/afp/issues/2022/0600/p631.html"
+   },
+   {
+    "title": "Leggit JC, Meko CJ. Acute Finger Injuries: Part II. Fractures, Dislocations, and Thumb Injuries. Am Fam Physician 2006;73(5):827-834",
+    "url": "https://www.aafp.org/pubs/afp/issues/2006/0301/p827.html"
+   },
+   {
+    "title": "Borchers JR, Best TM. Common Finger Fractures and Dislocations. Am Fam Physician 2012;85(8):805-810",
+    "url": "https://www.aafp.org/pubs/afp/issues/2012/0415/p805.html"
+   },
+   {
+    "title": "Gianakos A, et al. Treatment for Acute Proximal Interphalangeal Joint Fractures and Fracture-Dislocations: A Systematic Review of the Literature. J Hand Microsurg 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33335365/"
+   },
+   {
+    "title": "Demino C, et al. Surgical Management of Proximal Interphalangeal Joint Fracture-Dislocations: A Review of Outcomes. Hand (N Y) 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31517516/"
+   },
+   {
+    "title": "Caggiano NM, et al. Management of Proximal Interphalangeal Joint Fracture Dislocations. Hand Clin 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29625635/"
+   },
+   {
+    "title": "Choke A, et al. A Review on Volar Fracture-Dislocations of the Proximal Interphalangeal Joint. J Hand Surg Asian Pac Vol 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38726496/"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】AFP 2022本文（背側: 過伸展→屈曲で整復、伸展ブロック副子20〜30°を2〜3週→屈曲を進める、バディテーピング、1週以内に保護下の運動＝SORT C、掌側板損傷を疑えば4〜6週副子、経過観察2〜4週ごと、治癒に12〜18か月。掌側: 中央索、Elson test、完全伸展位で少なくとも4〜6週、DIP・MCPは自動運動、腫脹が恒久的に残り疼痛が1年以上。紹介: 開放創・整復不能・関節面30%超の裂離骨折・複雑骨折・内外側の脱臼）。AFP 2006本文（最も脱臼の多い関節、競技中の整復とバディテーピング、1時間超で指ブロック、屈曲30°の副子・1週でX線・2〜4週追加、掌側は過屈曲して整復・1回まで・伸展位6週、紹介は1/3超の裂離骨折か整復不能）。AFP 2012の掌側脱臼の伸展位6週は検索結果の要約で確認。Gianakos 2020、Demino 2021、Caggiano 2018、Choke 2024はEurope PMCの抄録で確認。【未確認】バディテーピングの期間、脱臼骨折の保存時の固定期間とX線の間隔、骨片の大きさによる安定性の三段階（30%・50%）の原典、側方脱臼の固定期間と手術基準、手術時期、スポーツ復帰の時期。日本のガイドラインなし。【意見が分かれる点】(1)紹介の骨片の大きさ: AFP 2022は30%超、AFP 2006の表は1/3超（本文の推奨は30%）。(2)背側脱臼の副子角度: AFP 2022は20〜30°、AFP 2006本文は30°だが同論文の要約表は70〜90°・6週で食い違う。(3)側方脱臼: AFP 2006は整復して保存的に扱う書き方、AFP 2022は紹介の対象。"
+ },
+ {
+  "id": "patellar_dislocation",
+  "name": "膝蓋骨脱臼（初回／反復性、骨軟骨骨折の有無）",
+  "category": "脱臼",
+  "group": "lower",
+  "aliases": [
+   "膝蓋骨脱臼",
+   "外側膝蓋骨脱臼",
+   "反復性膝蓋骨脱臼",
+   "膝蓋骨不安定症",
+   "膝のお皿が外れた",
+   "MPFL損傷",
+   "膝蓋骨骨軟骨骨折"
+  ],
+  "summary": "初回脱臼は骨軟骨骨折がなければ保存（理学療法）が基本だが、再発は約25〜34%（ESSKA 2024、Huntington 2020）で、若年・骨端線開存・滑車形成不全・TT-TG距離の増大・膝蓋骨高位が重なるほど上がる（危険因子3つで70〜78%）。MRIはできるだけ早く撮り（ESSKA 2024）、骨軟骨骨折（膝蓋大腿関節の接触面で1cm²以上）は修復を考える。装具の長期的な利点は明らかでない。反復性はMPFL再建が標準で、RCTでは3年の不安定性の持続が16.7%対53.6%と保存より少ない。",
+  "how_to_classify": "初回か反復性か（反復性は以後の不安定性が49%対17%と高い＝Fithian 2004）。初回はX線（正面・側面・軸写）とMRIで骨軟骨骨折・遊離体の有無と大きさ、MPFL損傷、危険因子（滑車形成不全、膝蓋骨高位、TT-TG距離、骨端線）を評価する。関節血腫が多い・腫脹が引かない場合は骨軟骨骨折を疑う。",
+  "red_flags": [
+   "骨軟骨骨折・遊離体（関節内の骨片。ロッキング・腫脹の持続。X線で見えないこともありMRIで評価）",
+   "整復できない脱臼（まれ。骨片の嵌頓など）",
+   "膝蓋骨骨折・膝蓋腱断裂・前十字靱帯損傷など他の損傷との区別",
+   "整復後も腫脹が続く（小児の研究では骨軟骨骨折の唯一の有意な予測因子＝Shaath 2026）"
+  ],
+  "imaging": {
+   "initial": [
+    "膝のX線（正面・側面・膝蓋骨軸写）で骨片・膝蓋骨の位置（初回X線は99%が合意＝Parikh 2024）"
+   ],
+   "additional": [
+    "MRIをできるだけ早く（滑車形成不全・膝蓋骨高位・骨軟骨損傷の評価。無症状の例を除く＝ESSKA 2024 Part 1）",
+    "手術を考える例: TT-TG距離（CTまたはMRI）、膝蓋骨高位の指標、滑車形成不全の評価"
+   ]
+  },
+  "tables": [
+   {
+    "title": "初回脱臼後の再発の危険因子（Huntington 2020 メタ解析）",
+    "header": [
+     "因子",
+     "オッズ比"
+    ],
+    "rows": [
+     [
+      "滑車形成不全",
+      "4.15"
+     ],
+     [
+      "TT-TG距離の増大",
+      "2.87"
+     ],
+     [
+      "骨端線開存",
+      "2.72"
+     ],
+     [
+      "若年",
+      "2.61"
+     ],
+     [
+      "膝蓋骨高位",
+      "2.38"
+     ],
+     [
+      "危険因子の数",
+      "なし7.7〜13.8%、2つで29.6〜60.2%、3つで70.4〜78.5%"
+     ]
+    ],
+    "note": "全体の再発は33.6%（17研究）。性別・MPFL損傷の部位・対側の脱臼歴は有意でなかった。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "first_no_ocf",
+    "name": "初回脱臼・骨軟骨骨折なし",
+    "criteria": "初回の外側膝蓋骨脱臼（自然整復を含む）で、X線・MRIで手術を要する骨軟骨骨折・遊離体がない。",
+    "urgency": "外来で保存（MRIはできるだけ早く）",
+    "standard": "骨軟骨骨折がなければ保存（理学療法）が基本（青年期の合意99%＝Parikh 2024）。理学療法は受傷1か月以内に始める（99%）。装具の長期的な利点は明らかでない（ESSKA 2024 Part 2）が、短期の装具は多く使われる（75%＝Parikh 2024）。危険因子が多い・骨端線開存の若年者では初回から手術（MPFL再建）がより考えられるようになっている（ESSKA 2024）。Cochrane 2023は手術で再脱臼が減る可能性を示すがエビデンスの確実性は低い。",
+    "by_background": [
+     {
+      "who": "若年・スポーツ・危険因子が多い（滑車形成不全・膝蓋骨高位・TT-TG増大）",
+      "plan": "再発リスクを数で説明し（3因子で70%超）、初回からMPFL再建を相談（ESSKA 2024）。保存を選んでも6か月の保存後に亜脱臼が続けば手術（青年期の合意84%＝Parikh 2024）。"
+     },
+     {
+      "who": "一般成人・危険因子が少ない",
+      "plan": "保存（理学療法）。危険因子なしの再発は7.7〜13.8%（Huntington 2020）。"
+     },
+     {
+      "who": "低エネルギーで脱臼した（軽い捻りなど）",
+      "plan": "外力が小さいほど下地の解剖学的異常が大きい（ESSKA 2024 Part 1）。危険因子の評価を丁寧に。"
+     }
+    ],
+    "conservative": {
+     "indication": "初回脱臼で手術を要する骨軟骨骨折がない",
+     "method": "疼痛に応じた短期の装具またはニーブレース（使うかは施設方針）→受傷1か月以内に理学療法（大腿四頭筋・股関節周囲筋・可動域）。疼痛に応じて荷重",
+     "range_position": "短期の装具は膝伸展位〜軽度屈曲位（角度・装具の種類の推奨は未確認）",
+     "duration": "装具・固定は短期間（1〜3週程度（目安・未確認））。理学療法は受傷1か月以内に開始。スポーツ復帰は受傷後2〜4か月（青年期の合意68%＝Parikh 2024。成人の数値は未確認）",
+     "notes": "装具は長期的な利点が明らかでない（ESSKA 2024）。関節血腫が多ければ穿刺することがある（推奨の出典は未確認）。"
+    },
+    "surgical": {
+     "indication": [
+      "骨端線開存・再発リスクが高い（危険因子が多い）初回脱臼（ESSKA 2024は手術がより考えられるようになったとする）",
+      "保存6か月後も亜脱臼・不安定感が続く（Parikh 2024、青年期）"
+     ],
+     "options": [
+      "MPFL再建（修復より成績が良く優先＝ESSKA 2024）",
+      "骨性の危険因子の矯正（脛骨粗面移行術・滑車形成術。閾値は議論が続く）"
+     ],
+     "timing": "待機的（初回からの手術の最適時期は未確認）"
+    },
+    "followup": [
+     {
+      "when": "1〜2週",
+      "what": "腫脹・可動域、MRIの結果で骨軟骨骨折がないか"
+     },
+     {
+      "when": "4〜6週",
+      "what": "理学療法の進み具合、大腿四頭筋の筋力"
+     },
+     {
+      "when": "2〜4か月",
+      "what": "スポーツ復帰の判断"
+     },
+     {
+      "when": "6か月",
+      "what": "亜脱臼・不安定感が続けば手術を相談"
+     }
+    ],
+    "pitfalls": [
+     "MRIを撮らずに骨軟骨骨折（X線で見えない）を見落とす",
+     "長期間の伸展位固定で可動域制限・大腿四頭筋萎縮を作る",
+     "『前十字靱帯損傷』と取り違える（受傷機転が似る）"
+    ]
+   },
+   {
+    "id": "first_with_ocf",
+    "name": "初回脱臼・骨軟骨骨折あり",
+    "criteria": "脱臼に伴う膝蓋骨内側関節面・大腿骨外顆の骨軟骨骨折または遊離体。膝蓋大腿関節の接触面で1cm²以上の欠損は修復の対象（ESSKA 2024）。",
+    "urgency": "早期（数日〜2週以内（目安・未確認））に膝の専門医へ紹介。ロッキングは早期",
+    "standard": "膝蓋大腿関節の接触面で1cm²以上の骨軟骨欠損は修復する。骨片の再固定などの軟骨修復を優先し、緊急手術が要らない場合でも骨片の摘出より待機的な修復を選ぶ（ESSKA 2024 Part 2）。同時に安定化手術（MPFL修復・再建）を行うと再手術が少ない（Hediger 2026）。青年期では2cmの骨軟骨骨折を伴う初回脱臼は安定化も考える（81.5%＝Parikh 2024）。",
+    "by_background": [
+     {
+      "who": "青年期・若年",
+      "plan": "骨軟骨骨折を伴う例は再発が多い（66.7%対27.8%、追加の安定化手術53.3%対16.7%＝Gao 2025、33例）。骨片固定と同時に安定化を考える。"
+     },
+     {
+      "who": "成人・小さな骨片",
+      "plan": "接触面外の小さな骨片で症状がなければ摘出や経過観察も（大きさの基準は1cm²以外未確認）。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "膝蓋大腿関節の接触面で1cm²以上の骨軟骨欠損（ESSKA 2024）",
+      "遊離体によるロッキング",
+      "関節の適合を損なう骨軟骨骨折"
+     ],
+     "options": [
+      "骨片の再固定（吸収性ピン・ヘッドレススクリュー・縫合）",
+      "骨片の摘出（再固定できない小骨片）",
+      "その他の軟骨修復",
+      "同時のMPFL修復・再建"
+     ],
+     "timing": "早期（2週以内（目安・未確認））。緊急手術が不要なら、摘出より待機的な修復を優先（ESSKA 2024）"
+    },
+    "followup": [
+     {
+      "when": "術後",
+      "what": "骨片の癒合（術式ごとの荷重・可動域制限は今回未確認）"
+     },
+     {
+      "when": "3〜12か月",
+      "what": "再脱臼、膝蓋大腿関節の疼痛"
+     }
+    ],
+    "pitfalls": [
+     "X線で見えない骨軟骨骨折を見落とし、遊離体・関節症を残す",
+     "骨片の固定だけ行い、安定化を考えない"
+    ]
+   },
+   {
+    "id": "recurrent",
+    "name": "反復性膝蓋骨脱臼",
+    "criteria": "2回以上の脱臼、または不安定感・亜脱臼が続く。以後の不安定性は脱臼歴がある例で49%と、初回例の17%より高い（調整オッズ比6.6＝Fithian 2004）。",
+    "urgency": "待機的に手術を相談",
+    "standard": "MPFL再建が標準。RCT（重度の滑車形成不全なし・TT-TG 20mm以下）では3年の不安定性の持続はMPFL再建16.7%対理学療法53.6%で、患者立脚型評価には差がなかった（Straume-Næsheim 2026）。骨性の危険因子（TT-TG距離の増大・膝蓋骨高位・重度の滑車形成不全）はMPFL再建に加えて矯正すると再発・再手術がさらに減る可能性があるが、閾値は議論が続く（ESSKA 2024）。",
+    "by_background": [
+     {
+      "who": "若年・スポーツ",
+      "plan": "MPFL再建（＋必要なら脛骨粗面移行術・滑車形成術）。"
+     },
+     {
+      "who": "全身関節弛緩性",
+      "plan": "手術後の再脱臼は全体9%、MPFL再建で7.3〜28.5%（Dworsky-Fried 2025）。リスクを説明。"
+     },
+     {
+      "who": "手術を望まない・低活動",
+      "plan": "理学療法を続ける（不安定性が続く可能性が高いことを説明）。"
+     }
+    ],
+    "conservative": {
+     "indication": "手術を望まない・低活動",
+     "method": "理学療法（大腿四頭筋・股関節外転外旋筋、体幹）、必要に応じ装具",
+     "range_position": "固定なし",
+     "duration": "理学療法を数か月続け、効果がなければ手術を再検討（期間は目安・未確認）",
+     "notes": "保存では3年で53.6%に不安定性が続いた（Straume-Næsheim 2026）。"
+    },
+    "surgical": {
+     "indication": [
+      "2回以上の脱臼",
+      "不安定感・亜脱臼で日常・スポーツに支障"
+     ],
+     "options": [
+      "MPFL再建",
+      "脛骨粗面移行術（TT-TG距離の増大・膝蓋骨高位。閾値は議論が続く）",
+      "滑車形成術（重度の滑車形成不全）"
+     ],
+     "timing": "待機的"
+    },
+    "followup": [
+     {
+      "when": "術前",
+      "what": "MRI・CTで危険因子（TT-TG、膝蓋骨高位、滑車形成不全）"
+     },
+     {
+      "when": "術後",
+      "what": "術式ごとの後療法（術後の固定・荷重は合意なし＝Hurley 2023）"
+     }
+    ],
+    "pitfalls": [
+     "骨性の危険因子を評価せずにMPFL再建だけ行い再発させる",
+     "小児（骨端線開存）ではMPFL再建の大腿骨側の固定位置や骨性手術の適応が異なる（本カードの対象外）"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Blønd L, Askenberger M, Stephen J, et al. Management of first-time patellar dislocation: The ESSKA 2024 formal consensus-Part 1. Knee Surg Sports Traumatol Arthrosc 2025;33(5):1925-1932",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39976176/"
+   },
+   {
+    "title": "Balcarek P, Blønd L, Beaufils P, et al. Management of first-time patellar dislocation: The ESSKA 2024 formal consensus-Part 2. Knee Surg Sports Traumatol Arthrosc 2025;33(12):4197-4206",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40053919/"
+   },
+   {
+    "title": "Fithian DC, Paxton EW, Stone ML, et al. Epidemiology and natural history of acute patellar dislocation. Am J Sports Med 2004;32(5):1114-1121",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15262631/"
+   },
+   {
+    "title": "Huntington LS, Webster KE, Devitt BM, et al. Factors Associated With an Increased Risk of Recurrence After a First-Time Patellar Dislocation: A Systematic Review and Meta-analysis. Am J Sports Med 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31825650/"
+   },
+   {
+    "title": "Parikh SN, Schlechter JA, Veerkamp MW, et al. Consensus-Based Guidelines for Management of First-Time Patellar Dislocation in Adolescents. J Pediatr Orthop 2024;44(4):e369-e374",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38258884/"
+   },
+   {
+    "title": "Smith TO, Gaukroger A, Metcalfe A, Hing CB. Surgical versus non-surgical interventions for treating patellar dislocation. Cochrane Database Syst Rev 2023 (CD008106.pub4)",
+    "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008106.pub4"
+   },
+   {
+    "title": "Straume-Næsheim TM, et al. MPFL reconstruction versus nonoperative treatment for recurrent lateral patellar dislocation: 3-year results of a randomized controlled trial. Am J Sports Med 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41655186/"
+   },
+   {
+    "title": "Hediger AM, et al. Revision rates are similar after surgical treatment of acute chondral and osteochondral injuries following patellar dislocation: A multicentre cohort study. Knee Surg Sports Traumatol Arthrosc 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42516029/"
+   },
+   {
+    "title": "Gao S, et al. Recurrence in Adolescents With First-Time Acute Patellar Dislocation: Comparing Outcomes With and Without Osteochondral Fracture. Orthop J Sports Med 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41244219/"
+   },
+   {
+    "title": "Shaath K, et al. Predictors of Osteochondral Fractures Following Patellar Dislocation in the Pediatric Emergency Department. Pediatr Emerg Care 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41436728/"
+   },
+   {
+    "title": "Hurley ET, et al. Modified Delphi consensus on patellar instability, Part II. Bone Joint J 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38035602/"
+   },
+   {
+    "title": "Dworsky-Fried J, et al. Surgical outcomes for patellar instability in hypermobile patients: a systematic review and meta-analysis. J Exp Orthop 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40453476/"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】ESSKA 2024 Part 1・2（再発約25%、MRIをできるだけ早く、外力が小さいほど解剖学的異常が大きい、手術は骨端線開存・高リスクでより考慮、MPFL再建を修復より優先、骨性矯正の閾値は議論、理学療法は必須、装具の長期的な利点なし、接触面1cm²以上の骨軟骨欠損は修復、摘出より待機的修復）、Fithian 2004（17%対49%、調整OR 6.6）、Huntington 2020（33.6%、各OR、危険因子数別の再発率）、Parikh 2024（青年期の合意: 保存99%、理学療法1か月以内99%、装具75%、復帰2〜4か月68%、6か月後の亜脱臼で手術84%、2cmの骨軟骨骨折で安定化81.5%）、Straume-Næsheim 2026（16.7%対53.6%）、Hediger 2026、Gao 2025、Shaath 2026、Hurley 2023、Dworsky-Fried 2025はEurope PMCの抄録で確認。Cochrane 2023は抄録の要約（非手術群348/1000、手術で157/1000少ない、確実性低い）で確認したが本文は読んでいない。【未確認】初回の装具・固定の種類と期間、成人のスポーツ復帰時期、骨軟骨骨折の手術時期、関節血腫の穿刺、術後の後療法。Parikh 2024は青年期（小児）の合意で、成人へそのまま当てはめられない。日本のガイドラインなし。【意見が分かれる点】(1)初回脱臼の手術（Cochraneは確実性が低い、ESSKAは高リスク例で考慮が増えている）。(2)装具（ESSKAは長期的な利点なし、Parikhの合意では75%が使用）。(3)骨性手術の閾値（TT-TG等）。"
+ },
+ {
+  "id": "tha_dislocation",
+  "name": "人工股関節脱臼（人工股関節全置換術後の脱臼）",
+  "category": "脱臼",
+  "group": "lower",
+  "aliases": [
+   "人工股関節脱臼",
+   "THA脱臼",
+   "人工股関節全置換術後脱臼",
+   "インプラント脱臼",
+   "再脱臼",
+   "人工関節の脱臼"
+  ],
+  "summary": "初回THA後の脱臼は術後1か月で約1%、1年で約2%で、59%が3か月以内、77%が1年以内に起こる（Dargel 2014）。初回脱臼で原因（設置不良・ゆるみ・インピンジメント）が見つからず整復後に安定なら保存、原因があれば修正、再発を繰り返せば再置換を考える。外転装具の有効性は証明されていない。整復は麻酔下・透視下で行い、整復後に安定性を確認する。デュアルモビリティでは閉鎖整復で関節内脱臼（インナーヘッドの外れ）を起こしうる。",
+  "how_to_classify": "初回か反復性か、早期（術後6か月以内）か晩期か（晩期は材料の摩耗・破損が多い＝Dargel 2014）、原因があるか（カップ・ステムの設置不良、ゆるみ、インピンジメント、外転筋不全などの軟部組織の弛緩）で分ける。X線（骨盤正面＋もう1方向）で脱臼の方向（後方進入なら後方脱臼が多い）、インプラントの位置・ゆるみ・周囲骨折を見て、迷えばCT。晩期の脱臼は感染を除外する（炎症マーカー、穿刺）。",
+  "red_flags": [
+   "坐骨神経・血管の圧迫（直ちに整復＝Dargel 2014）",
+   "人工関節周囲骨折",
+   "感染（炎症マーカーは全例で、晩期の脱臼は関節穿刺と細胞数＝Dargel 2014）",
+   "デュアルモビリティの脱臼（閉鎖整復で関節内脱臼を起こしうる）",
+   "整復できない・整復後も透視下で不安定",
+   "コンストレインド（制動型）ライナーの脱臼（閉鎖整復が困難なことが多い。出典は未確認）"
+  ],
+  "imaging": {
+   "initial": [
+    "骨盤正面＋股関節のもう1方向（Dargel 2014）。整復後も同じ"
+   ],
+   "additional": [
+    "X線で設置不良・ゆるみが判断できない: CT（カップの外方開角・前方開角、ステムの前捻）（Dargel 2014）",
+    "炎症マーカーを全例で。晩期の脱臼は関節穿刺と細胞数（Dargel 2014）",
+    "整復時に透視下で動的に安定性を評価（骨頭が1cmを超えて引き出せれば骨盤-転子間の不全＝Dargel 2014）"
+   ]
+  },
+  "tables": [
+   {
+    "title": "脱臼の危険因子（Dargel 2014）",
+    "header": [
+     "区分",
+     "内容"
+    ],
+    "rows": [
+     [
+      "患者",
+      "神経筋疾患（脳性麻痺・筋ジストロフィー・認知症・パーキンソン病で年5〜8%）、80歳超、動作制限を守れない、大腿骨頸部骨折に対するTHA（最大50%）、再置換術（最大28%）"
+     ],
+     [
+      "進入法",
+      "後方3.23%、前外側2.18%、側方（経殿筋）0.55%。後方進入でも関節包・外旋筋群の修復＋カップの前方開角増で0.7%まで低下"
+     ],
+     [
+      "設置",
+      "Lewinnekの目標は外方開角40±10°、前方開角10〜20°（CTで目標内は45%にとどまった報告）"
+     ],
+     [
+      "インプラント",
+      "骨頭が大きいほど脱臼しにくい（36mm対28mm。36mm超は通常使わない）"
+     ],
+     [
+      "術者",
+      "症例数が多い術者ほど脱臼が少ない"
+     ]
+    ],
+    "note": "Dargel J, et al. Dtsch Arztebl Int 2014の総説。女性は有意な危険因子ではなかったとしている。"
+   }
+  ],
+  "subtypes": [
+   {
+    "id": "first_no_cause",
+    "name": "初回脱臼・原因なし・整復後に安定",
+    "criteria": "初回の脱臼で、X線・CTで設置不良・ゆるみ・周囲骨折がなく、感染も否定的。麻酔下の整復後に透視下で安定している。",
+    "urgency": "当日に整復（神経血管の圧迫があれば直ちに）。人工関節を扱う施設へ",
+    "standard": "人工関節を扱う施設で、絶食時間を確保したうえで手術室で短時間の麻酔下に閉鎖整復し、透視下で動的に安定性を確認する（Dargel 2014）。安定していれば保存（作業療法・理学療法、初期は入院で）で、原因のない初回脱臼は保存が妥当（Dargel 2014）。屈曲・内転を制限する外転装具の有効性は証明されていない（患者の安心感のために相談してよい）。整復後の管理に合意はなく、固定が再発を防ぐという臨床的根拠はない（Regis 2026）。",
+    "by_background": [
+     {
+      "who": "早期（術後6か月以内）・肥満（BMI 25以上）・カップの前方開角が小さい",
+      "plan": "外転装具を使っても再脱臼が多い（87例で67%、危険因子はBMI 25以上・早期脱臼・カップ前方開角が小さい＝Janz 2022）。再脱臼時の再置換を早めに相談。"
+     },
+     {
+      "who": "認知症・神経筋疾患・80歳超",
+      "plan": "脱臼しやすく動作制限を守りにくい（Dargel 2014）。転倒予防と環境調整。再発なら制動を強める再置換（デュアルモビリティなど）を考える。"
+     },
+     {
+      "who": "活動性の高い成人",
+      "plan": "脱臼肢位（後方進入なら深い屈曲・内転・内旋）を避ける動作指導と外転筋訓練。"
+     }
+    ],
+    "conservative": {
+     "indication": "初回脱臼で原因がなく、整復後に透視下で安定（Dargel 2014）",
+     "method": "麻酔下・透視下の閉鎖整復→作業療法・理学療法（脱臼肢位を避ける動作指導、外転筋訓練）。外転装具は任意（有効性は証明されていない）",
+     "range_position": "後方脱臼では股関節の深い屈曲・内転・内旋を避ける。前方脱臼では伸展・外旋を避ける（期間・角度の数値は未確認）",
+     "duration": "脱臼肢位を避ける動作制限は6週程度（目安・未確認）。装具を使う場合も6〜12週程度（目安・未確認。有効性は未証明）",
+     "notes": "整復後の管理の期間・制限の具体は今回の出典に記載がない（Dargel 2014、Regis 2026は合意がないとする）。"
+    },
+    "surgical": {
+     "indication": [
+      "再脱臼（反復性・別病型）",
+      "整復後に透視下で不安定"
+     ],
+     "options": [
+      "再置換（別病型を参照）"
+     ],
+     "timing": "待機的（再脱臼時）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線2方向、坐骨神経・血流"
+     },
+     {
+      "when": "数週",
+      "what": "動作指導の確認、外転筋力"
+     },
+     {
+      "when": "1年",
+      "what": "脱臼の多い期間（77%が1年以内）。再脱臼なら再置換を相談"
+     }
+    ],
+    "pitfalls": [
+     "外来で鎮静なしに何度も整復を試みる（麻酔下・手術室で行う）",
+     "炎症マーカーを測らず、感染を見落とす",
+     "装具をつければ再発しないと説明する（有効性は未証明）"
+    ]
+   },
+   {
+    "id": "recurrent_or_cause",
+    "name": "反復性脱臼・原因あり（設置不良・ゆるみ）・整復後に不安定",
+    "criteria": "2回以上の脱臼、設置不良・ゆるみ・インピンジメントなど機械的な原因がある、または整復後に透視下で不安定。",
+    "urgency": "整復は当日。再置換は早期〜待機的に人工関節の専門医で",
+    "standard": "透視下で不安定な例は再置換、反復性の脱臼は原則として再置換を考える。機械的な原因（設置不良など）は修正しないと再発しやすい（Dargel 2014）。原因に応じて、設置不良にはコンポーネントの入れ替え、軟部組織の不全にはオフセットの増大（脚長は伸ばさない）・関節包縫合・骨頭頸部比の最適化、筋力・協調性の障害にはデュアルモビリティ（tripolar）を選ぶ。制動型（コンストレインド）ライナーは失敗が多く、まれにしか使わない（Dargel 2014）。",
+    "by_background": [
+     {
+      "who": "設置不良（カップの前方開角・外方開角の異常）",
+      "plan": "コンポーネントの入れ替え。"
+     },
+     {
+      "who": "外転筋不全・軟部組織の弛緩",
+      "plan": "オフセットの増大、関節包・筋膜の縫縮、骨頭の大径化。"
+     },
+     {
+      "who": "認知症・神経筋疾患・高齢",
+      "plan": "デュアルモビリティ（関節内脱臼のリスク・摩耗データの不足を理解したうえで）。"
+     }
+    ],
+    "conservative": null,
+    "surgical": {
+     "indication": [
+      "整復後に透視下で不安定（Dargel 2014）",
+      "反復性の脱臼（原則として再置換を考慮＝Dargel 2014。何回目で手術とするかの数値基準は未確認）",
+      "機械的な原因（設置不良・ゆるみ・インピンジメント）がある"
+     ],
+     "options": [
+      "コンポーネントの入れ替え（設置不良）",
+      "オフセット増大・関節包縫合・骨頭の大径化（軟部組織の不全）",
+      "デュアルモビリティ（tripolar）カップ",
+      "制動型（コンストレインド）ライナー（失敗が多く限定的）"
+     ],
+     "timing": "早期〜待機的（感染を除外してから）"
+    },
+    "followup": [
+     {
+      "when": "術前",
+      "what": "CTで設置角、炎症マーカー・穿刺で感染の除外"
+     },
+     {
+      "when": "術後1年",
+      "what": "再脱臼（再置換後の脱臼は最大28%＝Dargel 2014）"
+     }
+    ],
+    "pitfalls": [
+     "原因を調べずに閉鎖整復を繰り返す",
+     "再置換後も脱臼が多い（最大28%）ことを説明しない"
+    ]
+   },
+   {
+    "id": "late_or_dual_mobility",
+    "name": "晩期脱臼（術後5年以降）・デュアルモビリティの脱臼",
+    "criteria": "術後数年以上たってからの脱臼（摩耗・破損・ゆるみ・感染が原因のことが多い）、またはデュアルモビリティTHAの脱臼。",
+    "urgency": "当日に整復を相談（デュアルモビリティは人工関節の専門医の下で）",
+    "standard": "晩期の脱臼は材料の摩耗・破損が原因のことが多く（Dargel 2014）、5年超の晩期脱臼は全脱臼の32%で再発は55%（von Knoch、Dargel 2014の引用）。感染（炎症マーカー・穿刺）とライナーの摩耗・ゆるみを評価し、原因があれば再置換。デュアルモビリティでは閉鎖整復の操作中・直後にインナーヘッドが外れる関節内脱臼が報告されており（Rotini 2020）、整復後のX線で骨頭が外側ライナーの中心にあるかを確認する。",
+    "by_background": [
+     {
+      "who": "ポリエチレンの摩耗・破損",
+      "plan": "ライナー交換・再置換。"
+     },
+     {
+      "who": "デュアルモビリティ",
+      "plan": "整復は愛護的に、透視下で。関節内脱臼が起きれば再置換（Rotini 2020では2例とも再置換）。"
+     }
+    ],
+    "conservative": {
+     "indication": "晩期の初回脱臼で、摩耗・ゆるみ・感染がなく整復後に安定",
+     "method": "閉鎖整復（麻酔下・透視下）→動作指導（初回・原因なしに準じる）",
+     "range_position": "脱臼肢位を避ける",
+     "duration": "初回・原因なしに準じる（6週程度（目安・未確認））",
+     "notes": "晩期の脱臼は再発が多い（55%）ため、保存を選んでも再置換の相談を早めに。"
+    },
+    "surgical": {
+     "indication": [
+      "ポリエチレンの摩耗・破損・ゆるみ",
+      "感染（人工関節周囲感染の治療として）",
+      "デュアルモビリティの関節内脱臼",
+      "反復"
+     ],
+     "options": [
+      "ライナー交換・コンポーネントの再置換",
+      "デュアルモビリティへの変更",
+      "感染なら人工関節周囲感染の治療（デブリドマン・入れ替え）"
+     ],
+     "timing": "早期〜待機的（関節内脱臼は早期）"
+    },
+    "followup": [
+     {
+      "when": "整復直後",
+      "what": "X線（デュアルモビリティでは骨頭とライナーの位置関係）"
+     },
+     {
+      "when": "数日〜数週",
+      "what": "炎症マーカー・穿刺結果、再置換の相談"
+     }
+    ],
+    "pitfalls": [
+     "デュアルモビリティを通常のTHAと同じ感覚で強く整復し、関節内脱臼を起こす",
+     "晩期脱臼で感染・摩耗を調べない"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "title": "Dargel J, Oppermann J, Brüggemann GP, Eysel P. Dislocation following total hip replacement. Dtsch Arztebl Int 2014;111(51-52):884-890",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4298240/"
+   },
+   {
+    "title": "Regis D, et al. Treatment options after closed reduction of early dislocation following primary total hip arthroplasty (review). World J Orthop 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41695739/"
+   },
+   {
+    "title": "Janz V, et al. Risk factors for failure of closed reduction and abduction bracing after first-time total hip arthroplasty dislocation. Arch Med Sci 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35154534/"
+   },
+   {
+    "title": "Rotini M, et al. Iatrogenic intraprosthetic dislocation after closed reduction of dual-mobility total hip arthroplasty: two case reports. Int J Surg Case Rep 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32480330/"
+   }
+  ],
+  "confidence": "medium",
+  "review_note": "【確認済み】Dargel 2014本文（術後1か月約1%・1年約2%・以後5年ごとに約1%、59%が3か月以内・77%が1年以内、晩期脱臼32%・再発55%、早期＝6か月以内、危険因子、進入法別の率、Lewinnekの目標、骨頭径、施設での麻酔下・手術室の整復、神経血管圧迫は直ちに整復、透視下で骨頭が1cm超引き出せれば不全、安定なら作業療法・理学療法、外転装具の有効性は未証明、原因のない初回は保存、不安定なら再置換、反復性は再置換を考慮、原因に応じた再置換の選択肢、制動型は失敗が多い、炎症マーカー全例・晩期は穿刺、再置換後の脱臼最大28%）。Regis 2026（整復後の管理に合意なし、固定に根拠なし）、Janz 2022（87例、装具でも再脱臼67%、危険因子）、Rotini 2020はEurope PMCの抄録で確認。【未確認】整復後の動作制限・装具の期間（Dargel 2014に記載なし）、何回目の脱臼で再置換とするかの数値基準、コンストレインドライナーの脱臼の閉鎖整復の難しさ、再置換の時期。日本整形外科学会の変形性股関節症診療ガイドラインは今回参照していない。【意見が分かれる点】(1)初回脱臼後の外転装具（Dargel 2014・Regis 2026は根拠なし、使用は施設で分かれる）。(2)初回脱臼で早期に再置換するか（原因がなければ保存が一般的だが、早期脱臼・肥満では再脱臼が多い＝Janz 2022）。"
+ }
+]
