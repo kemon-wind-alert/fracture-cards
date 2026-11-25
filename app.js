@@ -2,7 +2,7 @@
 // 骨折カード：骨折アシストのデータを暗記カードにして、間隔反復（忘れかけた頃に再出題）で回す。
 // 学習記録はこの端末の localStorage にだけ保存する（送信しない）。
 
-const VERSION = "2026-11-25";
+const VERSION = "2026-11-26";
 const KEY = "fc-state-v1";
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -176,10 +176,38 @@ function renderFilters() {
   $("#bone").onchange = (e) => { S.bone = e.target.value; save(); buildQueue(); flipped = false; renderStage(); };
 }
 
-// ---- 早見表 ----
-function renderList() {
-  const q = $("#q").value.trim().toLowerCase();
-  const hit = CARDS.filter((c) => !q || (c.bone + c.name + c.criteria + (c.cons ? c.cons.method : "")).toLowerCase().includes(q));
+// ---- 検索（病名・病型・別名） ----
+// 全角英数→半角、ひらがな→カタカナ、小文字化、表記ゆれ（靭→靱）をそろえる
+function norm(s) {
+  return String(s ?? "").normalize("NFKC").toLowerCase()
+    .replace(/[ぁ-ゖ]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) + 0x60))
+    .replace(/靭/g, "靱").replace(/\s+/g, " ");
+}
+// 別名：入力語 → どれか1つが含まれていれば当たり
+const ALIAS = {
+  "剥離": ["剥離", "裂離"], "裂離": ["裂離", "剥離"], "ハクリ": ["剥離", "裂離"],
+  "コーレス": ["colles", "背側転位"], "colles": ["colles", "背側転位"],
+  "スミス": ["smith", "掌側転位"], "ジョーンズ": ["jones"], "ベネット": ["bennett"],
+  "ボクサー": ["ボクサー"], "ゲームキーパー": ["スキーヤー"], "ニクバナレ": ["肉離れ"],
+  "ムチウチ": ["ムチウチ", "頸椎捻挫"], "ツキユビ": ["突キ指", "突き指"], "マレット": ["マレット", "槌指"], "ツチユビ": ["槌指"],
+};
+let HAY = new Map(); // カードID → 検索対象の文字列（正規化済み）
+function hayOf(c) {
+  if (!HAY.has(c.id)) HAY.set(c.id, norm([c.cat, c.bone, c.name, c.criteria, c.standard, c.cons ? c.cons.method : ""].join(" ")));
+  return HAY.get(c.id);
+}
+function search(raw) {
+  const words = norm(raw).trim().split(" ").filter(Boolean);
+  if (!words.length) return CARDS;
+  const alts = words.map((w) => (ALIAS[w] || [w]).map(norm));
+  const hit = CARDS.filter((c) => { const h = hayOf(c); return alts.every((a) => a.some((x) => h.includes(x))); });
+  // 疾患名・病型名そのものに当たった疾患を先に（説明文だけで当たったものは後ろ）
+  const any = (t) => alts.some((a) => a.some((x) => norm(t).includes(x)));
+  const rank = {}; // 疾患ごとの順位: 0=疾患名に一致, 1=病型名に一致, 2=説明文だけ
+  hit.forEach((c) => { const r = any(c.bone) ? 0 : any(c.name) ? 1 : 2; rank[c.bone_id] = Math.min(rank[c.bone_id] ?? 2, r); });
+  return [0, 1, 2].flatMap((r) => hit.filter((c) => rank[c.bone_id] === r));
+}
+function hitsHTML(hit) {
   let h = "", last = "";
   hit.forEach((c) => {
     if (c.bone !== last) { h += `<div class="bonehead">${esc(c.bone)}</div>`; last = c.bone; }
@@ -187,7 +215,20 @@ function renderList() {
     h += `<details class="row"><summary><span class="nm">${esc(c.name)}</span><span class="du">${badges(c)}${esc(m.v)}</span></summary>`
       + `<div class="body">${answerHTML(c)}</div></details>`;
   });
-  $("#rows").innerHTML = h || `<p class="crumb">該当なし</p>`;
+  return h || `<p class="crumb">該当なし（別の言い方や、骨・部位の名前でも探せます）</p>`;
+}
+// 学習タブの検索欄：入力中は出題カードの代わりに検索結果を出す
+function renderStudySearch() {
+  const q = $("#sq").value.trim();
+  const on = !!q;
+  $("#studyMain").hidden = on;
+  $("#sres").hidden = !on;
+  if (on) { const hit = search(q); $("#sres").innerHTML = `<div class="crumb">${hit.length} 件</div>` + hitsHTML(hit); }
+}
+
+// ---- 早見表 ----
+function renderList() {
+  $("#rows").innerHTML = hitsHTML(search($("#q").value));
 }
 
 // ---- 設定 ----
@@ -219,6 +260,7 @@ async function init() {
   }
   document.querySelectorAll("#tabs button").forEach((b) => b.onclick = () => showTab(b.dataset.tab));
   $("#q").oninput = renderList;
+  $("#sq").oninput = renderStudySearch;
   $("#newPerDay").onchange = (e) => { S.newPerDay = Number(e.target.value); save(); renderSettings(); };
   $("#resetAll").onclick = () => {
     if (confirm("学習記録をすべて消して最初からやり直しますか？（元に戻せません）")) {

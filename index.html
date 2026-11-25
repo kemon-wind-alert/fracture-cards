@@ -25,6 +25,9 @@
 <main>
   <!-- 学習 -->
   <section id="study">
+    <input id="sq" type="search" placeholder="病名で検索（例: アキレス / 外果 / ボクサー / 腱板）" autocomplete="off">
+    <div id="sres" hidden></div>
+    <div id="studyMain">
     <div class="filters">
       <div class="chips" id="cats"></div>
     </div>
@@ -34,11 +37,12 @@
     </div>
     <div id="counts"></div>
     <div id="stage"></div>
+    </div>
   </section>
 
   <!-- 早見表 -->
   <section id="list" hidden>
-    <input id="q" type="search" placeholder="検索（例: 橈骨 / 外果 / Jones / 鎖骨遠位）" autocomplete="off">
+    <input id="q" type="search" placeholder="病名で検索（例: 橈骨 / 外果 / Jones / 肩 脱臼）" autocomplete="off">
     <div id="rows"></div>
   </section>
 

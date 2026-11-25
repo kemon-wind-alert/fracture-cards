@@ -119,7 +119,7 @@ ul.plain { margin: 4px 0; padding-left: 1.2em; font-size: 14px; }
   border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
 }
 
-#q { width: 100%; margin-bottom: 8px; }
+#q, #sq { width: 100%; margin-bottom: 8px; box-sizing: border-box; }
 .bonehead { font-size: 13px; font-weight: 700; color: var(--muted); margin: 14px 2px 4px; }
 .row {
   background: var(--card); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 6px;
